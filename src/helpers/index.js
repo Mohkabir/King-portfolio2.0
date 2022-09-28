@@ -122,19 +122,16 @@ import hotel9 from "../assets/images/case-study/hotel9.png";
 import hotel10 from "../assets/images/case-study/hotel10.png";
 import hotel11 from "../assets/images/case-study/hotel11.png";
 import hotel12 from "../assets/images/case-study/hotel12.png";
-
 import hotel13 from "../assets/images/case-study/hotel13.png";
 import hotel14 from "../assets/images/case-study/hotel14.png";
 import hotel15 from "../assets/images/case-study/hotel15.png";
 import hotel16 from "../assets/images/case-study/hotel16.png";
 import hotel17 from "../assets/images/case-study/hotel17.png";
 import hotel18 from "../assets/images/case-study/hotel18.png";
-
 import hotel19 from "../assets/images/case-study/hotel19.png";
 import hotel20 from "../assets/images/case-study/hotel20.png";
 import hotel21 from "../assets/images/case-study/hotel21.png";
 import hotel22 from "../assets/images/case-study/hotel22.png";
-
 import hotelProfile from "../assets/images/case-study/hotelProfile.png";
 
 import spasora1 from "../assets/images/case-study/spasora1.png";
@@ -161,6 +158,9 @@ import spasora21 from "../assets/images/case-study/spasora21.png";
 // import spasora22 from "../assets/images/case-study/spasora22.png";
 // import spasora23 from "../assets/images/case-study/spasora23.png";
 import spasoraProfile from "../assets/images/case-study/spasoraProfile.png";
+
+import Kompare from "../assets/images/case-study/Kompare.png";
+
 
 export const scrollTop = () => {
   window.scrollTo({
@@ -1351,6 +1351,15 @@ export const homeCardDatas = [
       "• I could’nt see the details of the horse I was going to buy it shares.",
       "With these feedbacks the app met most of the users real needs and goals. The painpoints stated has been taken to consideration and the designs improved with a better user experience for everyone to use.",
     ],
+  },
+  {
+    // Kompare.png
+
+    image: Kompare,
+    title: "Kompare web & mobile ",
+    subTitle: "UX Design",
+    cardUrl: "/case-study/kompare",
+    cardFullUrl: "",
   },
 ];
 

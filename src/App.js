@@ -6,6 +6,7 @@ import Info from "./pages/Info";
 import Writting from "./pages/Writting";
 import CaseStudy from "./pages/CaseStudy";
 import Work from "./pages/Work";
+import Kompare from "./pages/Kompare";
 
 function App() {
   return (
@@ -49,6 +50,14 @@ function App() {
             element={
               <PageLayout>
                 <CaseStudy />
+              </PageLayout>
+            }
+          />
+          <Route
+            path="/case-study/kompare"
+            element={
+              <PageLayout>
+                <Kompare />
               </PageLayout>
             }
           />
