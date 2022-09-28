@@ -161,7 +161,6 @@ import spasoraProfile from "../assets/images/case-study/spasoraProfile.png";
 
 import Kompare from "../assets/images/case-study/Kompare.png";
 
-
 export const scrollTop = () => {
   window.scrollTo({
     top: 0,
@@ -332,8 +331,8 @@ export const homeCardDatas = [
   {
     image: work2,
     title: "Taeillo v2",
-    subTitle: "Product",
-    cardUrl: "/case-study/1",
+    subTitle: "eCommerce . Product",
+    cardUrl: "/case-study/taeillo",
     cardFullUrl: "",
   },
   {
@@ -1014,13 +1013,6 @@ export const homeCardDatas = [
     ],
   },
   {
-    image: work7,
-    title: "Mirene",
-    subTitle: "UX Design",
-    cardUrl: "/case-study/6",
-    cardFullUrl: "",
-  },
-  {
     image: hotel1,
     title: "Hotels.ng Version 7",
     subTitle: "UX Design",
@@ -1353,8 +1345,6 @@ export const homeCardDatas = [
     ],
   },
   {
-    // Kompare.png
-
     image: Kompare,
     title: "Kompare web & mobile ",
     subTitle: "UX Design",
@@ -1368,22 +1358,26 @@ export const writtingCardDatas = [
     image: writting1,
     title:
       "Finding Balance in Design implementation using the Fibonacci Sequence",
-    cardUrl: "/case-study/1",
+    cardUrl:
+      "https://kingsleyukeje.medium.com/finding-balance-in-design-implementation-using-the-fibonacci-sequence-4d589b7ea625",
   },
   {
     image: writting2,
     title:
       "Positioning for Global Impact :: What we can learn from Enyata’s new brand identity",
-    cardUrl: "/case-study/2",
+    cardUrl:
+      "https://kingsleyukeje.medium.com/positioning-for-global-impact-what-we-can-learn-from-enyatas-new-brand-identity-e66a1806c5b6",
   },
   {
     image: writting3,
     title: "Hacking the Human Mind :: Designing Addictive User Interfaces",
-    cardUrl: "/case-study/3",
+    cardUrl:
+      "https://kingsleyukeje.medium.com/hacking-the-human-mind-designing-addictive-user-interfaces-35ec250b66f1",
   },
   {
     image: writting4,
     title: "Using Grids to build Responsive Web UI",
-    cardUrl: "/case-study/4",
+    cardUrl:
+      "https://kingsleyukeje.medium.com/using-grids-to-build-responsive-web-ui-9a9bbe48dc8e",
   },
 ];

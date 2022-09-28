@@ -12,7 +12,7 @@ const Home = ({ work }) => {
   }, []);
 
   return (
-    <div>
+    <div className="wrapp">
       {work ? (
         <PageTitle title="Work" />
       ) : (

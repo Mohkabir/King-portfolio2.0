@@ -32,7 +32,7 @@ const CaseStudy = () => {
       <div className="profile">
         <img src={cardData?.imageCase || cardData?.image} alt="" />
       </div>
-      <div className="case case1 ">
+      <div className="case case1 wrapp">
         <div className="caseFlex">
           <div>
             <h3>01</h3>
@@ -47,7 +47,7 @@ const CaseStudy = () => {
           </div>
         </div>
       </div>
-      <div className="case case2">
+      <div className="case case2 wrapp">
         <div className="caseFlex">
           <div>
             <h3>02</h3>
@@ -60,7 +60,7 @@ const CaseStudy = () => {
           </div>
         </div>
       </div>
-      <div className="case case3">
+      <div className="case case3 wrapp">
         <div className="caseFlex">
           <div>
             <h3>03</h3>
@@ -109,30 +109,32 @@ const CaseStudy = () => {
             </div>
           ))}
         </div>
+      </div>
+      {cardData?.whiteSection ? (
+        <div className="whiteSection">
+          <div className="container_2">
+            {cardData?.blackSection?.map((data, idx) => (
+              <div key={idx}>
+                <h1>{data.percentage}</h1>
+                <p>{data.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div className="blackSection">
+          <div className="container_2">
+            {cardData?.blackSection?.map((data, idx) => (
+              <div key={idx}>
+                <h1>{data.percentage}</h1>
+                <p>{data.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
-        {cardData?.whiteSection ? (
-          <div className="whiteSection">
-            <div className="container_2">
-              {cardData?.blackSection?.map((data, idx) => (
-                <div key={idx}>
-                  <h1>{data.percentage}</h1>
-                  <p>{data.text}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        ) : (
-          <div className="blackSection">
-            <div className="container_2">
-              {cardData?.blackSection?.map((data, idx) => (
-                <div key={idx}>
-                  <h1>{data.percentage}</h1>
-                  <p>{data.text}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
+      <div className="case wrapp">
         {cardData?.box2 && (
           <div className="box_wrapper">
             {cardData?.box2?.map((data, idx) => (
@@ -143,9 +145,9 @@ const CaseStudy = () => {
             ))}
           </div>
         )}
-
-        {cardData?.factors && <img src={cardData?.factors} alt="" />}
-
+      </div>
+      {cardData?.factors && <img src={cardData?.factors} alt="" />}
+      <div className="case wrapp">
         <div className="caseFlex">
           <div></div>
           <div>
@@ -156,7 +158,7 @@ const CaseStudy = () => {
           </div>
         </div>
       </div>
-      <div className="case case4">
+      <div className="case case4 wrapp">
         <div className="caseFlex">
           <h3>04</h3>
           <div>
@@ -186,7 +188,7 @@ const CaseStudy = () => {
           </div>
         </div>
       </div>
-      <div className="case case5">
+      <div className="case case5 wrapp">
         <div className="caseFlex">
           <h3>05</h3>
           <div>
@@ -197,7 +199,7 @@ const CaseStudy = () => {
           <img src={cardData?.userFlowImg} alt="case flow" />
         </div>
       </div>
-      <div className="case case6">
+      <div className="case case6 wrapp">
         <div className="caseFlex">
           <h3>06</h3>
           <div>
@@ -208,7 +210,7 @@ const CaseStudy = () => {
           <img src={cardData?.inofArchitech} alt="case " />
         </div>
       </div>
-      <div className="case case7">
+      <div className="case case7 wrapp">
         <div className="caseFlex">
           <h3>07</h3>
           <div>
@@ -271,7 +273,7 @@ const CaseStudy = () => {
           <img src={cardData?.wireGuide} alt="case wireGuide" />
         </div>
       </div>
-      <div className="case case9">
+      <div className="case case9 wrapp">
         <div className="caseFlex">
           <div>
             <h3>09</h3>
@@ -294,7 +296,7 @@ const CaseStudy = () => {
           </div>
         </div>
       </div>
-      <div className="case case10">
+      <div className="case case10 wrapp">
         <div className="caseFlex">
           <div>
             <h3>10</h3>

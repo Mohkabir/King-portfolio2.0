@@ -14,7 +14,7 @@ const PageTitle = ({ title, subTitle, issHome, issCaseStudy, cardData }) => {
         >
           <h1>
             {issCaseStudy && <img onClick={() => navigate(-1)} src={back} />}
-              {/* {title.length > 10 ? `${title.substring(0, 10)}..` : title} */}
+            
               {title}
           </h1>
           <p className="thickBlack">

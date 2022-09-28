@@ -19,22 +19,24 @@ const PageLayout = ({ children }) => {
   return (
     <div className="layout">
       <header id="topPage">
-        <div className="logo_wrapper">
-          <NavLink to="/">
-            <img src={logo} alt="logo" />
-          </NavLink>
+        <div className="wrapp">
+          <div className="logo_wrapper">
+            <NavLink to="/">
+              <img src={logo} alt="logo" />
+            </NavLink>
+          </div>
+          <div className="nav">
+            <NavLink to="/info">Info</NavLink>
+            <NavLink to="/work">Work</NavLink>
+            <NavLink to="/Writting">Writings</NavLink>
+          </div>
+          <img
+            className="menu"
+            onClick={handleMenu}
+            src={menuStatus ? cancel : menu}
+            alt=""
+          />
         </div>
-        <div className="nav">
-          <NavLink to="/info">Info</NavLink>
-          <NavLink to="/work">Work</NavLink>
-          <NavLink to="/Writting">Writings</NavLink>
-        </div>
-        <img
-          className="menu"
-          onClick={handleMenu}
-          src={menuStatus ? cancel : menu}
-          alt=""
-        />
       </header>
       <div
         className="mobile_menu "
@@ -61,7 +63,7 @@ const PageLayout = ({ children }) => {
         </ul>
       </div>
       <div>{children}</div>
-      <footer>
+      <footer className="wrapp">
         <div>
           <p>
             <a
@@ -72,10 +74,7 @@ const PageLayout = ({ children }) => {
             </a>
           </p>
           <p>
-            <a
-              href="https://www.linkedin.com/in/kingsleyukeje"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/kingsleyukeje" target="_blank">
               Linkedin
             </a>
           </p>

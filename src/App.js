@@ -7,6 +7,7 @@ import Writting from "./pages/Writting";
 import CaseStudy from "./pages/CaseStudy";
 import Work from "./pages/Work";
 import Kompare from "./pages/Kompare";
+import Taeillo from "./pages/Taeillo";
 
 function App() {
   return (
@@ -58,6 +59,14 @@ function App() {
             element={
               <PageLayout>
                 <Kompare />
+              </PageLayout>
+            }
+          />
+          <Route
+            path="/case-study/taeillo"
+            element={
+              <PageLayout>
+                <Taeillo />
               </PageLayout>
             }
           />

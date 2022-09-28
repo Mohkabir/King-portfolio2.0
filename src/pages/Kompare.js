@@ -26,7 +26,7 @@ const cardData = {
 
 const Kompare = () => {
   return (
-    <div className="kompare">
+    <div className="other_case_study">
       <PageTitle
         title="Kompare web & mobile"
         issCaseStudy={true}
