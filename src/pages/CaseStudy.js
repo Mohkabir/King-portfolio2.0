@@ -11,6 +11,7 @@ import iphone4 from "../assets/images/iphone-x4.svg";
 import iphone5 from "../assets/images/iphone-x5.svg";
 import iphone6 from "../assets/images/iphone-x6.svg";
 // import "../scss/home.scss";
+
 import "../scss/caseStudy.scss";
 
 const CaseStudy = () => {
@@ -24,7 +25,7 @@ const CaseStudy = () => {
   return (
     <div className="caseStydy_wrapper">
       <PageTitle
-        title={cardData.title}
+        title={cardData?.title}
         issCaseStudy={true}
         cardData={cardData}
       />
@@ -72,7 +73,7 @@ const CaseStudy = () => {
           </div>
         </div>
         <div className="fullwidth_image">
-          <img src={cardData.image1} alt="case stydy" />
+          <img src={cardData?.image1} alt="case stydy" />
         </div>
         {cardData?.optionalText1?.map((text) => (
           <div className="caseFlex">
@@ -84,19 +85,19 @@ const CaseStudy = () => {
         ))}
 
         <div className="fullwidth_image">
-          <img src={cardData.image2} alt="case study" />
+          <img src={cardData?.image2} alt="case study" />
         </div>
         {cardData?.text04 && (
           <div className="caseFlex">
             <div></div>
             <div>
-              <p>{cardData?.text04}</p>
+              <p>{cardData.text04}</p>
             </div>
           </div>
         )}
 
         <div className="box_wrapper">
-          {cardData.box1.map((data, idx) => (
+          {cardData?.box1?.map((data, idx) => (
             <div key={idx}>
               <span>{data.title}</span>
               <img src={data.img} alt="stock1" />
@@ -106,7 +107,7 @@ const CaseStudy = () => {
 
         <div className="blackSection">
           <div className="container_2">
-            {cardData.blackSection.map((data, idx) => (
+            {cardData?.blackSection?.map((data, idx) => (
               <div key={idx}>
                 <h1>{data.percentage}</h1>
                 <p>{data.text}</p>
@@ -115,19 +116,19 @@ const CaseStudy = () => {
           </div>
         </div>
         <div className="box_wrapper">
-          {cardData.box2.map((data, idx) => (
+          {cardData?.box2?.map((data, idx) => (
             <div key={idx}>
               <span>{data.title}</span>
               <img src={data.img} alt="stock1" />
             </div>
           ))}
         </div>
-        <img src={cardData.factors} alt="" />
+        <img src={cardData?.factors} alt="" />
         <div className="caseFlex">
           <div></div>
           <div>
             <h4>Findings</h4>
-            {cardData.findings.map((text, idx) => (
+            {cardData?.findings?.map((text, idx) => (
               <p key={idx}>{text}</p>
             ))}
           </div>
@@ -138,22 +139,22 @@ const CaseStudy = () => {
           <h3>04</h3>
           <div>
             <h4>User Persona</h4>
-            <p>{cardData.userPersona.text}</p>
+            <p>{cardData?.userPersona?.text}</p>
           </div>
         </div>
       </div>
       <div className="user_profile">
         <div>
           <div>
-            <img src={cardData.userPersona.profile} alt="" />
+            <img src={cardData?.userPersona?.profile} alt="" />
           </div>
           <div>
             <div className="userName">
-              <h3>{cardData.userPersona.name}</h3>
-              <p>{cardData.userPersona.description}</p>
+              <h3>{cardData?.userPersona?.name}</h3>
+              <p>{cardData?.userPersona?.description}</p>
             </div>
             <div className="userInfo">
-              {cardData.userPersona.box.map((data, idx) => (
+              {cardData?.userPersona?.box?.map((data, idx) => (
                 <div key={idx}>
                   <h4>{data.title}</h4>
                   <p>{data.options}</p>
@@ -171,7 +172,7 @@ const CaseStudy = () => {
           </div>
         </div>
         <div className="fullwidth_image">
-          <img src={cardData.userFlowImg} alt="case flow" />
+          <img src={cardData?.userFlowImg} alt="case flow" />
         </div>
       </div>
       <div className="case case6">
@@ -182,7 +183,7 @@ const CaseStudy = () => {
           </div>
         </div>
         <div className="fullwidth_image">
-          <img src={cardData.inofArchitech} alt="case " />
+          <img src={cardData?.inofArchitech} alt="case " />
         </div>
       </div>
       <div className="case case7">
@@ -194,31 +195,31 @@ const CaseStudy = () => {
         </div>
         <div className="caseFlex typeface">
           <div>
-            <img src={typeface} alt="" />
+            <img src={typeface && typeface} alt="" />
           </div>
           <div>
-            <img src={cardData.styleGuide.typeface.image} alt="" />
-            {cardData.styleGuide.typeface.texts.map((text, idx) => (
+            <img src={cardData?.styleGuide?.typeface?.image} alt="" />
+            {cardData?.styleGuide?.typeface?.texts?.map((text, idx) => (
               <p key={idx}>{text}</p>
             ))}
 
-            <a href={cardData.styleGuide.typeface.downloadLink}>
+            <a href={cardData?.styleGuide?.typeface?.downloadLink}>
               The font family can be downloaded here
             </a>
           </div>
         </div>
         <div className="caseFlex colors">
           <div>
-            <img src={colours} alt="" />
+            <img src={colours && colours} alt="" />
           </div>
           <div>
             <div className="img_flex">
-              {cardData.styleGuide.color.images.map((img, idx) => (
+              {cardData?.styleGuide?.color?.images?.map((img, idx) => (
                 <img src={img} alt="" key={idx} />
               ))}
             </div>
 
-            {cardData.styleGuide.color.texts.map((text, idx) => (
+            {cardData?.styleGuide?.color?.texts?.map((text, idx) => (
               <p key={idx}>{text}</p>
             ))}
           </div>
@@ -232,7 +233,7 @@ const CaseStudy = () => {
           </div>
         </div>
         <div className="fullwidth">
-          <img src={cardData.wireGuide} alt="case wireGuide" />
+          <img src={cardData?.wireGuide} alt="case wireGuide" />
         </div>
       </div>
       <div className="case case9">
