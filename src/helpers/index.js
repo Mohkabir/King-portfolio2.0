@@ -57,6 +57,7 @@ import ezeFactors from "../assets/images/case-study/eze/ezeFactors.png";
 import ezeProfile from "../assets/images/case-study/eze/ezeProfile.png";
 import ezeTypeface from "../assets/images/case-study/eze/ezeTypeface.png";
 
+import carrotHero from "../assets/images/case-study/carrotHero.png";
 import carrot1 from "../assets/images/case-study/carrots/carrot1.png";
 import carrot2 from "../assets/images/case-study/carrots/carrot2.png";
 import carrot3 from "../assets/images/case-study/carrots/carrot3.png";
@@ -135,6 +136,31 @@ import hotel21 from "../assets/images/case-study/hotel21.png";
 import hotel22 from "../assets/images/case-study/hotel22.png";
 
 import hotelProfile from "../assets/images/case-study/hotelProfile.png";
+
+import spasora1 from "../assets/images/case-study/spasora1.png";
+import spasora2 from "../assets/images/case-study/spasora2.png";
+import spasora3 from "../assets/images/case-study/spasora3.png";
+import spasora4 from "../assets/images/case-study/spasora4.png";
+import spasora5 from "../assets/images/case-study/spasora5.png";
+import spasora6 from "../assets/images/case-study/spasora6.png";
+import spasora7 from "../assets/images/case-study/spasora7.png";
+import spasora8 from "../assets/images/case-study/spasora8.png";
+import spasora9 from "../assets/images/case-study/spasora9.png";
+import spasora10 from "../assets/images/case-study/spasora10.png";
+import spasora11 from "../assets/images/case-study/spasora11.png";
+import spasora12 from "../assets/images/case-study/spasora12.png";
+import spasora13 from "../assets/images/case-study/spasora13.png";
+import spasora14 from "../assets/images/case-study/spasora14.png";
+import spasora15 from "../assets/images/case-study/spasora15.png";
+import spasora16 from "../assets/images/case-study/spasora16.png";
+import spasora17 from "../assets/images/case-study/spasora17.png";
+import spasora18 from "../assets/images/case-study/spasora18.png";
+import spasora19 from "../assets/images/case-study/spasora19.png";
+import spasora20 from "../assets/images/case-study/spasora20.png";
+import spasora21 from "../assets/images/case-study/spasora21.png";
+// import spasora22 from "../assets/images/case-study/spasora22.png";
+// import spasora23 from "../assets/images/case-study/spasora23.png";
+import spasoraProfile from "../assets/images/case-study/spasoraProfile.png";
 
 export const scrollTop = () => {
   window.scrollTo({
@@ -312,6 +338,7 @@ export const homeCardDatas = [
   },
   {
     image: work3,
+    imageCase: carrotHero,
     title: "Carrot Credit",
     subTitle: "Product & UX Design",
     cardUrl: "/case-study/2",
@@ -490,6 +517,165 @@ export const homeCardDatas = [
     subTitle: "Product & UX Design",
     cardUrl: "/case-study/3",
     cardFullUrl: "",
+
+    text01: [
+      "Spasora is the destination to turn your space into a business. It is a platform where all space owners can get their spaces i.e workspaces and hubs listed for rent.",
+      "This makes Spasora also a platform for finding suitable and nearby workspaces, video production locations, event spaces, etc. Users can be sure to find quality locations that will provide you with the essential amenities and comfort you need to enjoy your activities smoothly.",
+    ],
+    text02: [
+      "Spaces provide people many opportunities to come together and engage with the community, family, friends or for work purposes. Spasora offers real quick solutions for acquiring spaces for a specific duration of time. One of the greatest joys of going to a public space is so that people can express themselves fully. This might involve meeting new people, rekindling with old friends, participating in activities in the space or interacting with the public art in the space. ",
+      "These are all ways that people can be comfortable in the public sphere. Creating an opportunity for people to meet new people in the public space is important because this adds to the sociability of public space. Having social events in the public space such as music concerts or hosting movies are also a great way to get people to engage with one another. This creates an intricate connection between the space and the people in it forming a sense of ‘togetherness’ in the space as stated by Doreen Massey.",
+    ],
+    text03: [
+      "The research methods include indept surveys, observation, participation, focus group discussions and interviews. Spasora aims to serve as a link between users and these spaces. To start things out I conducted surveys and one on one interviews to understand the hospitality industry in Nigeria. Being a madien type of product in Nigeria, my major focus on the research procedure was to see the value and need for the product in majorly populated locations in Nigeria and also steps or ways in which the product would scale the Nigerian market. The research also tried to understand and connect user goals, business goals, build a solid understanding of the pain points, opportunities on the product.",
+      "The idea is to utilize creative spaces in different cities in Nigeria in which the platform operates in. The broad objectives of this research is to appraise the peer to peer space potentials of Nigeria vis-à-vis the level of patronage and the influences on the choice of attraction of spaces, as well as the constraints to use of the product.  My research process outline",
+    ],
+    image1: spasora1,
+    optionalText1: [
+      "Currently, there is little or no attention to automating the space rental process in Nigeria, the closest thing to space rentals are hospitality booking platforms like hotels.ng, agoda.com, travelstart.com. All of the mentioned provide some sort of rented out spaces for users, of which most are rooms at hotels for long and short term purposes. ",
+      "To understand the potential users of the product, I needed to see things from their perspective, I sent out a questionnaire to know their painpoints",
+    ],
+    image2: "",
+    text04: "",
+    box1: [
+      {
+        title: "How do you often do you go out on events",
+        img: spasora2,
+      },
+      {
+        title: "Have you ever planned an outdoor event ",
+        img: spasora3,
+      },
+      {
+        title: "In getting a space for an event, what concerns you the most",
+        img: spasora4,
+      },
+      {
+        title: "Have you ever planned an outdoor event ",
+        img: spasora5,
+      },
+      {
+        title: "Have you ever hosted an outdoor event",
+        img: spasora6,
+      },
+      {
+        title: "Have you ever planned an outdoor event ",
+        img: spasora7,
+      },
+    ],
+    whiteSection: true,
+    blackSection: [
+      {
+        percentage: "49%",
+        text: "Where is it happening next",
+      },
+      {
+        percentage: "28%",
+        text: "I'm sorry, I can't make it",
+      },
+      {
+        percentage: "23%",
+        text: "I'm on my way, you will see me soon",
+      },
+    ],
+    box2: false,
+    factors: "",
+    findings: [
+      "People have this fear of getting what they actually didn’t pay for and at days end prefer going to see the space for themselves, this can be likened to the hotel booking model where the user only sees pictures of the rooms from the user interface and just trust the hotel/room facilities would be to the utmost perfection. In all the research process, I was able to pick out major pain points that inline was able to inform the design process and features implemented on the product",
+    ],
+    findingsList: [
+      "The process of getting spaces is way time consuming",
+      "There are possibilities of having clashes of two events",
+      "Keeping records of events is really difficult",
+      "There is no way to see the pictures of the space or its properties ",
+      "Referrals are practically impossible]",
+    ],
+
+    userPersona: {
+      text: "",
+      name: "Aiden Okafor, 23",
+      profile: spasoraProfile,
+      description:
+        "Aiden is a Nigerian, lives in Abuja, Nigeria, he is a student at University of Lagos, Currently in his third year studying PetroChemical Engineering. Aiden is popular around school as he comes from a rich home, he is the first in a family of four.  His mum is currently the minister for petroleum in Nigeria. He has a lot of friends but believes in keeping his friend circle small and tight. He enjoys time out at fast food joints, beaches, and parks. ",
+
+      box: [
+        {
+          title: "Ideal Features",
+          options: [
+            "Be able to search for spaces",
+            "Save spaces for different events",
+            "Make one time payments for there spaces",
+            "View pictures and videos of the space",
+          ],
+        },
+        {
+          title: "Pain Points",
+          options: [
+            "Aiden wants to save as much as possible",
+            "Wants to be able to compare spaces based on features",
+            "He wants to be able to look at these spaces without being at the physical location",
+            "He wants to avoid clashes of events as much as possible",
+          ],
+        },
+        {
+          title: "Takeaways",
+          options: [
+            "Hates going far distances",
+            "Not a tech enthusiast",
+            "Consistently scared of quality of spaces and features",
+            "Hoping the spaces will be in motorable or easily accessible places",
+          ],
+        },
+      ],
+    },
+    userFlowImg: spasora8,
+    inofArchitech: spasora9,
+    styleGuide: {
+      typeface: {
+        image: spasora10,
+        texts: [""],
+        downloadLink: false,
+      },
+      color: false,
+    },
+    wireGuide: spasora11,
+    wireGuideText: [
+      "Next, I went ahead to work on some sketches and the low fidelity designs. With these low fidelity wireframes, I factored in the planned features and established a visual direction for the app.",
+      "User Interviews and User Flows helped to identify what features were important to the user. After sketching some low-fidelity wireframes, mid-fidelity wireframes were designed based on those initial sketches.",
+    ],
+    userInterface: {
+      text: [""],
+      box: [
+        {
+          text: [
+            "Next, I went ahead to work on some sketches and the low fidelity designs. With these low fidelity wireframes, I factored in the planned features and established a visual direction for the app.",
+            "User Interviews and User Flows helped to identify what features were important to the user. After sketching some low-fidelity wireframes, mid-fidelity wireframes were designed based on those initial sketches.",
+          ],
+        },
+        {
+          images: [
+            spasora12,
+            spasora13,
+            spasora14,
+            spasora15,
+            spasora16,
+            spasora17,
+            spasora18,
+            spasora19,
+          ],
+        },
+      ],
+    },
+    usabilityTesting: [
+      "To determine the user-friendliness and if the painpoints were properly addressed, I conducted user testing. To gather qualitative data, I performed in-person user testing and observed how the users navigated their way through the website. Through in-person testing , I hoped to find what works within the product, as well as new pain points that the user encounters in order to optimize the experience of the product.",
+    ],
+    usabilityTestingBox: {
+      box: [
+        { title: "Avg. Test Completion Rate", img: spasora20 },
+        { title: "Avg. Error-Free Rate", img: spasora21 },
+      ],
+      text: "I made fixes to the prototype errors and ensured I got 100% efficency on all usability test procedures",
+    },
   },
   {
     image: work5,

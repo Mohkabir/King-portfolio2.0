@@ -72,9 +72,12 @@ const CaseStudy = () => {
             ))}
           </div>
         </div>
-        <div className="fullwidth_image">
-          <img src={cardData?.image1} alt="case stydy" />
-        </div>
+        {cardData?.image1 && (
+          <div className="fullwidth_image">
+            <img src={cardData?.image1} alt="case stydy" />
+          </div>
+        )}
+
         {cardData?.optionalText1?.map((text) => (
           <div className="caseFlex">
             <div></div>
@@ -83,10 +86,12 @@ const CaseStudy = () => {
             </div>
           </div>
         ))}
+        {cardData?.image2 && (
+          <div className="fullwidth_image">
+            <img src={cardData?.image2} alt="case study" />
+          </div>
+        )}
 
-        <div className="fullwidth_image">
-          <img src={cardData?.image2} alt="case study" />
-        </div>
         {cardData?.text04 && (
           <div className="caseFlex">
             <div></div>
@@ -105,25 +110,42 @@ const CaseStudy = () => {
           ))}
         </div>
 
-        <div className="blackSection">
-          <div className="container_2">
-            {cardData?.blackSection?.map((data, idx) => (
+        {cardData?.whiteSection ? (
+          <div className="whiteSection">
+            <div className="container_2">
+              {cardData?.blackSection?.map((data, idx) => (
+                <div key={idx}>
+                  <h1>{data.percentage}</h1>
+                  <p>{data.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <div className="blackSection">
+            <div className="container_2">
+              {cardData?.blackSection?.map((data, idx) => (
+                <div key={idx}>
+                  <h1>{data.percentage}</h1>
+                  <p>{data.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+        {cardData?.box2 && (
+          <div className="box_wrapper">
+            {cardData?.box2?.map((data, idx) => (
               <div key={idx}>
-                <h1>{data.percentage}</h1>
-                <p>{data.text}</p>
+                <span>{data.title}</span>
+                <img src={data.img} alt="stock1" />
               </div>
             ))}
           </div>
-        </div>
-        <div className="box_wrapper">
-          {cardData?.box2?.map((data, idx) => (
-            <div key={idx}>
-              <span>{data.title}</span>
-              <img src={data.img} alt="stock1" />
-            </div>
-          ))}
-        </div>
-        <img src={cardData?.factors} alt="" />
+        )}
+
+        {cardData?.factors && <img src={cardData?.factors} alt="" />}
+
         <div className="caseFlex">
           <div></div>
           <div>
@@ -195,23 +217,31 @@ const CaseStudy = () => {
         </div>
         <div className="caseFlex typeface">
           <div>
-            <img src={typeface && typeface} alt="" />
+            {cardData?.styleGuide?.typeface?.downloadLink && (
+              <img src={typeface} alt="" />
+            )}
           </div>
+
           <div>
             <img src={cardData?.styleGuide?.typeface?.image} alt="" />
+
             {cardData?.styleGuide?.typeface?.texts?.map((text, idx) => (
               <p key={idx}>{text}</p>
             ))}
-
-            <a href={cardData?.styleGuide?.typeface?.downloadLink}>
-              The font family can be downloaded here
-            </a>
+            {cardData?.styleGuide?.typeface?.downloadLink && (
+              <a href={cardData?.styleGuide?.typeface?.downloadLink}>
+                The font family can be downloaded here
+              </a>
+            )}
           </div>
         </div>
         <div className="caseFlex colors">
-          <div>
-            <img src={colours && colours} alt="" />
-          </div>
+          {cardData?.styleGuide?.color && (
+            <div>
+              <img src={colours && colours} alt="" />
+            </div>
+          )}
+
           <div>
             <div className="img_flex">
               {cardData?.styleGuide?.color?.images?.map((img, idx) => (
@@ -230,6 +260,11 @@ const CaseStudy = () => {
           </div>
           <div>
             <h4>Wires (Paper Sketch & Frames)</h4>
+
+            {cardData?.wireGuideText &&
+              cardData?.wireGuideText.map((text, idx) => (
+                <p key={idx}>{text}</p>
+              ))}
           </div>
         </div>
         <div className="fullwidth">
@@ -269,6 +304,21 @@ const CaseStudy = () => {
             {cardData?.usabilityTesting?.map((text, idx) => (
               <p key={idx}> {text}</p>
             ))}
+          </div>
+        </div>
+
+        <div className="caseFlex">
+          <div></div>
+          <div>
+            <div className="usabilityTestingBox">
+              {cardData?.usabilityTestingBox?.box?.map((box, idx) => (
+                <div key={idx}>
+                  <p>{box.title}</p>
+                  <img src={box.img} alt="" />
+                </div>
+              ))}
+            </div>
+            <p>{cardData?.usabilityTestingBox?.text}</p>
           </div>
         </div>
       </div>
