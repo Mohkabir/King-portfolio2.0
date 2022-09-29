@@ -17,9 +17,9 @@ function App() {
           <Route
             path="/"
             element={
-              <PageLayout>
+              <div>
                 <Home />
-              </PageLayout>
+              </div>
             }
           />
           <Route
