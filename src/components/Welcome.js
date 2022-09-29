@@ -18,12 +18,12 @@ const Welcome = () => {
     {
       title: "Writings",
       text: "I tend to write articles about things I newly understand or have always been fascinated about. I also take very random pictures. A few of them are posted here.",
-      url: "/writtings",
+      url: "/Writting",
     },
     {
       title: "Resources",
       text: "A lot of knowledge and wisdom is hidden in books, articles and conversations with another. Here’s a library that will enhance your design knowledge.",
-      url: "/info",
+      url: "/Writting",
     },
   ];
   return (

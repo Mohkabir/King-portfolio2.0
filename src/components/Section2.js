@@ -13,14 +13,10 @@ const Section2 = ({ offsetY, check, beforeStickyRef, containerRef }) => {
 
   useEffect(() => {
     if (isInViewport1 === true) {
-      let xAxisToScroll = offsetY - containerRef.current.offsetTop;
+      let xAxisToScroll = offsetY - containerRef.current.offsetTop - 350;
       console.log(xAxisToScroll, "xAxisToScroll");
       scrollRef.current.scrollLeft = xAxisToScroll;
     }
-
-    // let xAxisToScroll = offsetY - containerRef.current.offsetTop - 350;
-    // scrollRef.current.scrollLeft = xAxisToScroll;
-
     console.log(isInViewport1, "isInViewport1", offsetY, "offsetY");
   }, [offsetY]);
 
@@ -29,28 +25,28 @@ const Section2 = ({ offsetY, check, beforeStickyRef, containerRef }) => {
       image: commonwealth,
       title: "Commonwealth",
       description: "Fintech . UX Design",
-      url: "",
+      url: "/case-study/7",
     },
     {
       image: work1,
       title: "Eze Wholesale",
       description: "eCommerce . UX Design",
-      url: "",
+      url: "/case-study/0",
     },
     {
       image: Kompare,
       title: "Kompare",
       description: "Management . Product & UX Design",
-      url: "",
+      url: "/case-study/kompare",
     },
     {
       image: work3,
       title: "Carrot Credit",
       description: "Fintech . Product & UX Design",
-      url: "",
+      url: "/case-study/2",
     },
     {
-      url: "",
+      url: "/work",
       next: "See More",
     },
   ];

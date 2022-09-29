@@ -1184,7 +1184,7 @@ export const homeCardDatas = [
     imageCase: commonwealthCaseStudy,
     title: "common wealth",
     subTitle: "Sports Gaming . UX Design",
-    cardUrl: "/case-study/8",
+    cardUrl: "/case-study/7",
     cardFullUrl: "",
 
     text01: [

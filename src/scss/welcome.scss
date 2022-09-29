@@ -79,58 +79,11 @@ h1 {
   }
 }
 
-//   .check {
-//     border: 5px solid green;
-//     height: 5px;
-//   }
-// }
-
-// .section2 {
-//   top: 0;
-//   overflow-x: scroll;
-//   height: 100vh;
-//   .seeMore {
-//     display: flex;
-//     align-items: center;
-//     img {
-//       margin-left: 15px;
-//     }
-//   }
-//   & > .card_wrapper {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     width: 160%;
-//     width: 200%;
-//     height: 50vh;
-//     border: 3px solid red;
-
-//     & > .card {
-//       width: 30%;
-//       display: flex;
-//       align-items: center;
-//       justify-content: center;
-//       position: relative;
-//       & > .beforeWrap {
-//         width: 90%;
-//         & > .wrap {
-//           display: flex;
-//           flex-direction: column;
-//           height: 50vh;
-//           margin: auto;
-//         }
-//       }
-//       p {
-//         font-size: 20px;
-//       }
-//       h3 {
-//         font-weight: 500;
-//       }
-//     }
-//   }
-// }
 .beforeSticky {
   position: relative;
+}
+.work {
+  margin-top: 90px;
 }
 .section2 {
   top: 0;
@@ -145,8 +98,7 @@ h1 {
     & > .card {
       width: 20%;
       height: 99vh;
-      //   border: 3px solid red;
-      //   height: 69vh;
+
       display: flex;
       align-items: center;
       justify-content: center;
@@ -159,6 +111,21 @@ h1 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        .learnMore {
+          // background-color: red;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          // width: 40%;
+          p {
+            display: flex;
+            align-items: center;
+            img {
+              margin-left: 15px;
+            }
+          }
+        }
         a {
           & > .contain {
             width: 100%;
@@ -168,12 +135,19 @@ h1 {
             align-items: flex-start;
             height: 70vh;
             margin: auto;
-            // border: 1px solid purple;
             & > img {
-            
-              // height: 90%;
               width: 100% !important;
               height: 100%;
+            }
+            h2 {
+              font-size: 46px;
+              color: #3c4043;
+              margin-top: 15px;
+            }
+            p {
+              color: #3c4043;
+
+              opacity: 0.5;
             }
           }
         }
@@ -247,9 +221,8 @@ h1 {
       .card_wrapper {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        width: 250%;
-        // border: 2px solid blue;
+        align-items: flex-end;
+        width: 270%;
 
         .seeMore {
           display: flex;
@@ -261,6 +234,7 @@ h1 {
         .card {
           width: 15%;
           padding-left: 30px;
+
           .present {
             color: #36ca8b;
           }
@@ -279,6 +253,8 @@ h1 {
         }
         .card:nth-child(6) {
           width: 10%;
+          height: 100%;
+          align-self: center;
         }
       }
     }
@@ -317,6 +293,40 @@ h1 {
       margin-bottom: 40px;
     }
   }
+  .work {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .section2 {
+    overflow-x: initial;
+    height: initial;
+    & > .card_wrapper {
+      flex-wrap: wrap;
+      width: 100%;
+      & > .card {
+        width: 49%;
+        height: initial;
+        margin-bottom: 70px;
+        & > .beforeWrap {
+          width: 95%;
+          height: initial;
+          .learnMore {
+            height: 100%;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 70px 0;
+          }
+
+          a {
+            & > .contain {
+              height: initial;
+            }
+          }
+        }
+      }
+    }
+  }
+
   .resourcesSection {
     h1 {
       margin-bottom: 40px;
@@ -366,6 +376,7 @@ h1 {
             width: 48%;
             padding-left: 0;
             margin-bottom: 40px;
+
             & > div {
               width: 100%;
               sup {
@@ -418,6 +429,50 @@ h1 {
       margin-bottom: 30px;
     }
   }
+  .work {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+    .beforeSticky {
+    height: initial;
+    position: relative;
+  }
+  .section2 {
+    overflow-x: initial;
+    height: initial;
+    margin-top: 40px;
+    & > .card_wrapper {
+      flex-wrap: wrap;
+      width: 100%;
+      & > .card {
+        width: 100%;
+        height: initial;
+        margin-bottom: 70px;
+        & > .beforeWrap {
+          width: 95%;
+          height: initial;
+          //   background-color: red;
+
+          .learnMore {
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            margin: 0px 0;
+          }
+          a {
+            & > .contain {
+              h2 {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  }
   .resourcesSection {
     h1 {
       margin-bottom: 20px;
@@ -440,7 +495,10 @@ h1 {
       }
     }
   }
-
+ .beforeSticky2 {
+    height: 100%;
+    margin-bottom: 40px;
+  }
   .sectionInfo {
     padding: 0px;
     width: 100%;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PageTitle from "../components/PageTitle";
 import "../scss/Kompare.scss";
 
@@ -6,6 +6,7 @@ import work2 from "../assets/images/work2.png";
 import taeillo1 from "../assets/images/case-study/taeillo1.png";
 
 
+import { scrollTop } from "../helpers";
 
 
 const cardData = {
@@ -14,6 +15,10 @@ const cardData = {
 };
 
 const Taeillo = () => {
+
+  useEffect(() => {
+    scrollTop();
+  }, []);
   return (
     <div className="other_case_study">
       <PageTitle

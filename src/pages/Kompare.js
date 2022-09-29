@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PageTitle from "../components/PageTitle";
 import "../scss/Kompare.scss";
 import Kompare_Img from "../assets/images/case-study/Kompare.png";
@@ -17,6 +17,8 @@ import Kompare12 from "../assets/images/case-study/Kompare12.png";
 import Kompare13 from "../assets/images/case-study/Kompare13.png";
 import Kompare14 from "../assets/images/case-study/Kompare14.png";
 
+import { scrollTop } from "../helpers";
+
 const cardData = {
   image: Kompare_Img,
   title: "Kompare web & mobile ",
@@ -25,6 +27,11 @@ const cardData = {
 };
 
 const Kompare = () => {
+
+  useEffect(() => {
+    scrollTop();
+  }, []);
+
   return (
     <div className="other_case_study">
       <PageTitle

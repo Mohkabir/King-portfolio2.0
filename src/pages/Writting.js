@@ -11,7 +11,7 @@ const Writting = () => {
   }, []);
 
   return (
-    <div>
+    <div className="wrapp">
       <PageTitle title="UX Writings" />
       <div className="cardWrapper">
         {writtingCardDatas.map((writtingCard, index) => (

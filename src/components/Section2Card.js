@@ -11,17 +11,19 @@ const Section2Card = ({ viewRef, data }) => {
     <div className={`card`}>
       <div className="beforeWrap">
         {data?.next ? (
-          <div>
-            <p className="seeMore">
-              <span>{data.next}</span> <img src={next} alt="" />
-            </p>
+          <div className="learnMore">
+            <Link to="/work">
+              <p className="seeMore">
+                <span>{data.next}</span> <img src={next} alt="" />
+              </p>
+            </Link>
           </div>
         ) : (
           <Link to={data.url}>
             <div className="contain">
               <img src={data.image} alt="" />
               <div>
-                <h3>{data.title}</h3>
+                <h2>{data.title}</h2>
                 <p>{data.description}</p>
               </div>
             </div>

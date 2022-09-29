@@ -40,9 +40,9 @@ const Home = ({ work }) => {
   }, []);
 
   // const location = useLocation();
-  // useEffect(() => {
-  //   scrollTop();
-  // }, []);
+  useEffect(() => {
+    scrollTop();
+  }, []);
 
   console.log(
     calculateHeight(beforeStickyRef, 0),
@@ -51,32 +51,14 @@ const Home = ({ work }) => {
   return (
     <div className="wrappHome">
       <Welcome />
-      {/* <div
-        className="beforeSticky "
-        style={{
-          height: calculateHeight(beforeStickyRef),
-        }}
-        ref={containerRef}
-      >
-        <div className="sticky">
-          <h1>Work.</h1>
-          <Section2
-            offsetY={offsetY}
-            check={check}
-            beforeStickyRef={beforeStickyRef}
-            containerRef={containerRef}
-          />
-          <div ref={check} className="check"></div>
-        </div>
-      </div> */}
-
       <div
-        className="beforeSticky desktop"
+        className="beforeSticky"
         style={{
           height: calculateHeight(beforeStickyRef, 350),
         }}
         ref={containerRef}
       >
+        <h1 className="work">Work.</h1>
         <div className="sticky">
           <Section2
             offsetY={offsetY}

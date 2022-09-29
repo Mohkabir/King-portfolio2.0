@@ -60,7 +60,7 @@ const ResourcesSection = () => {
             ))}
           </div>
           <div>
-            <Link to="/">
+            <Link to="/Writting">
               Learn More <img src={next} alt="" />
             </Link>
           </div>
@@ -76,7 +76,7 @@ const ResourcesSection = () => {
             ))}
           </div>
           <div>
-            <Link to="/">
+            <Link to="/Writting">
               Learn More <img src={next} alt="" />
             </Link>
           </div>
