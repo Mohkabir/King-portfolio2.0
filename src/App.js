@@ -17,9 +17,9 @@ function App() {
           <Route
             path="/"
             element={
-              <div>
+              <PageLayout home={true}>
                 <Home />
-              </div>
+              </PageLayout>
             }
           />
           <Route
@@ -33,7 +33,7 @@ function App() {
           <Route
             path="/Writting"
             element={
-              <PageLayout>
+              <PageLayout >
                 <Writting />
               </PageLayout>
             }

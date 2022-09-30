@@ -3,8 +3,10 @@ import logo from "../assets/images/logo.svg";
 import { Link, NavLink } from "react-router-dom";
 import menu from "../assets/images/menu.png";
 import cancel from "../assets/images/cancel.png";
+import sign from "../assets/images/case-study/taeillo1.png";
+import { downloadCV } from "../helpers";
 
-const PageLayout = ({ children }) => {
+const PageLayout = ({ children, home }) => {
   const [menuStatus, setMenuStatus] = useState(false);
   const handleMenu = () => {
     setMenuStatus(!menuStatus);
@@ -25,17 +27,23 @@ const PageLayout = ({ children }) => {
               <img src={logo} alt="logo" />
             </NavLink>
           </div>
-          <div className="nav">
-            <NavLink to="/info">Info</NavLink>
-            <NavLink to="/work">Work</NavLink>
-            <NavLink to="/Writting">Writings</NavLink>
-          </div>
-          <img
-            className="menu"
-            onClick={handleMenu}
-            src={menuStatus ? cancel : menu}
-            alt=""
-          />
+          {home ? (
+            ""
+          ) : (
+            <div className="nav">
+              <NavLink to="/work">Work</NavLink>
+              <NavLink to="/info">Info</NavLink>
+              <NavLink to="/Writting">Writings</NavLink>
+            </div>
+          )}
+          {!home && (
+            <img
+              className="menu"
+              onClick={handleMenu}
+              src={menuStatus ? cancel : menu}
+              alt=""
+            />
+          )}
         </div>
       </header>
       <div
@@ -63,7 +71,36 @@ const PageLayout = ({ children }) => {
         </ul>
       </div>
       <div>{children}</div>
-      <footer className="wrapp">
+
+      <footer className="home_footer">
+        <img src={sign} alt="" />
+
+        <div>
+          <a
+            href="https://www.instagram.com/accounts/login/?next=/kingsleyukeje_/"
+            target="_blank"
+          >
+            Instagram
+          </a>
+          <a href="https://www.linkedin.com/in/kingsleyukeje" target="_blank">
+            Linkedin
+          </a>
+          <a href="https://twitter.com/kingsleyukeje_" target="_blank">
+            Twitter
+          </a>
+        </div>
+        <div>
+          <a className="tel" href="tel:+234 703 1356 201">
+            +234 703 1356 201
+          </a>
+          <a href="mailto:kingsleyukejex@gmail.com">kingsleyukejex@gmail.com</a>
+          <a onClick={downloadCV} style={{ cursor: "pointer" }}>
+            Download Resume
+          </a>
+        </div>
+      </footer>
+
+      {/* <footer className="wrapp">
         <div>
           <p>
             <a
@@ -97,7 +134,7 @@ const PageLayout = ({ children }) => {
           </p>
         </div>
         <img src={logo} onClick={scrollTop} alt="logo" />
-      </footer>
+      </footer> */}
     </div>
   );
 };

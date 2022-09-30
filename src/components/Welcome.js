@@ -29,8 +29,8 @@ const Welcome = () => {
   return (
     <div>
       <div className="head">
-        <img src={sign} alt="" />
-        <h1>Designing ideas that solve humane problems.</h1>
+        {/* <img src={sign} alt="" /> */}
+        <h1>Designing ideas that solve problems.</h1>
       </div>
 
       <div className="infoWrap">
@@ -40,11 +40,11 @@ const Welcome = () => {
               {data.title} <sup>0{idx + 1}</sup>
             </h2>
             <p>{data.text}</p>
-            <Link to={data.url}>
+            {/* <Link to={data.url}>
               <p className="seeMore">
                 <span>Learn More</span> <img src={next} alt="" />
               </p>
-            </Link>
+            </Link> */}
           </div>
         ))}
       </div>

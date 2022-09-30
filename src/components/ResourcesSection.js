@@ -59,11 +59,11 @@ const ResourcesSection = () => {
               </div>
             ))}
           </div>
-          <div>
+          {/* <div>
             <Link to="/Writting">
               Learn More <img src={next} alt="" />
             </Link>
-          </div>
+          </div> */}
         </div>
         <div className="res_wrap">
           <div>
@@ -75,12 +75,17 @@ const ResourcesSection = () => {
               </div>
             ))}
           </div>
-          <div>
+          {/* <div>
             <Link to="/Writting">
               Learn More <img src={next} alt="" />
             </Link>
-          </div>
+          </div> */}
         </div>
+      </div>
+      <div>
+        <Link to="/Writting">
+          Learn More <img src={next} alt="" />
+        </Link>
       </div>
     </div>
   );
