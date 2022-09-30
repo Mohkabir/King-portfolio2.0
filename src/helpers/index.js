@@ -167,6 +167,19 @@ import React, {
   useMemo,
 } from "react";
 
+import File from "../assets/files/kingsley ukeje cv july 2022.pdf";
+
+const pdf = File;
+
+export const downloadCV = () => {
+  const link = document.createElement("a");
+  link.setAttribute("target", "_blank");
+  link.download = `${pdf}`;
+  link.href = `${pdf}`;
+  link.click();
+};
+
+
 
 export const scrollTop = () => {
   window.scrollTo({
@@ -338,7 +351,7 @@ export const homeCardDatas = [
   {
     image: work2,
     title: "Taeillo v2",
-    subTitle: "eCommerce . Product",
+    subTitle: "Product",
     cardUrl: "/case-study/taeillo",
     cardFullUrl: "",
   },
@@ -1389,8 +1402,6 @@ export const writtingCardDatas = [
   },
 ];
 
-
-
 export function useIsInViewport(ref) {
   const [isIntersecting, setIsIntersecting] = useState(false);
 
@@ -1435,27 +1446,7 @@ export const GetElementWidthAndHeight = (elementRef) => {
   };
   return { width, height };
 };
-export const CheckDeviceScreen = () => {
-  const [screen, setscreen] = useState(window.innerWidth);
-  let res;
-  useEffect(() => {
-    window.addEventListener("resize", checkScreen);
-  }, [screen]);
 
-  const checkScreen = () => {
-    setscreen(window.innerWidth);
-  };
-
-  if (screen <= 768) {
-    res = "mobile";
-  } else if (screen > 768 && screen <= 1280) {
-    res = "tablet";
-  } else if (screen > 1280) {
-    res = "desktop";
-  }
-
-  return res;
-};
 export const calculateHeight = (ref, number) => {
   const containerHeight = GetElementWidthAndHeight(ref);
   let calc;

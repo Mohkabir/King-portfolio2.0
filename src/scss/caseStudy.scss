@@ -1,3 +1,4 @@
+
 .caseStydy_wrapper {
   width: 100%;
   p {
@@ -213,15 +214,11 @@
       width: 80%;
     }
   }
-    .blackSection {
-
+  .blackSection {
     & > div {
- 
       width: 90%;
-     
     }
   }
-
 }
 
 @media (max-width: "728px") {
@@ -372,7 +369,6 @@
         }
       }
       & > div:nth-child(2) {
-        border: 2px solid red;
         width: 90%;
         margin: 0 auto;
         padding-top: 30px;

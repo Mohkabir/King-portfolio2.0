@@ -1,35 +1,24 @@
-import React, { useState, useEffect, useRef, useMemo } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import sign from "../assets/images/case-study/taeillo1.png";
-
 import "../scss/home.scss";
-import { scrollTop, homeCardDatas } from "../helpers";
-
-import { useLocation } from "react-router-dom";
+import { scrollTop } from "../helpers";
 import Welcome from "../components/Welcome";
 import ResourcesSection from "../components/ResourcesSection";
-
 import "../scss/welcome.scss";
 import Section2 from "../components/Section2";
-// import ResourcesSection from "../"
-import {
-  calculateHeight,
-  // CheckDeviceScreen,
-  // useIsInViewport,
-  // useScrollDirection,
-} from "../helpers";
+import { calculateHeight } from "../helpers";
 import SectionInfo from "../components/SectionInfo";
+import { downloadCV } from "../helpers";
+
 const Home = ({ work }) => {
   const check = useRef(null);
   const check2 = useRef(null);
-
   const beforeStickyRef = useRef(null);
   const beforeStickyRef2 = useRef(null);
-
   const containerRef = useRef(null);
   const containerRef2 = useRef(null);
 
   const [offsetY, setOffsetY] = useState(0);
-
   const handleScroll = () => {
     setOffsetY(window.pageYOffset);
   };
@@ -39,7 +28,6 @@ const Home = ({ work }) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // const location = useLocation();
   useEffect(() => {
     scrollTop();
   }, []);
@@ -99,33 +87,29 @@ const Home = ({ work }) => {
         <img src={sign} alt="" />
 
         <div>
-          <a href="">Instagram</a>
-          <a href="">Linkedin</a>
-          <a href="">Twitter</a>
+          <a
+            href="https://www.instagram.com/accounts/login/?next=/kingsleyukeje_/"
+            target="_blank"
+          >
+            Instagram
+          </a>
+          <a href="https://www.linkedin.com/in/kingsleyukeje" target="_blank">
+            Linkedin
+          </a>
+          <a href="https://twitter.com/kingsleyukeje_" target="_blank">
+            Twitter
+          </a>
         </div>
         <div>
-          <a href="">+234 703 1356 201</a>
-          <a href="">kingsleyukejex@gmail.com</a>
-          <a href="">Download Resume</a>
+          <a className="tel" href="tel:+234 703 1356 201">
+            +234 703 1356 201
+          </a>
+          <a href="mailto:kingsleyukejex@gmail.com">kingsleyukejex@gmail.com</a>
+          <a onClick={downloadCV} style={{ cursor: "pointer" }}>
+            Download Resume
+          </a>
         </div>
       </footer>
-
-      {/* {work ? (
-        <PageTitle title="Work" />
-      ) : (
-        <PageTitle
-          title="Hello"
-          subTitle="I am Kingsley, I design and build great experiences for
-          people and businesses."
-          issHome={true}
-          issCaseStudy={false}
-        />
-      )}
-      <div className="cardWrapper">
-        {homeCardDatas.map((homeCardData, index) => (
-          <Card cardData={homeCardData} key={index} issHome={true} />
-        ))}
-      </div> */}
     </div>
   );
 };

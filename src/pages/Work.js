@@ -11,7 +11,7 @@ const Work = () => {
 
   return (
     <div className="wrapp">
-      <PageTitle title="Work" />
+      <PageTitle title="Work" work={true} />
       <div className="cardWrapper">
         {homeCardDatas.map((homeCardData, index) => (
           <Card cardData={homeCardData} key={index} issHome={true} />
