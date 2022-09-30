@@ -1,4 +1,9 @@
 .infoSection {
+  .caseTitleWrap {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
   p {
     color: #3c4043;
     // line-height: 40px;
@@ -13,7 +18,6 @@
     p {
       line-height: 37px;
     }
-    // background-color: red;
     padding: 104px 0;
     & > div:nth-child(1) {
       width: 50%;
@@ -89,8 +93,9 @@
           font-size: 32px;
         }
         .flex_wrap {
+            flex-direction: column;
           div {
-            width: 48%;
+            width: 100%;
             margin: 10px 0;
           }
         }

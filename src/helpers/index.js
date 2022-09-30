@@ -159,13 +159,7 @@ import spasoraProfile from "../assets/images/case-study/spasoraProfile.png";
 
 import Kompare from "../assets/images/case-study/Kompare.png";
 
-
-
-import React, {
-  useState,
-  useEffect,
-  useMemo,
-} from "react";
+import React, { useState, useEffect, useMemo } from "react";
 
 import File from "../assets/files/kingsley ukeje cv july 2022.pdf";
 
@@ -178,8 +172,6 @@ export const downloadCV = () => {
   link.href = `${pdf}`;
   link.click();
 };
-
-
 
 export const scrollTop = () => {
   window.scrollTo({
@@ -1036,7 +1028,7 @@ export const homeCardDatas = [
     image: hotel1,
     title: "Hotels.ng Version 7",
     subTitle: "UX Design",
-    cardUrl: "/case-study/7",
+    cardUrl: "/case-study/6",
     cardFullUrl: "",
 
     text01: [

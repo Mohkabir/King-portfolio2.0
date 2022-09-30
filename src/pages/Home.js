@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import sign from "../assets/images/case-study/taeillo1.png";
 import "../scss/home.scss";
 import { scrollTop } from "../helpers";
 import Welcome from "../components/Welcome";
@@ -8,7 +7,6 @@ import "../scss/welcome.scss";
 import Section2 from "../components/Section2";
 import { calculateHeight } from "../helpers";
 import SectionInfo from "../components/SectionInfo";
-import { downloadCV } from "../helpers";
 
 const Home = ({ work }) => {
   const check = useRef(null);
@@ -57,9 +55,7 @@ const Home = ({ work }) => {
           <div ref={check}></div>
         </div>
       </div>
-
       <ResourcesSection />
-
       <div
         className="beforeSticky2"
         style={{
@@ -82,34 +78,6 @@ const Home = ({ work }) => {
           <div ref={check2}></div>
         </div>
       </div>
-
-      <footer className="home_footer">
-        <img src={sign} alt="" />
-
-        <div>
-          <a
-            href="https://www.instagram.com/accounts/login/?next=/kingsleyukeje_/"
-            target="_blank"
-          >
-            Instagram
-          </a>
-          <a href="https://www.linkedin.com/in/kingsleyukeje" target="_blank">
-            Linkedin
-          </a>
-          <a href="https://twitter.com/kingsleyukeje_" target="_blank">
-            Twitter
-          </a>
-        </div>
-        <div>
-          <a className="tel" href="tel:+234 703 1356 201">
-            +234 703 1356 201
-          </a>
-          <a href="mailto:kingsleyukejex@gmail.com">kingsleyukejex@gmail.com</a>
-          <a onClick={downloadCV} style={{ cursor: "pointer" }}>
-            Download Resume
-          </a>
-        </div>
-      </footer>
     </div>
   );
 };

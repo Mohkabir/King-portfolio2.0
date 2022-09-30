@@ -12,7 +12,7 @@ const Writting = () => {
 
   return (
     <div className="wrapp">
-      <PageTitle title="UX Writings" />
+      <PageTitle title="UX Writings" writting={true} />
       <div className="cardWrapper">
         {writtingCardDatas.map((writtingCard, index) => (
           <Card cardData={writtingCard} key={index} />

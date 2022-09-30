@@ -4,7 +4,7 @@ import Section2Card from "./Section2Card";
 import commonwealth from "../assets/images/case-study/commonwealth/commonwealth.png";
 // import eze1 from "../assets/images/case-study/eze/eze1.png";
 import work1 from "../assets/images/work1.png";
-import Kompare from "../assets/images/case-study/Kompare.png";
+import Kompare from "../assets/images/case-study/KompareHome.png";
 import work3 from "../assets/images/work3.png";
 
 const Section2 = ({ offsetY, check, beforeStickyRef, containerRef }) => {
