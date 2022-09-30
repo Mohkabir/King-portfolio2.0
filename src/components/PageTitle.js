@@ -2,8 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import back from "../assets/images/back.svg";
 import { useNavigate } from "react-router-dom";
-import { downloadCV } from "../helpers"
-const PageTitle = ({ title, subTitle, issHome, issCaseStudy, cardData }) => {
+import { downloadCV } from "../helpers";
+const PageTitle = ({
+  title,
+  subTitle,
+  issHome,
+  issCaseStudy,
+  cardData,
+  work,
+}) => {
   const navigate = useNavigate();
 
   return (
@@ -25,11 +32,13 @@ const PageTitle = ({ title, subTitle, issHome, issCaseStudy, cardData }) => {
                 {cardData.title}
               </span>
             ) : (
-              <span className="downloadCv" onClick={downloadCV}>I: Download CV</span>
+              <span className="downloadCv" onClick={downloadCV}>
+                I: Download CV
+              </span>
             )}
           </p>
-        </div>{" "}
-        {!issCaseStudy && (
+        </div>
+        {!issCaseStudy && work && (
           <div className="contacts">
             <p>
               P: <a href="tel:+234 703 1356 201">+234 703 1356 201</a>

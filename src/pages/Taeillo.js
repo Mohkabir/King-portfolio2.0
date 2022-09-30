@@ -21,11 +21,14 @@ const Taeillo = () => {
   }, []);
   return (
     <div className="other_case_study">
-      <PageTitle
-        title="Taeillo Product Plan"
-        issCaseStudy={true}
-        cardData={cardData}
-      />
+      <div className="caseTitleWrap">
+        <PageTitle
+          title="Taeillo Product Plan"
+          issCaseStudy={true}
+          cardData={cardData}
+        />
+      </div>
+
       <div className="profile">
         <img src={work2} alt="" />
       </div>

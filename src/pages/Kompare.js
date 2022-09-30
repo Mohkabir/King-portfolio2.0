@@ -34,11 +34,14 @@ const Kompare = () => {
 
   return (
     <div className="other_case_study">
-      <PageTitle
-        title="Kompare web & mobile"
-        issCaseStudy={true}
-        cardData={cardData}
-      />
+      <div className="caseTitleWrap">
+        <PageTitle
+          title="Kompare web & mobile"
+          issCaseStudy={true}
+          cardData={cardData}
+        />
+      </div>
+
       <div className="profile">
         <img src={Kompare_Img} alt="" />
       </div>

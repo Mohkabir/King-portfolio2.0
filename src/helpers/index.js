@@ -351,7 +351,7 @@ export const homeCardDatas = [
   {
     image: work2,
     title: "Taeillo v2",
-    subTitle: "eCommerce . Product",
+    subTitle: "Product",
     cardUrl: "/case-study/taeillo",
     cardFullUrl: "",
   },

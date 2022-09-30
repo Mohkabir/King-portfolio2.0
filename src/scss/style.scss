@@ -58,7 +58,6 @@ h1 {
   font-size: 150px;
   line-height: 170px;
   font-family: Gilroy;
-  font-weight: 400;
   @media (max-width: 1150px) {
     font-size: 80px;
     line-height: 110px;
@@ -97,31 +96,37 @@ h5 {
 p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  // line-height: 30px;
   color: var(--black);
   font-family: Gilroy;
   font-weight: 400;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px 0;
-  padding-top: 40px;
+  padding: 2px 0;
+  padding-top: 55px;
   margin-bottom: 30px;
   position: sticky;
   z-index: 2;
   top: 0px;
   left: 0;
   background-color: #ffffff;
+  // border: 2px solid red;
+  & > .wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    // border: 2px solid red;
+  }
   .nav {
     text-align: right;
+    // border: 2px solid red;
+
     a {
       color: var(--black);
       display: block;
       margin-bottom: 16px;
-      font-size: 18px;
+      font-size: 15px;
     }
     & > .active {
       font-weight: 600;
@@ -164,11 +169,11 @@ footer {
     }
   }
 }
-.downloadCv{
+.downloadCv {
   cursor: pointer;
 }
 .pageTitle {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   margin-bottom: 100px;
   & > div {
@@ -184,6 +189,7 @@ footer {
         margin-bottom: -30px;
         display: flex;
         align-items: center;
+        font-weight: 600!important;
         img {
           margin-right: 80px;
         }
@@ -208,6 +214,7 @@ footer {
       p {
         margin-top: 10px;
         padding-right: 8px;
+        text-align: right;
         a {
           color: var(--black);
         }
@@ -275,6 +282,8 @@ footer {
           align-items: flex-start;
           flex-direction: column;
           margin-bottom: 12px;
+
+          // background-color: red;
           img {
             margin-right: 0px;
             margin-left: 0px;
@@ -331,17 +340,29 @@ footer {
     width: 90%;
     margin: 0 auto !important;
   }
-  .pageTitle {
+  .caseTitleWrap{
     width: 90%;
+    margin: 0 auto;
+  }
+  .pageTitle {
+    width: 100%;
     margin-bottom: 30px;
 
     .title {
+      font-size: 50px;
       h1 {
+        font-weight: 600 !important;
+
         img {
           margin-right: 80px;
 
           margin-bottom: 20px;
         }
+      }
+    }
+    .contacts {
+      p {
+        text-align: left !important;
       }
     }
   }

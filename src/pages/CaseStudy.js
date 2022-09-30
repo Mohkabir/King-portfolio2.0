@@ -24,11 +24,14 @@ const CaseStudy = () => {
 
   return (
     <div className="caseStydy_wrapper">
-      <PageTitle
-        title={cardData?.title}
-        issCaseStudy={true}
-        cardData={cardData}
-      />
+      <div className="caseTitleWrap">
+        <PageTitle
+          title={cardData?.title}
+          issCaseStudy={true}
+          cardData={cardData}
+        />
+      </div>
+
       <div className="profile">
         <img src={cardData?.imageCase || cardData?.image} alt="" />
       </div>

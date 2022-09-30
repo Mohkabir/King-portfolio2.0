@@ -13,7 +13,9 @@ const Info = () => {
 
   return (
     <div className="infoSection">
-      <PageTitle title="Info" />
+      <div className="caseTitleWrap">
+        <PageTitle title="Info" work={true} />
+      </div>
 
       <InfoSection number="01" subText="Words">
         <div>

@@ -1,11 +1,13 @@
 .wrappHome {
   width: 85%;
   margin: 0 auto;
+  h1 {
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 400;
+  }
 }
-h1 {
-  font-size: 90px;
-  line-height: 100px;
-}
+
 .head {
   width: 85%;
   margin: 50px 0;
@@ -273,11 +275,12 @@ h1 {
 @media (max-width: 1280px) {
   .wrappHome {
     width: 90%;
+    h1 {
+      font-size: 50px;
+      line-height: 60px;
+    }
   }
-  h1 {
-    font-size: 50px;
-    line-height: 60px;
-  }
+
   .head {
     width: 100%;
     margin: 50px 0;
@@ -410,10 +413,14 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 40px;
-    line-height: 50px;
+  .wrappHome {
+    width: 90%;
+    h1 {
+      font-size: 40px;
+      line-height: 50px;
+    }
   }
+
   .head {
     width: 100%;
     margin: 30px 0;
@@ -433,7 +440,7 @@ h1 {
     margin-top: 40px;
     margin-bottom: 30px;
   }
-    .beforeSticky {
+  .beforeSticky {
     height: initial;
     position: relative;
   }
@@ -495,7 +502,7 @@ h1 {
       }
     }
   }
- .beforeSticky2 {
+  .beforeSticky2 {
     height: 100%;
     margin-bottom: 40px;
   }
