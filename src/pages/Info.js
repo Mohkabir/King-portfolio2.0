@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
-import "../scss/home.scss";
+import "../scss/info.scss";
+import "../scss/welcome.scss";
+
 import PageTitle from "../components/PageTitle";
 import { scrollTop } from "../helpers";
 import InfoSection from "../components/InfoSection";
@@ -10,7 +12,7 @@ const Info = () => {
   }, []);
 
   return (
-    <div>
+    <div className="infoSection">
       <PageTitle title="Info" />
 
       <InfoSection number="01" subText="Words">
@@ -41,15 +43,15 @@ const Info = () => {
           <span>Lead, Design</span>
           <h2>Enyata</h2>
           <span>Lead UX Designer</span>
-          <h3>Atlas Money</h3>
+          <h2>Atlas Money</h2>
           <span>UX Designer</span>
-          <h3>Hotels.ng</h3>
+          <h2>Hotels.ng</h2>
           <span>Visual Designer</span>
-          <h3>Drake Media</h3>
+          <h2>Drake Media</h2>
         </div>
       </InfoSection>
       <InfoSection number="03" subText="I’ve volunteered at">
-        <div>
+        <div className="flex_wrap">
           <div>
             <h3>DESIGN TEAM LEAD</h3>
             <p>at Geekhood Media</p>
@@ -69,7 +71,7 @@ const Info = () => {
         </div>
       </InfoSection>
       <InfoSection number="04" subText="I studied at">
-        <div>
+        <div className="sec04">
           <h3>B.sc in Computer Science</h3>
           <p>at University of Nigeria, Nigeria</p>
         </div>

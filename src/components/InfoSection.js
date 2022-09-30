@@ -1,11 +1,11 @@
 import React from "react";
 
-const InfoSection = ({ infoSec, children }) => {
+const InfoSection = ({ number,subText, children }) => {
   return (
-    <div>
+    <div className="infoWrapper">
       <div>
-        <h3>{infoSec?.number}</h3>
-        <p>{infoSec?.subText}</p>
+        <h3>{number}</h3>
+        <p>{subText}</p>
       </div>
       <div>{children}</div>
     </div>
