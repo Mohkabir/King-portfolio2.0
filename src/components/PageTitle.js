@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import back from "../assets/images/back.svg";
 import { useNavigate } from "react-router-dom";
-
+import { downloadCV } from "../helpers"
 const PageTitle = ({ title, subTitle, issHome, issCaseStudy, cardData }) => {
   const navigate = useNavigate();
+
   return (
     <div className="pageTitle">
       <div>
@@ -14,8 +15,8 @@ const PageTitle = ({ title, subTitle, issHome, issCaseStudy, cardData }) => {
         >
           <h1>
             {issCaseStudy && <img onClick={() => navigate(-1)} src={back} />}
-            
-              {title}
+
+            {title}
           </h1>
           <p className="thickBlack">
             {issCaseStudy ? (
@@ -24,7 +25,7 @@ const PageTitle = ({ title, subTitle, issHome, issCaseStudy, cardData }) => {
                 {cardData.title}
               </span>
             ) : (
-              <span>I: Download CV</span>
+              <span className="downloadCv" onClick={downloadCV}>I: Download CV</span>
             )}
           </p>
         </div>{" "}

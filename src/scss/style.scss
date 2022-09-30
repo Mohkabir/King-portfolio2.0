@@ -164,7 +164,9 @@ footer {
     }
   }
 }
-
+.downloadCv{
+  cursor: pointer;
+}
 .pageTitle {
   width: 90%;
   margin: 0 auto;
@@ -184,8 +186,6 @@ footer {
         align-items: center;
         img {
           margin-right: 80px;
-
-          // margin-left: -15%;
         }
       }
       .thickBlack {

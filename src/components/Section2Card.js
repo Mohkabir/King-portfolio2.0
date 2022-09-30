@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { CheckDeviceScreen } from "../helpers/";
 import next from "../assets/images/case-study/next.png";
 
-
 const Section2Card = ({ viewRef, data }) => {
-  const screen = CheckDeviceScreen();
-
   return (
     <div className={`card`}>
       <div className="beforeWrap">
