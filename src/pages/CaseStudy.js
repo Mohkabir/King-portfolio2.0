@@ -217,7 +217,7 @@ const CaseStudy = () => {
         <div className="caseFlex">
           <h3>07</h3>
           <div>
-            <h4>User Interface</h4>
+            <h4>Style Guide</h4>
           </div>
         </div>
         <div className="caseFlex typeface">
@@ -233,11 +233,11 @@ const CaseStudy = () => {
             {cardData?.styleGuide?.typeface?.texts?.map((text, idx) => (
               <p key={idx}>{text}</p>
             ))}
-            {cardData?.styleGuide?.typeface?.downloadLink && (
+            {/* {cardData?.styleGuide?.typeface?.downloadLink && (
               <a href={cardData?.styleGuide?.typeface?.downloadLink}>
                 The font family can be downloaded here
               </a>
-            )}
+            )} */}
           </div>
         </div>
         <div className="caseFlex colors">
