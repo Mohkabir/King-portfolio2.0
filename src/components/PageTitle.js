@@ -24,10 +24,12 @@ const PageTitle = ({
             <p className="thickBlack">
               {issCaseStudy && (
                 <span>
-                  W: <Link to={cardData.cardFullUrl}>Go to </Link>
-                  {cardData.title}
+                  W:{" "}
+                  <a target="_blank" href={cardData.cardFullUrl}>
+                    Go to {cardData.title}
+                  </a>
                 </span>
-              ) }
+              )}
             </p>
           </h1>
         ) : (

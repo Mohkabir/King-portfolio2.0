@@ -5,7 +5,8 @@
   text-decoration: none;
   list-style-type: none;
   scroll-behavior: smooth;
-  font-family: sans-serif;
+  font-family: ProductSans;
+  font-weight: 400;
   font-size: 15px;
   &::-webkit-scrollbar {
     width: 0px;
@@ -20,26 +21,21 @@
 }
 
 @font-face {
-  font-family: Gilroy;
-  src: url("../assets/fonts/Gilroy-Regular.ttf");
+  font-family: ProductSans;
+  src: url("../assets/fonts/ProductSans/Product\ Sans\ Regular.ttf");
   font-weight: 400;
 }
 @font-face {
-  font-family: Gilroy;
-  src: url("../assets/fonts/Gilroy-ExtraBold\ 800.ttf");
+  font-family: ProductSans;
+  src: url("../assets/fonts/ProductSans/Product\ Sans\ Bold.ttf");
   font-weight: 600;
-}
-@font-face {
-  font-family: CourierPrime;
-  src: url("../assets/fonts/CourierPrime-Regular.ttf");
-  font-weight: 400;
 }
 
 .wrapper {
   // width: 94%;
   margin: 0 auto;
   max-width: 1440px;
-  font-family: Gilroy;
+  font-family: ProductSans;
   font-weight: 400;
 }
 .wrapp {
@@ -57,7 +53,7 @@ h1 {
   // font-weight: 600;
   font-size: 90px;
   line-height: 109px;
-  font-family: Gilroy;
+  font-family: ProductSans;
   @media (max-width: 1150px) {
     font-size: 70px;
     line-height: 90px;
@@ -69,7 +65,7 @@ h1 {
 }
 
 h2 {
-  font-family: Gilroy;
+  font-family: ProductSans;
   font-weight: 400;
   font-size: 45px;
   line-height: 55px;
@@ -77,14 +73,14 @@ h2 {
 h3 {
   font-size: 20px;
   line-height: 30px;
-  font-family: Gilroy;
+  font-family: ProductSans;
   font-weight: 400;
 }
 h4 {
   font-size: 18px;
   line-height: 27px;
   font-weight: 600;
-  font-family: Gilroy;
+  font-family: ProductSans;
   font-weight: 400;
 }
 h5 {
@@ -97,7 +93,7 @@ p {
   font-size: 16px;
   // line-height: 30px;
   color: var(--black);
-  font-family: Gilroy;
+  font-family: ProductSans;
   font-weight: 400;
 }
 
@@ -153,7 +149,7 @@ footer {
       margin-bottom: 10px;
       color: var(--black);
       text-decoration: underline;
-      font-family: CourierPrime;
+      font-family: ProductSans;
       font-weight: 400;
     }
   }
@@ -218,6 +214,13 @@ footer {
         left: 0;
         top: 0;
       }
+       span{
+         a{
+          color: #000000;
+          // text-decoration: underline;
+          // padding-bottom: 20px;
+          border-bottom: 1px solid black;
+        }
     }
     .title {
       display: flex;
@@ -395,19 +398,18 @@ footer {
           // align-items: center;
           align-self: flex-start;
           // display: flex;
-          
         }
       }
       .thickBlack {
-     
         padding-left: 50px;
         margin-left: 0px;
         &::before {
           content: "";
           width: 40px;
           height: 20px;
-    
         }
+      
+       }
       }
       .title {
         display: flex;
