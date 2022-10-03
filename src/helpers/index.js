@@ -358,7 +358,7 @@ export const homeCardDatas = [
     title: "Carrot Credit",
     subTitle: "Product & UX Design",
     cardUrl: "/case-study/2",
-    cardFullUrl: "",
+    cardFullUrl: "https://www.carrotcredit.com/",
     text01: [
       "Carrot is a digital lending platform that gives you access to credit in Dollars, at low interest rates. They enable their customers access funds by leveraging their digital asset holdings on in app existing third party platforms",
     ],
