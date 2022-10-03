@@ -73,6 +73,11 @@ import carrot14 from "../assets/images/case-study/carrots/carrot14.png";
 import carrot15 from "../assets/images/case-study/carrots/carrot15.png";
 import carrot16 from "../assets/images/case-study/carrots/carrot16.png";
 import carrot17 from "../assets/images/case-study/carrots/carrot17.png";
+
+import carrotWireGuide from "../assets/images/case-study/carrots/carrotWireGuide.png";
+import carrotColor1 from "../assets/images/case-study/carrots/carrotColor1.png";
+import carrotColor2 from "../assets/images/case-study/carrots/carrotColor2.png";
+
 import carrotFactors from "../assets/images/case-study/carrots/carrotFactors.png";
 import carrotProfile from "../assets/images/case-study/carrots/carrotProfile.png";
 import carrotFlow from "../assets/images/case-study/carrots/carrotFlow.png";
@@ -355,7 +360,7 @@ export const homeCardDatas = [
     cardUrl: "/case-study/2",
     cardFullUrl: "",
     text01: [
-      "Carrot is a digital lending platform that gives you access to credit in Dollars, at low interest rates. They enable their customers access funds by leveraging their digital asset holdings on in app existing third party platforms.",
+      "Carrot is a digital lending platform that gives you access to credit in Dollars, at low interest rates. They enable their customers access funds by leveraging their digital asset holdings on in app existing third party platforms",
     ],
     text02: [
       "In 2021, major economies have taken a hit putting the world in turmoil, this makes these times an opportunity to build seamless intuitive money lending solutions, a lot of businesses and companies have been hit hard with the recession and also the COVID 19 virus couldn't have come at a far worse time than this.",
@@ -480,20 +485,21 @@ export const homeCardDatas = [
       typeface: {
         image: carrotTypeface,
         texts: [
-          "TT Norms Pro includes 26 reworked fonts, 1581 glyphs in each font, 24 OpenType features, support for more than 260+ languages (extended Latin, extended Cyrillic, Greek etc.), and much much more.",
-          "In addition, now TT Norms Pro boasts small capitals, a set of mathematical symbols and a large number of currency signs, arrows and numbers in circles, a large set of fractions, stylistic alternates and ligatures. Despite all the work done, TT Norms Pro continues to be a geometric sans serif for a wide range of applications—a trouble-free workhorse. TT Norms works equally well both in large text arrays or in headlines, as well as in web and it is “the one”, the indispensable universal modern geometric sans.",
+          "Gilroy Font is the ultra-modern sans-serif typeface that was designed and shared by Radomir Tinkov and after the release of this typeface it was used in many notable places and this is also known to be the brother family of the Qanelas font family.",
+          "This font comes with different weights that come with unique styling and this can be used for different styling and content writing as well. This is the medium typeface that is also listed inside the CSS Font Family.",
+          "This typeface comes with modern looks and this was designed using the husky OpenType characteristic and all the weights of this font have the expanded language support.",
         ],
         downloadLink: "#",
       },
       color: {
-        images: [eze13, eze13b],
+        images: [carrotColor1, carrotColor2],
         texts: [
-          "Carrot’s primary color is the Carrot Black - a very bold color with an optimistic tone that is easy to recognize, highly visible and universally available.",
+          "Carrot’s primary color is the Carrot Orange - a very bold color with an optimistic tone that is easy to recognize, highly visible and universally available.",
           "We also have a set of secondary colours to compliment our primary colour. Each of these colors has specific purposes on our sites and play active roles in our general design behavior.",
         ],
       },
     },
-    wireGuide: eze12,
+    wireGuide: carrotWireGuide,
     userInterface: {
       text: [""],
       box: [
