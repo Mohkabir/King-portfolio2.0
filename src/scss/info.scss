@@ -54,6 +54,39 @@
       }
       h2 {
         margin-bottom: 25px;
+        color: #3c4043;
+        font-family: ProductSansLight;
+        font-weight: 300;
+        position: relative;
+        display: inline-block;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          width: 0%;
+          height: 3px;
+          background-color: black;
+          left: 0;
+          transition: all 400ms ease-in-out;
+        }
+      }
+      span {
+        font-family: ProductSansLight;
+        font-weight: 300;
+        color: #3c4043;
+        display: block;
+      }
+      a {
+        display: block;
+        // cursor: pointer;
+        &:hover {
+          h2 {
+            &::after {
+              content: "";
+              width: 100%;
+            }
+          }
+        }
       }
       p {
         color: #202124;

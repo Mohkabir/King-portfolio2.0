@@ -102,6 +102,36 @@ p {
   font-weight: 400;
 }
 
+.gifImg {
+  width: 30px;
+  height: 30px;
+  transform: rotate(90deg);
+  opacity: 0.5;
+}
+
+.underlineEffect {
+  position: relative;
+  display: inline-block;
+  color: #202124;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    left: 0;
+    transition: all 400ms ease-in-out;
+  }
+
+  &:hover {
+    &::after {
+      content: "";
+      width: 100%;
+    }
+  }
+}
 header {
   padding: 2px 0;
   padding: 25px 0;
@@ -197,6 +227,7 @@ footer {
       img {
         margin-left: -50px;
         padding-right: 50px;
+        cursor: pointer;
       }
       p {
         display: flex;
@@ -250,24 +281,13 @@ footer {
         width: 20%;
         text-align: right;
         color: #202124;
-        a {
-          color: #202124;
-        }
-      }
-      .titleInfo {
-        width: 20%;
-        text-align: right;
-        color: #3c4043;
-        a,
-        span {
-          color: #3c4043;
-
-          text-decoration: underline;
-        }
         p {
-          margin-top: 8px;
+          a {
+            color: #202124;
+          }
         }
       }
+
       .contacts {
         p {
           margin-top: 10px;
@@ -277,6 +297,21 @@ footer {
             color: var(--black);
           }
         }
+      }
+    }
+    .titleInfo {
+      width: 20%;
+      text-align: right;
+      color: #3c4043;
+      opacity: 0.5;
+      a,
+      span {
+        color: #3c4043;
+        text-decoration: underline;
+      }
+      p {
+        margin-top: 8px;
+        text-align: right;
       }
     }
   }
@@ -369,7 +404,7 @@ footer {
         p {
           align-self: flex-start;
           margin-top: 20px;
-                width: 100%;
+          width: 100%;
         }
       }
       h1 {
@@ -383,6 +418,14 @@ footer {
           content: "";
           width: 40px;
           height: 20px;
+        }
+      }
+      .titleInfo {
+        width: 100%;
+
+        p {
+          margin-top: 4px;
+          text-align: left;
         }
       }
     }
@@ -408,10 +451,11 @@ footer {
     .titleWritting {
       width: 100%;
       text-align: left;
-    }
-    .titleInfo {
-      width: 100%;
-      text-align: left;
+      p {
+        a {
+          color: #202124;
+        }
+      }
     }
   }
 }

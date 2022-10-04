@@ -15,7 +15,7 @@ const Writting = () => {
       <PageTitle title="UX Writings" writting={true} />
       <div className="cardWrapper">
         {writtingCardDatas.map((writtingCard, index) => (
-          <Card cardData={writtingCard} key={index} />
+          <Card cardData={writtingCard} key={index} type="writtings" />
         ))}
       </div>
     </div>

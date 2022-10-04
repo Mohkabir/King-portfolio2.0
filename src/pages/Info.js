@@ -40,16 +40,26 @@ const Info = () => {
       </InfoSection>
       <InfoSection number="02" subText="I’ve worked at">
         <div>
-          <span>Senior Product Designer</span>
-          <h2>Scalio</h2>
-          <span>Lead, Design</span>
-          <h2>Enyata</h2>
-          <span>Lead UX Designer</span>
-          <h2>Atlas Money</h2>
-          <span>UX Designer</span>
-          <h2>Hotels.ng</h2>
-          <span>Visual Designer</span>
-          <h2>Drake Media</h2>
+          <a href="https://scal.io/" target="_blank">
+            <span>Senior Product Designer</span>
+            <h2>Scalio</h2>
+          </a>
+          <a href="https://enyata.com/" target="_blank">
+            <span>Lead, Design</span>
+            <h2>Enyata</h2>
+          </a>
+          <a>
+            <span>Lead UX Designer</span>
+            <h2>Atlas Money</h2>
+          </a>
+          <a href="https://hotels.ng/" target="_blank">
+            <span>UX Designer</span>
+            <h2>Hotels.ng</h2>
+          </a>
+          <a>
+            <span>Visual Designer</span>
+            <h2>Drake Media</h2>
+          </a>
         </div>
       </InfoSection>
       <InfoSection number="03" subText="I’ve volunteered at">

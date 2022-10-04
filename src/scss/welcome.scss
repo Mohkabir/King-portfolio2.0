@@ -24,13 +24,39 @@
   & > div {
     width: 40%;
     margin-bottom: 50px;
-    h2 {
-      font-size: 42px;
+
+    a {
+      h2 {
+        font-size: 42px;
+        color: #202124;
+        display: inline-block;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          width: 0%;
+          height: 3px;
+          background-color: black;
+          left: 0;
+          transition: all 400ms ease-in-out;
+        }
+      }
+      p {
+        color: #3c4043;
+        opacity: 0.5;
+        display: inline-block;
+      }
+      &:hover {
+        h2 {
+          &::after {
+            content: "";
+            width: 100%;
+          }
+        }
+      }
     }
-    p {
-      color: #3c4043;
-      opacity: 0.5;
-    }
+
     .seeMore {
       display: flex;
       align-items: center;
@@ -62,6 +88,10 @@
             color: #3c4043;
             opacity: 0.5;
           }
+
+          h3 {
+            color: #202124;
+          }
         }
       }
     }
@@ -89,78 +119,104 @@
 }
 .section2 {
   top: 0;
-  overflow-x: scroll;
-  scroll-behavior: auto;
-  & > .card_wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 160%;
-    width: 220%;
-    & > .card {
-      width: 20%;
-      height: 99vh;
+  height: 95vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  & > div {
+    overflow-x: scroll;
+    scroll-behavior: auto;
+    margin-top: 15px;
+    & > .card_wrapper {
       display: flex;
+      justify-content: space-between;
       align-items: center;
-      justify-content: center;
-      position: relative;
-
-      & > .beforeWrap {
-        width: 95%;
-        height: 70%;
+      width: 160%;
+      width: 180%;
+      & > .card {
+        width: 23%;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        .learnMore {
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        & > .beforeWrap {
+          width: 95%;
           height: 100%;
           display: flex;
-          align-items: center;
-          justify-content: center;
+          flex-direction: column;
+          justify-content: space-between;
 
-          p {
+          .learnMore {
+            height: 100%;
             display: flex;
             align-items: center;
-            img {
-              margin-left: 15px;
-            }
-          }
-        }
-        a {
-          & > .contain {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: flex-start;
-            height: 70vh;
-            margin: auto;
-            & > img {
-              width: 100% !important;
-              height: 80%;
-            }
-            h2 {
-              //   font-size: 46px;
-              color: #3c4043;
-              margin-top: 15px;
-            }
-            p {
-              color: #3c4043;
+            justify-content: flex-start;
 
-              opacity: 0.5;
-              font-size: 16px;
+            p {
+              display: flex;
+              align-items: center;
+              img {
+                margin-left: 15px;
+              }
+            }
+          }
+          a {
+            & > .contain {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              align-items: flex-start;
+              margin: auto;
+              & > img {
+                width: 100% !important;
+                height: 80%;
+              }
+              h2 {
+                color: #3c4043;
+                margin-top: 15px;
+              }
+              p {
+                color: #3c4043;
+
+                opacity: 0.5;
+                font-size: 16px;
+              }
+            }
+            .img_wrap {
+              position: relative;
+              img {
+                width: 100%;
+              }
+              .thumb {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                opacity: 0;
+                transition: all 400ms ease-in-out;
+                &:hover {
+                  opacity: 0.5;
+                }
+              }
             }
           }
         }
+        p {
+          font-size: 20px;
+        }
+        h3 {
+          font-weight: 500;
+        }
+        .hover {
+          background-position: center;
+          background-size: cover;
+        }
       }
-      p {
-        font-size: 20px;
-      }
-      h3 {
-        font-weight: 500;
-      }
-      .hover {
-        background-position: center;
-        background-size: cover;
+      & > .card:nth-child(5) {
+        width: 200px;
       }
     }
   }
@@ -299,42 +355,46 @@
     margin-bottom: 40px;
   }
   .section2 {
-    overflow-x: initial;
-    height: initial;
-    & > .card_wrapper {
-      flex-wrap: wrap;
-      width: 100%;
-      align-items: flex-start;
-      & > .card {
-        width: 49%;
-        height: initial;
-        margin-bottom: 70px;
-        position: relative;
-        & > .beforeWrap {
-          width: 95%;
-          height: 70%;
-          height: 100%;
+    margin: 70px 0;
+    & > div {
+      overflow-x: initial;
+      height: initial;
 
-          .learnMore {
+      & > .card_wrapper {
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: flex-start;
+        & > .card {
+          width: 49%;
+          height: initial;
+          margin-bottom: 70px;
+          position: relative;
+          & > .beforeWrap {
+            width: 95%;
+            height: 70%;
             height: 100%;
-          }
-          a {
-            & > .contain {
-              width: 100%;
-              height: 70vh;
-              height: initial;
-              margin: auto;
-              & > img {
-                //   width: 100% !important;
-                max-width: 100%;
+
+            .learnMore {
+              height: 100%;
+            }
+            a {
+              & > .contain {
+                width: 100%;
+                height: 70vh;
                 height: initial;
+                margin: auto;
+                & > img {
+                  //   width: 100% !important;
+                  max-width: 100%;
+                  height: initial;
+                }
               }
             }
           }
         }
-      }
-      & > .card:nth-child(5) {
-        width: 100%;
+        & > .card:nth-child(5) {
+          width: 100%;
+        }
       }
     }
   }
@@ -454,37 +514,50 @@
     position: relative;
   }
   .section2 {
-    overflow-x: initial;
-    height: initial;
-    margin-top: 40px;
-    & > .card_wrapper {
-      flex-wrap: wrap;
-      width: 100%;
-      & > .card {
-        width: 100%;
-        height: initial;
-        margin-bottom: 70px;
-        & > .beforeWrap {
-          width: 95%;
-          height: initial;
-          //   background-color: red;
+    margin-top: 10px;
+    height: 100%;
+    h1 {
+      margin: 0;
+    }
+    & > div {
+      overflow-x: initial;
+      height: initial;
 
-          .learnMore {
-            height: 100%;
-            align-items: center;
-            justify-content: center;
-            margin: 0px 0;
-          }
-          a {
-            & > .contain {
-              h2 {
-                font-size: 30px;
+      & > .card_wrapper {
+        flex-wrap: wrap;
+        width: 100%;
+        & > .card {
+          width: 100%;
+          height: initial;
+          margin-bottom: 40px;
+          & > .beforeWrap {
+            width: 95%;
+            height: initial;
+            .learnMore {
+              height: 100%;
+              align-items: center;
+              justify-content: center;
+              margin: 0px 0;
+            }
+            a {
+              & > .contain {
+                img {
+                  margin: 0 auto;
+                }
+                p {
+                  margin: 0;
+                }
+                h2 {
+                  font-size: 30px;
+                  line-height: 28px;
+                  margin-top: 7px;
+                }
               }
             }
           }
-        }
-        p {
-          font-size: 20px;
+          p {
+            font-size: 20px;
+          }
         }
       }
     }
@@ -498,7 +571,6 @@
       flex-direction: column;
       .res_wrap {
         width: 100%;
-
         & > div {
           margin: 10px;
           padding-bottom: 10px;
@@ -517,10 +589,9 @@
         }
       }
     }
-     & > div:nth-child(3) {
-   
-    justify-content: center;
-  }
+    & > div:nth-child(3) {
+      justify-content: center;
+    }
   }
   .beforeSticky2 {
     height: 100%;

@@ -29,22 +29,18 @@ const Welcome = () => {
   return (
     <div>
       <div className="head">
-        {/* <img src={sign} alt="" /> */}
         <h1>Designing ideas that solve problems.</h1>
       </div>
 
       <div className="infoWrap">
         {datas.map((data, idx) => (
           <div key={idx}>
-            <h2>
-              {data.title} <sup>0{idx + 1}</sup>
-            </h2>
-            <p>{data.text}</p>
-            {/* <Link to={data.url}>
-              <p className="seeMore">
-                <span>Learn More</span> <img src={next} alt="" />
-              </p>
-            </Link> */}
+            <Link to={data.url}>
+              <h2>
+                {data.title} <sup>0{idx + 1}</sup>
+              </h2>
+              <p>{data.text}</p>
+            </Link>
           </div>
         ))}
       </div>
