@@ -7,7 +7,7 @@ const Welcome = () => {
   const datas = [
     {
       title: "Work",
-      text: "I am a Digital Product Designer currently based in London, United Kingdom. I started out in graphic design, with some experience in front end development.",
+      text: "I am a Digital Product Designer currently based in Lagos, Nigeria. I started out in graphic design, with some experience in front end development.",
       url: "/work",
     },
     {
