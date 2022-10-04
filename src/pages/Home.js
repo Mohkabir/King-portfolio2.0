@@ -30,10 +30,6 @@ const Home = ({ work }) => {
     scrollTop();
   }, []);
 
-  console.log(
-    calculateHeight(beforeStickyRef, 0),
-    "calculateHeight(beforeStickyRef)"
-  );
   return (
     <div className="wrappHome">
       <Welcome />

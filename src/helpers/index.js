@@ -199,10 +199,11 @@ export const scrollTop = () => {
 
 export const homeCardDatas = [
   {
+    name: "eze-wholesale",
     image: work1,
     title: "Eze Wholesale Web App",
     subTitle: "UX Design",
-    cardUrl: "/case-study/0",
+    cardUrl: "/case-study/eze-wholesale",
     cardFullUrl: "https://www.ezewholesale.com/",
     goto: "Eze Wholesale",
     text01: [
@@ -360,19 +361,176 @@ export const homeCardDatas = [
     },
   },
   {
-    image: work2,
-    title: "Taeillo v2",
-    subTitle: "Product",
-    cardUrl: "/case-study/taeillo",
+    name: "hotel-ng",
+    image: hotel1,
+    title: "Hotels.ng Web & Mobile V7",
+    subTitle: "UX Design",
+    cardUrl: "/case-study/hotel-ng",
     cardFullUrl: "",
+    goto: "Hotels.ng",
+    text01: [
+      "Hotels.ng is an online travel agency specialising in hotel bookings within Nigeria. By helping customers book hotel rooms online, providing comprehensive help and support to clients and making the hotel booking process smooth and easy.",
+      "Also by providing hotel recommendations and reviews, making sure that clients are comfortable and stay in good environments.",
+    ],
+    text02: [
+      "The rapid innovation cycle and planned obsolescence of smartphones have produced a growing secondary smartphone market. Whether you’re an individual trading in his or her own personal cellphone, or a vendor buys and sells smartphones in large volumes, navigating the used electronics space is ",
+    ],
+    text03: [
+      " The agency being launched in 2013 lists over 7,138 hotels from 320 cities in Nigeria. With several investments like the $75,000 and another $150,000 made by Spark.ng and another investment of $1.2 million made by ebay founder Pierre Omidyar’s Omidyar Network and from EvhoVC Pan-Africans fund after the launch, Hotels.ng was able to gather up funds for it’s start up.",
+
+      "The platform was already said to have ostensibly made $40,000 in monthly revenue just in the last half of the first year of its launch. In January 2018, Hotels.ng launched Hotel.africa and Fly.africa as part of its expansion plans across Africa.",
+
+      "According to founder Essien, by focusing exclusively on Africa, Hotels.ng is able to offer more inventory than its competitors. The site is also able to adapt to the needs of consumers in regions",
+      "where there are few stable Internet or phone connections, with phone-based and messaging-base reservations accounting for more than 30 percent of Hotels.ng’s entire bookings.",
+    ],
+    image1: hotel2,
+    optionalText1: [""],
+    image2: hotel3,
+    text04:
+      "I went on to carry out a survey with a couple of questions, trying to emphatize with the stock/lending community and learn more about their experiences with stock, loans and lending platforms, here are my findings:",
+    box1: [
+      {
+        title: "Do you travel often?",
+        img: hotel4,
+      },
+      {
+        title: "Do you book your room at the hotel or online?",
+        img: hotel5,
+      },
+      {
+        title: "What factors do you consider before booking a hotel?",
+        img: hotel6,
+      },
+      {
+        title: "Age group of people who book hotels",
+        img: hotel7,
+      },
+    ],
+    blackSection: [
+      {
+        percentage: "56%",
+        text: "Are more concerned about the booking process being less overwhelming and time consuming.",
+      },
+      {
+        percentage: "22%",
+        text: "Pay more attention to the hotels reiviews",
+      },
+      {
+        percentage: "28%",
+        text: "Are worried about the hotel inconsistent data.",
+      },
+      {
+        percentage: "4%",
+        text: "are concerned about the price",
+      },
+    ],
+    box2: [
+      {
+        title: "What is your price range for hotel booking?",
+        img: hotel8,
+      },
+      {
+        title: "The top five most active states in Nigeria",
+        img: hotel9,
+      },
+      {
+        title: "Total percentage of gender",
+        img: hotel10,
+      },
+      {
+        title: "Method of bookings",
+        img: hotel11,
+      },
+    ],
+    factors: hotel12,
+    findings: [
+      " Users performed more than a million hotel searches on the site last year, while 70,000 new customers signed up. Hotels.ng’s growth in its home market hinges on two factors: Nigeria’s internet penetration rate, which is the highest in Africa and still increasing rapidly, and the government’s investment in its tourism industry, which is expected to contribute 5.8 percent of its gross domestic product by 2024.",
+    ],
+
+    userPersona: {
+      text: "",
+      name: "Sarah Harrison, 26",
+      profile: hotelProfile,
+      description: [
+        "Sarah is a South African, She is 26 years old and has two younger sisters, she is a freelance photographer she loves to travel and capture the magic of the world and its people, she has been to 40 countries all over the world she loves to explore and plans to take a tour all over the world and capture it all. She also loves to cook in her free time and  fashion .",
+      ],
+      box: [
+        {
+          title: "Ideal Features",
+          options: [
+            "Online payment Integration",
+            "Maps and Location",
+            "Price comparison",
+            "Room preview",
+          ],
+        },
+        {
+          title: "Pain Points",
+          options: [
+            "No access to online banking",
+            "Not tech savy",
+            "Inconsistent hotel data",
+          ],
+        },
+        {
+          title: "Takeaways",
+          options: [
+            "Sarah wants an easy way to book a hotel",
+            "Sarah wants to be able to view the hotel’s reviews",
+            "She wants a safe and trusted hotel",
+            "She needs to verify that the rooms satisfy her taste.",
+          ],
+        },
+      ],
+    },
+    userFlowImg: hotel13,
+    inofArchitech: hotel14,
+    styleGuide: {
+      typeface: {
+        image: hotel15,
+        texts: [
+          " Lato is a sanserif typeface familythe family was greatly extended to cover 3000+ glyphs per style. The Lato family now supports 100+ Latin-based languages, 50+ Cyrillic-based languages as well as Greek and IPA phonetics.",
+          "The metrics and kerning of the family have been revised and four additional weights were created.The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness.",
+          "Lato consists of nine weights (plus corresponding italics), including a beautiful Hairline style. The Hairline should, of course, be used only in very large sizes. ",
+        ],
+        downloadLink: "#",
+      },
+      color: {
+        images: [eze13, eze13b],
+        texts: [
+          "Hotels.Ng primary color is the blue a which inspire ideas of loyalty, confidence, security, and reliable authority.",
+          "We also have a set of secondary colours to compliment our primary colour. Each of these colors has specific purposes on our sites and play active roles in our general design behavior.",
+        ],
+      },
+    },
+    wireGuide: commonwealthQuide,
+    userInterface: {
+      text: [""],
+      box: [
+        {
+          images: [hotel17, hotel18, hotel19, hotel20, hotel21, hotel22],
+          text: [
+            "The home screen shows the list of world-class horses you can buy shares in, starting at just $50 per share. It also shows the pedigree, the perks and the details of each horse. My Stable News gives the users daily/weekly updates on races.",
+          ],
+        },
+      ],
+    },
+    usabilityTesting: [
+      "I tested the prototype with users throughout the project and got valuable feedback at each stage that allowed for incremental enhancements. Each test helped me improve my concept and design, and ensure that it was answering user needs and goals.",
+      "I also conducted a desirability test with my high fidelity prototype, and the main attributes user chose were accessible, friendly, and easy to use, which described accurately what I was trying to achieve.",
+      "The goal of this was to understand the target user’s needs and motivations. Implementing the above design could particularly improve the user experience for frequent travellers. For example, if a user is booking a trip, she could easily save a lot of anxiety and time if these issued are tackled.",
+      "Booking’s site has proven to work like a machine.* I love the company, and I love the mentality. I just wanted to see if I could help make it more fun and intuitive to use than it already is! Though I uncovered a handful of usability concerns in my test, I thought these three suggestions would be the most impactful on the short term towards Booking’s bottom line.",
+    ],
   },
   {
+    name: "carrot-credit",
     image: work3,
     imageCase: carrotHero,
     title: "Carrot Credit",
     subTitle: "Product & UX Design",
-    cardUrl: "/case-study/2",
+    cardUrl: "/case-study/carrot-credit",
     cardFullUrl: "https://www.carrotcredit.com/",
+    goto: "Carrot",
     text01: [
       "Carrot is a digital lending platform that gives you access to credit in Dollars, at low interest rates. They enable their customers access funds by leveraging their digital asset holdings on in app existing third party platforms",
     ],
@@ -559,12 +717,22 @@ export const homeCardDatas = [
     },
   },
   {
+    name: "taeillo",
+    image: work2,
+    title: "Taeillo v2",
+    subTitle: "Product",
+    cardUrl: "/case-study/taeillo",
+    cardFullUrl: "",
+    goto: "Plan",
+  },
+  {
+    name: "spasora",
     image: work4,
     title: "Spasora",
     subTitle: "Product & UX Design",
-    cardUrl: "/case-study/3",
+    cardUrl: "/case-study/spasora",
     cardFullUrl: "",
-
+    goto: "Spasora",
     text01: [
       "Spasora is the destination to turn your space into a business. It is a platform where all space owners can get their spaces i.e workspaces and hubs listed for rent.",
       "This makes Spasora also a platform for finding suitable and nearby workspaces, video production locations, event spaces, etc. Users can be sure to find quality locations that will provide you with the essential amenities and comfort you need to enjoy your activities smoothly.",
@@ -726,11 +894,14 @@ export const homeCardDatas = [
     },
   },
   {
+    name: "chaka",
     image: work5,
     title: "Chaka",
     subTitle: "UX Design",
-    cardUrl: "/case-study/4",
+    cardUrl: "/case-study/chaka",
     cardFullUrl: "",
+    goto: "Chaka",
+
     text01: [
       "Chaka is a digital investment platform for both businesses and individuals. It provides wealth solutions that enables Nigerians to invest and trade in international Stock Markets and supports foreign investors investing in the Nigerian stock exchange market.",
     ],
@@ -900,11 +1071,14 @@ export const homeCardDatas = [
     ],
   },
   {
+    name: "inventory-system",
     image: work6,
     title: "Inventory Management System",
     subTitle: "Product & UX Design",
-    cardUrl: "/case-study/5",
+    cardUrl: "/case-study/inventory-system",
     cardFullUrl: "",
+    goto: "Inventory system",
+
     text01: [
       "Inventory management can be seen as the supervision of non capitalized assets or inventory and stock items.",
     ],
@@ -1064,173 +1238,14 @@ export const homeCardDatas = [
     ],
   },
   {
-    image: hotel1,
-    title: "Hotels.ng Version 7",
-    subTitle: "UX Design",
-    cardUrl: "/case-study/6",
-    cardFullUrl: "",
-
-    text01: [
-      "Hotels.ng is an online travel agency specialising in hotel bookings within Nigeria. By helping customers book hotel rooms online, providing comprehensive help and support to clients and making the hotel booking process smooth and easy.",
-      "Also by providing hotel recommendations and reviews, making sure that clients are comfortable and stay in good environments.",
-    ],
-    text02: [
-      "The rapid innovation cycle and planned obsolescence of smartphones have produced a growing secondary smartphone market. Whether you’re an individual trading in his or her own personal cellphone, or a vendor buys and sells smartphones in large volumes, navigating the used electronics space is ",
-    ],
-    text03: [
-      " The agency being launched in 2013 lists over 7,138 hotels from 320 cities in Nigeria. With several investments like the $75,000 and another $150,000 made by Spark.ng and another investment of $1.2 million made by ebay founder Pierre Omidyar’s Omidyar Network and from EvhoVC Pan-Africans fund after the launch, Hotels.ng was able to gather up funds for it’s start up.",
-
-      "The platform was already said to have ostensibly made $40,000 in monthly revenue just in the last half of the first year of its launch. In January 2018, Hotels.ng launched Hotel.africa and Fly.africa as part of its expansion plans across Africa.",
-
-      "According to founder Essien, by focusing exclusively on Africa, Hotels.ng is able to offer more inventory than its competitors. The site is also able to adapt to the needs of consumers in regions",
-      "where there are few stable Internet or phone connections, with phone-based and messaging-base reservations accounting for more than 30 percent of Hotels.ng’s entire bookings.",
-    ],
-    image1: hotel2,
-    optionalText1: [""],
-    image2: hotel3,
-    text04:
-      "I went on to carry out a survey with a couple of questions, trying to emphatize with the stock/lending community and learn more about their experiences with stock, loans and lending platforms, here are my findings:",
-    box1: [
-      {
-        title: "Do you travel often?",
-        img: hotel4,
-      },
-      {
-        title: "Do you book your room at the hotel or online?",
-        img: hotel5,
-      },
-      {
-        title: "What factors do you consider before booking a hotel?",
-        img: hotel6,
-      },
-      {
-        title: "Age group of people who book hotels",
-        img: hotel7,
-      },
-    ],
-    blackSection: [
-      {
-        percentage: "56%",
-        text: "Are more concerned about the booking process being less overwhelming and time consuming.",
-      },
-      {
-        percentage: "22%",
-        text: "Pay more attention to the hotels reiviews",
-      },
-      {
-        percentage: "28%",
-        text: "Are worried about the hotel inconsistent data.",
-      },
-      {
-        percentage: "4%",
-        text: "are concerned about the price",
-      },
-    ],
-    box2: [
-      {
-        title: "What is your price range for hotel booking?",
-        img: hotel8,
-      },
-      {
-        title: "The top five most active states in Nigeria",
-        img: hotel9,
-      },
-      {
-        title: "Total percentage of gender",
-        img: hotel10,
-      },
-      {
-        title: "Method of bookings",
-        img: hotel11,
-      },
-    ],
-    factors: hotel12,
-    findings: [
-      " Users performed more than a million hotel searches on the site last year, while 70,000 new customers signed up. Hotels.ng’s growth in its home market hinges on two factors: Nigeria’s internet penetration rate, which is the highest in Africa and still increasing rapidly, and the government’s investment in its tourism industry, which is expected to contribute 5.8 percent of its gross domestic product by 2024.",
-    ],
-
-    userPersona: {
-      text: "",
-      name: "Sarah Harrison, 26",
-      profile: hotelProfile,
-      description: [
-        "Sarah is a South African, She is 26 years old and has two younger sisters, she is a freelance photographer she loves to travel and capture the magic of the world and its people, she has been to 40 countries all over the world she loves to explore and plans to take a tour all over the world and capture it all. She also loves to cook in her free time and  fashion .",
-      ],
-      box: [
-        {
-          title: "Ideal Features",
-          options: [
-            "Online payment Integration",
-            "Maps and Location",
-            "Price comparison",
-            "Room preview",
-          ],
-        },
-        {
-          title: "Pain Points",
-          options: [
-            "No access to online banking",
-            "Not tech savy",
-            "Inconsistent hotel data",
-          ],
-        },
-        {
-          title: "Takeaways",
-          options: [
-            "Sarah wants an easy way to book a hotel",
-            "Sarah wants to be able to view the hotel’s reviews",
-            "She wants a safe and trusted hotel",
-            "She needs to verify that the rooms satisfy her taste.",
-          ],
-        },
-      ],
-    },
-    userFlowImg: hotel13,
-    inofArchitech: hotel14,
-    styleGuide: {
-      typeface: {
-        image: hotel15,
-        texts: [
-          " Lato is a sanserif typeface familythe family was greatly extended to cover 3000+ glyphs per style. The Lato family now supports 100+ Latin-based languages, 50+ Cyrillic-based languages as well as Greek and IPA phonetics.",
-          "The metrics and kerning of the family have been revised and four additional weights were created.The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness.",
-          "Lato consists of nine weights (plus corresponding italics), including a beautiful Hairline style. The Hairline should, of course, be used only in very large sizes. ",
-        ],
-        downloadLink: "#",
-      },
-      color: {
-        images: [eze13, eze13b],
-        texts: [
-          "Hotels.Ng primary color is the blue a which inspire ideas of loyalty, confidence, security, and reliable authority.",
-          "We also have a set of secondary colours to compliment our primary colour. Each of these colors has specific purposes on our sites and play active roles in our general design behavior.",
-        ],
-      },
-    },
-    wireGuide: commonwealthQuide,
-    userInterface: {
-      text: [""],
-      box: [
-        {
-          images: [hotel17, hotel18, hotel19, hotel20, hotel21, hotel22],
-          text: [
-            "The home screen shows the list of world-class horses you can buy shares in, starting at just $50 per share. It also shows the pedigree, the perks and the details of each horse. My Stable News gives the users daily/weekly updates on races.",
-          ],
-        },
-      ],
-    },
-    usabilityTesting: [
-      "I tested the prototype with users throughout the project and got valuable feedback at each stage that allowed for incremental enhancements. Each test helped me improve my concept and design, and ensure that it was answering user needs and goals.",
-      "I also conducted a desirability test with my high fidelity prototype, and the main attributes user chose were accessible, friendly, and easy to use, which described accurately what I was trying to achieve.",
-      "The goal of this was to understand the target user’s needs and motivations. Implementing the above design could particularly improve the user experience for frequent travellers. For example, if a user is booking a trip, she could easily save a lot of anxiety and time if these issued are tackled.",
-      "Booking’s site has proven to work like a machine.* I love the company, and I love the mentality. I just wanted to see if I could help make it more fun and intuitive to use than it already is! Though I uncovered a handful of usability concerns in my test, I thought these three suggestions would be the most impactful on the short term towards Booking’s bottom line.",
-    ],
-  },
-  {
+    name: "common-wealth",
     image: commonwealth,
     imageCase: commonwealthCaseStudy,
     title: "common wealth",
     subTitle: "Sports Gaming . UX Design",
-    cardUrl: "/case-study/7",
+    cardUrl: "/case-study/common-wealth",
     cardFullUrl: "",
+    goto: "Common wealth",
 
     text01: [
       "Commonwealth allows anyone to buy shares in world-class racehorses and experience the thrill of ownership, starting at just $50 per share.",
@@ -1398,11 +1413,13 @@ export const homeCardDatas = [
     ],
   },
   {
+    name: "kompare",
     image: Kompare,
     title: "Kompare web & mobile ",
     subTitle: "UX Design",
     cardUrl: "/case-study/kompare",
     cardFullUrl: "",
+    goto: "Kompare",
   },
 ];
 

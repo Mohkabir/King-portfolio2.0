@@ -47,7 +47,7 @@ function App() {
             }
           />
           <Route
-            path="/case-study/:id"
+            path="/case-study/:name"
             element={
               <PageLayout>
                 <CaseStudy />

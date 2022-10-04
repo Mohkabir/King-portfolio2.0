@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const Card = ({ cardData, issHome }) => {
   const { title, image, subTitle, cardUrl } = cardData;
-
   return (
     <div className="card">
       <div className="img_wrapper">
