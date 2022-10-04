@@ -35,7 +35,8 @@ import writting3 from "../assets/images/writting3.png";
 import writting4 from "../assets/images/writting4.png";
 
 import eze1 from "../assets/images/case-study/eze/eze1.png";
-import eze2 from "../assets/images/case-study/eze/eze2.png";
+import eze02 from "../assets/images/case-study/eze/eze02.png";
+
 import eze3 from "../assets/images/case-study/eze/eze3.png";
 import eze4 from "../assets/images/case-study/eze/eze4.png";
 import eze5 from "../assets/images/case-study/eze/eze5.png";
@@ -53,7 +54,18 @@ import eze15 from "../assets/images/case-study/eze/eze15.png";
 import eze16 from "../assets/images/case-study/eze/eze16.png";
 import eze17 from "../assets/images/case-study/eze/eze17.png";
 import eze18 from "../assets/images/case-study/eze/eze18.png";
+import eze19 from "../assets/images/case-study/eze/eze19.png";
+import eze20 from "../assets/images/case-study/eze/eze20.png";
+import eze21 from "../assets/images/case-study/eze/eze21.png";
+import eze22 from "../assets/images/case-study/eze/eze22.png";
+import eze23 from "../assets/images/case-study/eze/eze23.png";
+import eze24 from "../assets/images/case-study/eze/eze24.png";
+import eze25 from "../assets/images/case-study/eze/eze25.png";
+import eze26 from "../assets/images/case-study/eze/eze26.png";
+
 import ezeFactors from "../assets/images/case-study/eze/ezeFactors.png";
+import ezeFlow from "../assets/images/case-study/eze/ezeFlow.png";
+
 import ezeProfile from "../assets/images/case-study/eze/ezeProfile.png";
 import ezeTypeface from "../assets/images/case-study/eze/ezeTypeface.png";
 import carrotHero from "../assets/images/case-study/carrotHero.png";
@@ -188,10 +200,11 @@ export const scrollTop = () => {
 export const homeCardDatas = [
   {
     image: work1,
-    title: "Eze Wholesale",
+    title: "Eze Wholesale Web App",
     subTitle: "UX Design",
     cardUrl: "/case-study/0",
-    cardFullUrl: "",
+    cardFullUrl: "https://www.ezewholesale.com/",
+    goto: "Eze Wholesale",
     text01: [
       "Eze is a B2B wholesale marketplace for smartphones, laptops, tablets, and other electronics with brands such as Apple, Samsung, Lenovo, HP, and more. Eze connects 1000’s of US based sellers to buyers all over the world. ",
     ],
@@ -209,7 +222,7 @@ export const homeCardDatas = [
     optionalText1: [
       "I took an understudy of existing loan/lending platforms to take a sample data of hope they run their operations both manually and automated. Loan processes differ pending on organisations. I conducted a research on a few of them and I was able to pinpoint the baisc features/flow they all had. Below are my procedural findings",
     ],
-    image2: carrot2,
+    image2: eze02,
     text04:
       "I went on to carry out a survey with a couple of questions, trying to emphatize with the stock/lending community and learn more about their experiences with stock, loans and lending platforms, here are my findings:",
     box1: [
@@ -233,46 +246,46 @@ export const homeCardDatas = [
     ],
     blackSection: [
       {
-        percentage: "54%",
-        text: "say they are more worried about the repayment plan when taking loans",
+        percentage: "10%",
+        text: "are not used to the bidding feature in an online marketplace and need assitance",
       },
       {
-        percentage: "45%",
-        text: "are really concerned on what the interest rates are on the loans collected",
+        percentage: "68%",
+        text: "consider this a really great idea and are willing to try it out in production",
       },
       {
-        percentage: "27%",
-        text: "pay attention to the available loan duration timeline made available to them",
+        percentage: "63%",
+        text: "are willing to go through all the bid phases to get a device of their choosing",
       },
       {
-        percentage: "9%",
-        text: "are worried about the data they are asked to present when applying for loans",
+        percentage: "90%",
+        text: "are willing to switch their mobile devices rather than make a fresh purchase",
       },
     ],
     box2: [
       {
-        title: "Do you have an ongoing savings plan",
+        title:
+          "Have you ever purchased a refurbished mobile phone from a reseller",
         img: eze7,
       },
       {
-        title: "Do you have current ongoing loans",
+        title: "Do you have need or want to trade your mobile phone right away",
         img: eze8,
       },
-      {
-        title: "How much do you have on your stock portfolio balance",
-        img: eze9,
-      },
     ],
-    factors: ezeFactors,
+    factors: false,
     findings: [
-      "We've created the first commodity exchange for used smartphones. Aiming to change the way people trade across the industry. The platform allows traders to place buy and sell requests that are matched automatically when compatible. All requests are available to everyone on the platform to ensure that market prices are transparent to all. Amongst other features, the platform operates as an escrow system that handles payments to guarantee that no fraud is committed.",
+      "This has created the first commodity exchange for used smartphones. Aiming to change the way people trade across the industry. The platform allows traders to place buy and sell requests that are matched automatically when compatible. All requests are available to everyone on the platform to ensure that market prices are transparent to all. Amongst other features, the platform operates as an escrow system that handles payments to guarantee that no fraud is committed.",
+      "It was discovered that the price transparency problem wasn’t unique to the US; it also existed overseas. As a result, Eze broadened their horizons and began trading used phones outside the US.",
     ],
     userPersona: {
       text: "The research carried out has helped us narrow down our user persona details and has also help us understand the category of users that are in the stock/fintech field. Meet Sean Boyega",
-      name: "Sean Boyega, 24",
+      name: "Ben Boyega, 24",
       profile: ezeProfile,
-      description:
-        "Sean is Nigerian, he lives in Lagos  he recently graduated from university and he has two brothers and a sister. He is an electronic wholesaler a business he started part time in university he decided to grow his business by buying more devices in wholesale. He loves to cook and he plays several musical instruments.",
+      description: [
+        "Ben lives in the UK and uses an iPhone X. However, he’s tired of it, so he walks into a carrier store and drops it off. The carrier store then auctions the X and other phones that have been dropped off to wholesalers.",
+        "The wholesalers are tasked with the responsibility of effective distribution to those who need them. And this is why weeks later, Tobi buys that iPhone X in Nigeria for less than its original cost.",
+      ],
       box: [
         {
           title: "Ideal Features",
@@ -301,7 +314,7 @@ export const homeCardDatas = [
         },
       ],
     },
-    userFlowImg: carrotFlow,
+    userFlowImg: ezeFlow,
     inofArchitech: architechture,
     styleGuide: {
       typeface: {
@@ -315,8 +328,9 @@ export const homeCardDatas = [
       color: {
         images: [eze13, eze13b],
         texts: [
-          "Carrot’s primary color is the Carrot Black - a very bold color with an optimistic tone that is easy to recognize, highly visible and universally available.",
-          "We also have a set of secondary colours to compliment our primary colour. Each of these colors has specific purposes on our sites and play active roles in our general design behavior.",
+          "The colours are what give its personality. They are bright, bold, colourful and confident. They’re simply loud and clear.",
+          "While embracing a much more colorful language in our brand communications, Eze Blue is our resting color, used only in situations where the brand palette is not being used. ",
+          "Eze Blue should only ever sit on white, black, or a non-duotoned photograph. Eze Blue mostly exists in the app. Don’t use Eze Blue with a color from the brand palette or a duotoned image.",
         ],
       },
     },
@@ -325,26 +339,26 @@ export const homeCardDatas = [
       text: [""],
       box: [
         {
-          images: [eze15, eze16, eze17, eze18],
-          text: [
-            "The product has a very consice sign up process, you might call this a KYC process and would be wrong, the screens try to collect more information from the users, select platfrom, amount, email for legals and so other important detail needed to authenticate loans",
-            "The first screen is the home screen for the product, it contains all the most important details of a loan and all is designed to be seen at a glace so as not to confuse users over figures and dates. The card screen is used to add card for repayments which is mandatory to collect loans",
-          ],
-        },
-        {
-          images: [eze15, eze16, eze17, eze18],
-          text: [
-            "The first screen is the home screen for the product, it contains all the most important details of a loan and all is designed to be seen at a glace so as not to confuse users over figures and dates. The card screen is used to add card for repayments which is mandatory to collect loans",
-          ],
+          images: [eze15, eze16, eze17, eze18, eze19, eze20, eze21, eze22],
+          text: [""],
         },
       ],
     },
     usabilityTesting: [
-      "Testing the Eze platform we had two types of participants; the buyers and the sellers",
-      "The idea and user flow were exceptionally received by the users. Most praised its concept and UI while others clamoured about the interest rates, payback models should be re-considered",
-    ],
-  },
+      "To determine the user-friendliness and if the painpoints were properly addressed, I conducted user testing with real life users. To gather qualitative data, I performed in-person user testing and observed how the users navigated their way through the website and documented their feedback ",
 
+      "Through in-person testing , I hoped to find what works within the product, as well as new pain points that the user encounters in order to optimize the experience of the product. Some of the prominent documented were:",
+
+      "Back button always works without any problems - Test participants always got what they expected when they pressed the Back button. On some comparable websites the Back button does not always work as users expect.",
+      "The website preserves the contents of the shopping cart well. Test participants never lost an item in the shopping cart. On some comparable websites, there is a timeout that clears the shopping cart and asks participants to startover. If a timeout limit exists on this website, none of our test participants encountered it.",
+      "Easy to remove items from shopping cart. Test participants sometimes put unwanted items in the shopping cart by mistake. No one had any problems removing the extraneous items, though. ",
+    ],
+    usabilityTestingBox: {
+      box: [],
+      box2: [eze23, eze24, eze25, eze26],
+      text: [""],
+    },
+  },
   {
     image: work2,
     title: "Taeillo v2",
@@ -447,8 +461,9 @@ export const homeCardDatas = [
       text: "The research carried out has helped us narrow down our user persona details and has also help us understand the category of users that are in the stock/fintech field. Meet Vernisa Adebayo",
       name: "Vernisa Adebayo, 26",
       profile: carrotProfile,
-      description:
+      description: [
         "Vern is a Nigerian, lives in Lagos, Nigeria, she is a chartered accountant, she runs Pentagon. Pentagon is an auditing firm that has multiple affiliations on the federal and state level. She is currently engaged and has been trading stock since her second year in school, she has a very good knowledge about the financial market. She feels trading stocks is the most perfect way to make investments and ultimately save money. She has her stock placements on Invest Bamboo and Rise Vest, both are registered stock trading platforms both in the Nigerian Stock Exchange (NSE) and New York Stock Exchange (NYSE)",
+      ],
       box: [
         {
           title: "Ideal Features",
@@ -527,6 +542,21 @@ export const homeCardDatas = [
       "After the prototype was complete, usability testing was carried out by printing the Hi-res images of the prototypes on cardboards and distributed to potential users by the Carrot team.",
       "The idea and user flow were exceptionally received by the users. Most praised its concept and UI while others clamoured about the interest rates, payback models should be re-considered",
     ],
+    usabilityTestingBox: {
+      box: [
+        // { title: "", img: eze23 },
+        // { title: "", img: eze24 },
+        // { title: "", img: eze25 },
+        // { title: "", img: eze26 },
+      ],
+      text: [
+        "To determine the user-friendliness and if the painpoints were properly addressed, I conducted user testing with real life users. To gather qualitative data, I performed in-person user testing and observed how the users navigated their way through the website and documented their feedback ",
+        "Through in-person testing , I hoped to find what works within the product, as well as new pain points that the user encounters in order to optimize the experience of the product. Some of the prominent documented were:",
+        "Back button always works without any problems - Test participants always got what they expected when they pressed the Back button. On some comparable websites the Back button does not always work as users expect.",
+        "The website preserves the contents of the shopping cart well. Test participants never lost an item in the shopping cart. On some comparable websites, there is a timeout that clears the shopping cart and asks participants to startover. If a timeout limit exists on this website, none of our test participants encountered it.",
+        "Easy to remove items from shopping cart. Test participants sometimes put unwanted items in the shopping cart by mistake. No one had any problems removing the extraneous items, though. ",
+      ],
+    },
   },
   {
     image: work4,
@@ -612,8 +642,9 @@ export const homeCardDatas = [
       text: "",
       name: "Aiden Okafor, 23",
       profile: spasoraProfile,
-      description:
+      description: [
         "Aiden is a Nigerian, lives in Abuja, Nigeria, he is a student at University of Lagos, Currently in his third year studying PetroChemical Engineering. Aiden is popular around school as he comes from a rich home, he is the first in a family of four.  His mum is currently the minister for petroleum in Nigeria. He has a lot of friends but believes in keeping his friend circle small and tight. He enjoys time out at fast food joints, beaches, and parks. ",
+      ],
 
       box: [
         {
@@ -792,8 +823,9 @@ export const homeCardDatas = [
       text: "The research carried out has helped us narrow down our user persona details and has also help us understand the category of users that are in the stock/fintech field. Meet Amanda Daniels",
       name: "Amanda Daniels, 25",
       profile: chackProfile,
-      description:
+      description: [
         "Amanda is a Nigerian, she lives in Nigeria, she is a cardiologist, she is married and has a daughter, she is also a writer and has written a book about navigating motherhood as a career woman. She loves to photography and art. Amanda started trading stock last year when she was looking for a way to get an extra source of income, she tried making investments years ago but lost alot of money because she had no knowledge of the financial market.",
+      ],
       box: [
         {
           title: "Ideal Features",
@@ -959,8 +991,9 @@ export const homeCardDatas = [
       text: "",
       name: "Greg Benson, 27",
       profile: inventoryProfile,
-      description:
+      description: [
         "Greg is a Ghanian, he lives and works in Lagos, Nigeria. He is single and owns a dog and loves to travel and meet new people and cultures. He also has a dance studio for children as he wanted to be a dancer when he was a child. Greg owns a drink distribution company in lagos and has a large number of staff, he plans to expand to more african countries to supply top quality wines, beers and spirit. His vision is to be the top Drink Distributor in the world.  ",
+      ],
       box: [
         {
           title: "Ideal Features",
@@ -1120,8 +1153,9 @@ export const homeCardDatas = [
       text: "",
       name: "Sarah Harrison, 26",
       profile: hotelProfile,
-      description:
+      description: [
         "Sarah is a South African, She is 26 years old and has two younger sisters, she is a freelance photographer she loves to travel and capture the magic of the world and its people, she has been to 40 countries all over the world she loves to explore and plans to take a tour all over the world and capture it all. She also loves to cook in her free time and  fashion .",
+      ],
       box: [
         {
           title: "Ideal Features",
@@ -1286,8 +1320,9 @@ export const homeCardDatas = [
       text: "",
       name: "Fredrick Charles, 45",
       profile: commonwealthProfile,
-      description:
+      description: [
         "Fredrick is a canadian, he is  married and has 3 children. He is an architect, he is a philanthropist he runs a non profitable organisation called All Lives Matters which focuses on improving people's health and giving them the chance to lift themselves out of hunger and extreme poverty. He enjoys sports especially horse racing as it has been a family tradition for generations, Its a social activity he does with his entire family every month.",
+      ],
       box: [
         {
           title: "Ideal Features",

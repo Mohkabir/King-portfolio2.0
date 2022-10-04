@@ -20,13 +20,17 @@ const PageTitle = ({
       <div>
         {issCaseStudy ? (
           <h1 className="titleCase">
-            <img onClick={() => navigate(-1)} src={back} /> {title}
+            {/* <Link to="/work">
+              <img alt="" src={back} />
+            </Link> */}
+            <img onClick={() => navigate("/")} src={back} />
+            {title}
             <p className="thickBlack">
               {issCaseStudy && (
                 <span>
                   W:{" "}
                   <a target="_blank" href={cardData.cardFullUrl}>
-                    Go to {cardData.title}
+                    Go to {cardData?.goto}
                   </a>
                 </span>
               )}
@@ -46,7 +50,9 @@ const PageTitle = ({
         {info && (
           <div className="titleInfo">
             <p className="downloadCv" onClick={downloadCV}>
-              <span>I: Download CV</span>
+              <span>
+                I: <span>Download CV</span>
+              </span>
             </p>
 
             <p>

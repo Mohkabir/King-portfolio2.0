@@ -178,13 +178,19 @@ const CaseStudy = () => {
           <div>
             <div className="userName">
               <h3>{cardData?.userPersona?.name}</h3>
-              <p>{cardData?.userPersona?.description}</p>
+              {cardData?.userPersona?.description?.map((text, idx) => (
+                <p key={idx}>{text}</p>
+              ))}
             </div>
             <div className="userInfo">
               {cardData?.userPersona?.box?.map((data, idx) => (
                 <div key={idx}>
-                  <h4>{data.title}</h4>
-                  <p>{data.options}</p>
+                  <h4>{data?.title}</h4>
+                  {data?.options?.map((text, idx) => (
+                    <p style={{ lineHeight: "28px", margin: "0" }} key={idx}>
+                      {text}
+                    </p>
+                  ))}
                 </div>
               ))}
             </div>
@@ -318,12 +324,17 @@ const CaseStudy = () => {
             <div className="usabilityTestingBox">
               {cardData?.usabilityTestingBox?.box?.map((box, idx) => (
                 <div key={idx}>
-                  <p>{box.title}</p>
-                  <img src={box.img} alt="" />
+                  <p>{box?.title}</p>
+                  <img src={box?.img} alt="" />
                 </div>
               ))}
             </div>
             <p>{cardData?.usabilityTestingBox?.text}</p>
+            <div className="usabilityTestingBox2">
+              {cardData?.usabilityTestingBox?.box2?.map((img, idx) => (
+                <img key={idx} src={img} alt="" />
+              ))}
+            </div>
           </div>
         </div>
       </div>
