@@ -15,13 +15,12 @@ import iphone6 from "../assets/images/iphone-x6.svg";
 import "../scss/caseStudy.scss";
 
 const CaseStudy = () => {
-  const { id } = useParams();
+  const { name } = useParams();
   useEffect(() => {
     scrollTop();
   }, []);
 
-  const cardData = homeCardDatas[id];
-
+  const cardData = homeCardDatas.filter((data, idx) => data.name === name )[0]
   return (
     <div className="caseStydy_wrapper">
       <div className="caseTitleWrap">

@@ -20,10 +20,8 @@ const PageTitle = ({
       <div>
         {issCaseStudy ? (
           <h1 className="titleCase">
-            {/* <Link to="/work">
-              <img alt="" src={back} />
-            </Link> */}
-            <img onClick={() => navigate("/")} src={back} />
+            <img onClick={() => navigate(-1) || navigate("/")} src={back} />
+            {/* <img onClick={() => navigate(-1)} src={back} /> {title} */}
             {title}
             <p className="thickBlack">
               {issCaseStudy && (

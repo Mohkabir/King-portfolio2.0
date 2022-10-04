@@ -25,13 +25,13 @@ const Section2 = ({ offsetY, check, beforeStickyRef, containerRef }) => {
       image: commonwealth,
       title: "Commonwealth",
       description: "Fintech . UX Design",
-      url: "/case-study/7",
+      url: "/case-study/common-wealth",
     },
     {
       image: work1,
       title: "Eze Wholesale",
       description: "eCommerce . UX Design",
-      url: "/case-study/0",
+      url: "/case-study/eze-wholesale",
     },
     {
       image: Kompare,
@@ -43,7 +43,7 @@ const Section2 = ({ offsetY, check, beforeStickyRef, containerRef }) => {
       image: work3,
       title: "Carrot Credit",
       description: "Fintech . Product & UX Design",
-      url: "/case-study/2",
+      url: "/case-study/carrot-credit",
     },
     {
       url: "/work",
