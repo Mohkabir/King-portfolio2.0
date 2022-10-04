@@ -52,11 +52,14 @@ const Section2 = ({ offsetY, check, beforeStickyRef, containerRef }) => {
   ];
 
   return (
-    <div className="section2" ref={scrollRef}>
-      <div ref={beforeStickyRef} className="card_wrapper">
-        {cardData.map((data, idx) => (
-          <Section2Card key={idx} data={data} />
-        ))}
+    <div className="section2">
+      <h1 className="work">Work.</h1>
+      <div ref={scrollRef}>
+        <div ref={beforeStickyRef} className="card_wrapper">
+          {cardData.map((data, idx) => (
+            <Section2Card key={idx} data={data} />
+          ))}
+        </div>
       </div>
     </div>
   );

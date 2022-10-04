@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useIsInViewport } from "../helpers/index";
-import next from "../assets/images/case-study/next.png";
 import { Link } from "react-router-dom";
+import arrowgif from "../assets/images/arrowgif.gif";
 
 const SectionInfo = ({ offsetY, check2, beforeStickyRef2, containerRef2 }) => {
   const isInViewport1 = useIsInViewport(check2);
@@ -18,10 +18,12 @@ const SectionInfo = ({ offsetY, check2, beforeStickyRef2, containerRef2 }) => {
     {
       title: "Scalio",
       text: "Senior Product Designer",
+      url: "https://scal.io/",
     },
     {
       title: "Enyata",
       text: "Lead, Design",
+      url: "https://enyata.com/",
     },
     {
       title: "Atlas Money",
@@ -30,6 +32,7 @@ const SectionInfo = ({ offsetY, check2, beforeStickyRef2, containerRef2 }) => {
     {
       title: "Hotels.ng",
       text: "UX Designer",
+      url: "https://hotels.ng/",
     },
     {
       title: "Drake Media",
@@ -66,7 +69,8 @@ const SectionInfo = ({ offsetY, check2, beforeStickyRef2, containerRef2 }) => {
                   <div>
                     <Link to="/info">
                       <p className="seeMore">
-                        <span>See More</span> <img src={next} alt="" />
+                        <span>See More</span>{" "}
+                        <img className="gifImg" src={arrowgif} alt="" />
                       </p>
                     </Link>
                   </div>
@@ -74,7 +78,10 @@ const SectionInfo = ({ offsetY, check2, beforeStickyRef2, containerRef2 }) => {
                   <div>
                     {idx === 0 && <span className="present">Presently</span>}
                     <p>{data.text}</p>
-                    <h2>{data.title}</h2>
+
+                    <a href={data?.url && data.url} target="_blank">
+                      <h2 className="underlineEffect">{data.title}</h2>
+                    </a>
                   </div>
                 )}
               </div>

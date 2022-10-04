@@ -40,7 +40,14 @@ const PageTitle = ({
         {writting && (
           <div className="titleWritting">
             <p>
-              W: <Link to="/">Go to Meduim Page</Link>
+              W:{" "}
+              <a
+                target="_blank"
+                style={{ color: "#202124" }}
+                href="https://medium.com/@kingsleyukeje"
+              >
+                Go to Meduim Page
+              </a>
             </p>
           </div>
         )}

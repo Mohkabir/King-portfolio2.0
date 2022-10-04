@@ -34,6 +34,10 @@ import writting2 from "../assets/images/writting2.png";
 import writting3 from "../assets/images/writting3.png";
 import writting4 from "../assets/images/writting4.png";
 
+import writting5 from "../assets/images/writting5.png";
+import writting6 from "../assets/images/writting6.png";
+import writting7 from "../assets/images/writting7.png";
+
 import eze1 from "../assets/images/case-study/eze/eze1.png";
 import eze02 from "../assets/images/case-study/eze/eze02.png";
 
@@ -1432,6 +1436,19 @@ export const writtingCardDatas = [
       "https://kingsleyukeje.medium.com/finding-balance-in-design-implementation-using-the-fibonacci-sequence-4d589b7ea625",
   },
   {
+    image: writting5,
+    title:
+      "The Best Interface Is No Interface: The Simple Path to Brilliant Technology.",
+    cardUrl:
+      "https://drive.google.com/file/d/1P1TVOo2jg3nNNHo5tDLMZIbdBgSh9xAM/view",
+  },
+  {
+    image: writting6,
+    title: "Well-Designed: How to Use Empathy to Create Products People Love",
+    cardUrl:
+      "https://drive.google.com/file/d/1-AALOJkWagTqVMXdz5uO7y1YOQ9vVfAi/view",
+  },
+  {
     image: writting2,
     title:
       "Positioning for Global Impact :: What we can learn from Enyata’s new brand identity",
@@ -1439,11 +1456,19 @@ export const writtingCardDatas = [
       "https://kingsleyukeje.medium.com/positioning-for-global-impact-what-we-can-learn-from-enyatas-new-brand-identity-e66a1806c5b6",
   },
   {
+    image: writting7,
+    title:
+      "Everyone can Learn Design: A Complete guide to learning UX design from scratch",
+    cardUrl:
+      "https://drive.google.com/file/d/1yhyE_PDIDxlXAwXOGkfIyBljqy7UX3vD/view",
+  },
+  {
     image: writting3,
     title: "Hacking the Human Mind :: Designing Addictive User Interfaces",
     cardUrl:
       "https://kingsleyukeje.medium.com/hacking-the-human-mind-designing-addictive-user-interfaces-35ec250b66f1",
   },
+
   {
     image: writting4,
     title: "Using Grids to build Responsive Web UI",

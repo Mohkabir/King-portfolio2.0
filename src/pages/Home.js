@@ -40,7 +40,7 @@ const Home = ({ work }) => {
         }}
         ref={containerRef}
       >
-        <h1 className="work">Work.</h1>
+        {/* <h1 className="work">Work.</h1> */}
         <div className="sticky">
           <Section2
             offsetY={offsetY}

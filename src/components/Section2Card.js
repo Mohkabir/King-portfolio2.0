@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import next from "../assets/images/case-study/next.png";
+import arrowgif from "../assets/images/arrowgif.gif";
 
 const Section2Card = ({ viewRef, data }) => {
   return (
@@ -10,14 +10,19 @@ const Section2Card = ({ viewRef, data }) => {
           <div className="learnMore">
             <Link to="/work">
               <p className="seeMore">
-                <span>{data.next}</span> <img src={next} alt="" />
+                <span>{data.next}</span>{" "}
+                <img className="gifImg" src={arrowgif} alt="" />
               </p>
             </Link>
           </div>
         ) : (
           <Link to={data.url}>
             <div className="contain">
-              <img src={data.image} alt="" />
+              <div className="img_wrap">
+                <img src={data.image} alt="" />
+                <div className="thumb"></div>
+              </div>
+
               <div>
                 <h2>{data.title}</h2>
                 <p>{data.description}</p>
