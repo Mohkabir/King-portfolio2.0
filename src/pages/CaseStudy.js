@@ -20,7 +20,7 @@ const CaseStudy = () => {
     scrollTop();
   }, []);
 
-  const cardData = homeCardDatas.filter((data, idx) => data.name === name )[0]
+  const cardData = homeCardDatas.filter((data, idx) => data.name === name)[0];
   return (
     <div className="caseStydy_wrapper">
       <div className="caseTitleWrap">
@@ -255,6 +255,11 @@ const CaseStudy = () => {
           <div>
             <div className="img_flex">
               {cardData?.styleGuide?.color?.images?.map((img, idx) => (
+                <img src={img} alt="" key={idx} />
+              ))}
+            </div>
+            <div className="img_flex_column">
+              {cardData?.styleGuide?.color?.singleImage?.map((img, idx) => (
                 <img src={img} alt="" key={idx} />
               ))}
             </div>
