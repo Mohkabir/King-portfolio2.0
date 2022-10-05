@@ -101,7 +101,7 @@
         flex-wrap: wrap;
         div {
           width: 47%;
-          margin: 40px 0;
+
           h3 {
             margin-bottom: 0;
             line-height: 20px;
@@ -110,6 +110,12 @@
             margin: 0;
             line-height: 28px;
           }
+        }
+        & div:nth-child(1) {
+          margin-bottom: 52px;
+        }
+        & div:nth-child(2) {
+          margin-bottom: 52px;
         }
       }
       .sec04 {
@@ -153,9 +159,15 @@
         }
         .flex_wrap {
           flex-direction: column;
+          & div:nth-child(1) {
+            margin-bottom: 20px;
+          }
+          & div:nth-child(2) {
+            margin-bottom: 20px;
+          }
           div {
             width: 100%;
-            margin: 10px 0;
+            margin: 20px 0;
           }
         }
         .sec04 {
