@@ -24,10 +24,10 @@ const cardData = {
   title: "Kompare web & mobile ",
   subTitle: "UX Design",
   cardFullUrl: "",
+  goto: "Kompare",
 };
 
 const Kompare = () => {
-
   useEffect(() => {
     scrollTop();
   }, []);

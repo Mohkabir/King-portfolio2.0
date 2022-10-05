@@ -58,11 +58,11 @@ const ResourcesSection = () => {
           <div>
             {writings.map((data, idx) => (
               <div>
+                <span>{data.pre}</span>
                 <a target="_blank" href={data.url} key={idx}>
-                  <span>{data.pre}</span>
                   <h3>{data.title}</h3>
-                  <p>{data.text}</p>
                 </a>
+                <p>{data.text}</p>
               </div>
             ))}
           </div>
@@ -71,11 +71,11 @@ const ResourcesSection = () => {
           <div>
             {resources.map((data, idx) => (
               <div key={idx}>
+                <span>{data.pre}</span>
                 <a target="_blank" href={data.url} key={idx}>
-                  <span>{data.pre}</span>
                   <h3>{data.title}</h3>
-                  <p>{data.text}</p>
                 </a>
+                <p>{data.text}</p>
               </div>
             ))}
           </div>
@@ -83,7 +83,7 @@ const ResourcesSection = () => {
       </div>
       <div>
         <Link to="/Writting">
-          <span style={{ color: "#202124", opacity:"0.5" }}>Learn More</span>{" "}
+          <span style={{ color: "#202124", opacity: "0.5" }}>Learn More</span>{" "}
           <img className="gifImg" src={arrowgif} alt="" />
         </Link>
       </div>

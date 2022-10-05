@@ -7,6 +7,12 @@ import work1 from "../assets/images/work1.png";
 import Kompare from "../assets/images/case-study/KompareHome.png";
 import work3 from "../assets/images/work3.png";
 
+import commonwealthHome from "../assets/images/commonwealthHome.png";
+import wzeHome from "../assets/images/wzeHome.png";
+import kompareHome from "../assets/images/kompareHome.png";
+import carrotHome from "../assets/images/carrotHome.png";
+
+
 const Section2 = ({ offsetY, check, beforeStickyRef, containerRef }) => {
   const isInViewport1 = useIsInViewport(check);
   const scrollRef = useRef();
@@ -22,25 +28,25 @@ const Section2 = ({ offsetY, check, beforeStickyRef, containerRef }) => {
 
   const cardData = [
     {
-      image: commonwealth,
-      title: "Commonwealth",
+      image: commonwealthHome,
+      title: "Common wealth",
       description: "Fintech . UX Design",
       url: "/case-study/common-wealth",
     },
     {
-      image: work1,
+      image: wzeHome,
       title: "Eze Wholesale",
       description: "eCommerce . UX Design",
       url: "/case-study/eze-wholesale",
     },
     {
-      image: Kompare,
+      image: kompareHome,
       title: "Kompare",
       description: "Management . Product & UX Design",
       url: "/case-study/kompare",
     },
     {
-      image: work3,
+      image: carrotHome,
       title: "Carrot Credit",
       description: "Fintech . Product & UX Design",
       url: "/case-study/carrot-credit",

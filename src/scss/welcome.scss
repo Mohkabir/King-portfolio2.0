@@ -31,6 +31,7 @@
         color: #202124;
         display: inline-block;
         position: relative;
+        margin-bottom: 15px;
         &::after {
           content: "";
           position: absolute;
@@ -77,20 +78,29 @@
     justify-content: space-between;
     align-items: flex-start;
     .res_wrap {
-      width: 43%;
+      width: 47%;
       & > div:nth-child(1) {
         & > div {
-          margin-bottom: 60px;
+          margin-bottom: 27px;
           border-bottom: 1px solid rgba(60, 64, 67, 0.2);
-          padding-bottom: 40px;
-          p,
-          span {
+          padding-bottom: 27px;
+          p {
             color: #3c4043;
             opacity: 0.5;
+            font-family: ProductSansLight;
+            font-weight: 300;
+            line-height: 30px;
           }
-
+          span {
+            color: #3c4043;
+            font-family: ProductSansLight;
+            font-weight: 300;
+            line-height: 30px;
+          }
           h3 {
             color: #202124;
+            font-size: 18px;
+            line-height: 27px;
           }
         }
       }
@@ -115,11 +125,11 @@
   position: relative;
 }
 .work {
-  margin-top: 90px;
+  // margin-top: 90px;
 }
 .section2 {
   top: 0;
-  height: 95vh;
+  height: 100vh;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -132,21 +142,21 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+
       width: 160%;
-      width: 180%;
+      // height: 75vh;
       & > .card {
         width: 23%;
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
+
         & > .beforeWrap {
           width: 95%;
-          height: 100%;
           display: flex;
           flex-direction: column;
           justify-content: space-between;
-
           .learnMore {
             height: 100%;
             display: flex;
@@ -162,6 +172,9 @@
             }
           }
           a {
+            height: 100%;
+            display: flex;
+            align-items: center;
             & > .contain {
               width: 100%;
               display: flex;
@@ -169,23 +182,30 @@
               justify-content: space-between;
               align-items: flex-start;
               margin: auto;
+
               & > img {
                 width: 100% !important;
-                height: 80%;
+                height: 100% !important;
               }
               h2 {
                 color: #3c4043;
                 margin-top: 15px;
+                font-family: ProductSansLight;
+                font-weight: 300;
               }
               p {
                 color: #3c4043;
-
                 opacity: 0.5;
                 font-size: 16px;
+                font-family: ProductSansLight;
+                font-weight: 300;
               }
             }
             .img_wrap {
               position: relative;
+              // border: 5px solid red;
+              height: 80%;
+              width: 100%;
               img {
                 width: 100%;
               }
@@ -217,6 +237,15 @@
       }
       & > .card:nth-child(5) {
         width: 200px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        a {
+        }
+        .learnMore {
+          display: flex;
+          justify-content: flex-end;
+        }
       }
     }
   }
@@ -255,17 +284,18 @@
     .box1 {
       width: 47%;
       border-right: 1px solid black;
-      word-break: break-all;
-      padding: 40px 30px;
+      word-break: normal;
+      padding: 0px 30px;
+      padding-bottom: 35px;
       h3 {
-        margin-top: 15px;
-        margin-bottom: 8px;
+        margin-top: 30px;
+        margin-bottom: 20px;
       }
       p {
         color: #3c4043;
         opacity: 0.5;
-      }
-      h2 {
+        font-family: ProductSansLight;
+        font-weight: 300;
       }
     }
 
@@ -273,13 +303,30 @@
       width: 53%;
       overflow-x: scroll;
       scroll-behavior: auto;
+      font-family: ProductSansLight;
+      font-weight: 300;
+      p {
+        color: #3c4043;
+        font-family: ProductSansLight;
+        font-weight: 300;
+      }
+      h2,
+      span {
+        font-family: ProductSansLight;
+        font-weight: 300;
+      }
+      h2 {
+        font-size: 60px;
+        line-height: 90px;
+      }
 
       .card_wrapper {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        width: 270%;
-
+        // width: 270%;
+        width: 250%;
+        width: 1800px;
         .seeMore {
           display: flex;
           align-items: center;
@@ -290,7 +337,6 @@
         .card {
           width: 15%;
           padding-left: 30px;
-
           .present {
             color: #36ca8b;
           }
@@ -326,6 +372,38 @@
     margin: 0 15px;
   }
 }
+@media (max-width: 1540px) {
+  .section2 {
+    height: 100vh;
+    // background-color: blue;
+    & > div {
+      margin-top: 15px;
+      & > .card_wrapper {
+        width: 180%;
+        width: 135%;
+
+        & > .card:nth-child(5) {
+          width: 200px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1440px) {
+  .section2 {
+    // height: 100vh;
+    // background-color: red;
+    & > div {
+      margin-top: 15px;
+      & > .card_wrapper {
+        width: 145%;
+        & > .card:nth-child(5) {
+          width: 200px;
+        }
+      }
+    }
+  }
+}
 @media (max-width: 1280px) {
   .wrappHome {
     width: 90%;
@@ -355,7 +433,8 @@
     margin-bottom: 40px;
   }
   .section2 {
-    margin: 70px 0;
+    margin: 20px 0;
+    height: initial;
     & > div {
       overflow-x: initial;
       height: initial;
@@ -503,6 +582,12 @@
     & > div {
       width: 100%;
       margin-bottom: 30px;
+      a {
+        h2 {
+          font-size: 30px;
+          margin-bottom: 10px;
+        }
+      }
     }
   }
   .work {
@@ -569,10 +654,12 @@
 
     .resourcesWrittings {
       flex-direction: column;
+
       .res_wrap {
         width: 100%;
+
         & > div {
-          margin: 10px;
+          margin: 10px 0;
           padding-bottom: 10px;
         }
         & > div:nth-child(2) {
@@ -602,6 +689,9 @@
     width: 100%;
     .box_wrapper {
       .box2 {
+        // h2 {
+
+        // }
         .card_wrapper {
           .card {
             width: 100%;
@@ -609,6 +699,7 @@
             margin-bottom: 15px;
             h2 {
               font-size: 34px;
+              line-height: 40px;
             }
           }
           .card:nth-child(3) {

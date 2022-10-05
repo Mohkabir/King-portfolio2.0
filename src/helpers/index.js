@@ -152,6 +152,9 @@ import hotel20 from "../assets/images/case-study/hotel20.png";
 import hotel21 from "../assets/images/case-study/hotel21.png";
 import hotel22 from "../assets/images/case-study/hotel22.png";
 import hotelProfile from "../assets/images/case-study/hotelProfile.png";
+import hotelFlow from "../assets/images/case-study/hotelFlow.png";
+import hotelColour1 from "../assets/images/case-study/hotelColour1.png";
+import hotelWireguide from "../assets/images/case-study/hotelWireguide.png";
 
 import spasora1 from "../assets/images/case-study/spasora1.png";
 import spasora2 from "../assets/images/case-study/spasora2.png";
@@ -487,11 +490,11 @@ export const homeCardDatas = [
         },
       ],
     },
-    userFlowImg: hotel13,
+    userFlowImg: hotelFlow,
     inofArchitech: hotel14,
     styleGuide: {
       typeface: {
-        image: hotel15,
+        image: hotel13,
         texts: [
           " Lato is a sanserif typeface familythe family was greatly extended to cover 3000+ glyphs per style. The Lato family now supports 100+ Latin-based languages, 50+ Cyrillic-based languages as well as Greek and IPA phonetics.",
           "The metrics and kerning of the family have been revised and four additional weights were created.The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness.",
@@ -500,14 +503,14 @@ export const homeCardDatas = [
         downloadLink: "#",
       },
       color: {
-        images: [eze13, eze13b],
+        images: [hotelColour1, eze13b],
         texts: [
           "Hotels.Ng primary color is the blue a which inspire ideas of loyalty, confidence, security, and reliable authority.",
           "We also have a set of secondary colours to compliment our primary colour. Each of these colors has specific purposes on our sites and play active roles in our general design behavior.",
         ],
       },
     },
-    wireGuide: commonwealthQuide,
+    wireGuide: hotelWireguide,
     userInterface: {
       text: [""],
       box: [
@@ -521,9 +524,9 @@ export const homeCardDatas = [
     },
     usabilityTesting: [
       "I tested the prototype with users throughout the project and got valuable feedback at each stage that allowed for incremental enhancements. Each test helped me improve my concept and design, and ensure that it was answering user needs and goals.",
-      "I also conducted a desirability test with my high fidelity prototype, and the main attributes user chose were accessible, friendly, and easy to use, which described accurately what I was trying to achieve.",
       "The goal of this was to understand the target user’s needs and motivations. Implementing the above design could particularly improve the user experience for frequent travellers. For example, if a user is booking a trip, she could easily save a lot of anxiety and time if these issued are tackled.",
-      "Booking’s site has proven to work like a machine.* I love the company, and I love the mentality. I just wanted to see if I could help make it more fun and intuitive to use than it already is! Though I uncovered a handful of usability concerns in my test, I thought these three suggestions would be the most impactful on the short term towards Booking’s bottom line.",
+      "Hotels.ng site has proven to work like a machine.* I love the company, and I love the mentality. I just wanted to see if I could help make it more fun and intuitive to use than it already is! Though I uncovered a handful of usability concerns in my test, I thought these three suggestions would be the most impactful on the short term towards Hotels.ng bottom line.",
+      "I also conducted a desirability test with my high fidelity prototype, and the main attributes user chose were accessible, friendly, and easy to use, which described accurately what I was trying to achieve.",
     ],
   },
   {
@@ -719,6 +722,190 @@ export const homeCardDatas = [
         "Easy to remove items from shopping cart. Test participants sometimes put unwanted items in the shopping cart by mistake. No one had any problems removing the extraneous items, though. ",
       ],
     },
+  },
+  {
+    name: "common-wealth",
+    image: commonwealth,
+    imageCase: commonwealthCaseStudy,
+    title: "Commonwealth",
+    subTitle: "Sports Gaming . UX Design",
+    cardUrl: "/case-study/common-wealth",
+    cardFullUrl: "",
+    goto: "Common wealth",
+
+    text01: [
+      "Commonwealth allows anyone to buy shares in world-class racehorses and experience the thrill of ownership, starting at just $50 per share.",
+    ],
+    text02: [
+      "Horse racing has been a sport for people love for centuries ",
+      "Several platforms have sprung forth to bring stock trading opportunities in their respective markets.",
+      "In Nigeria, Chaka is one of such platforms.Chaka is a platform that allows you to invest in stocks and earn returns, it gives access to top-performing dollar portfolios curated by certified wealth management experts with no prior investment experience required.",
+
+      "This platform gives Nigerians access to more than 10,000 stocks and ETFs trading on local and foreign capital markets. It has leveled entry barriers for borderless investments in Nigeria by providing customers with compliant access to the capital market.",
+
+      "This privately-held investment platform was founded in 2019 and gives investors suitable investments for as low as 1,000.",
+
+      "It is reputable for giving individuals access to equities in over 4,000 companies globally.",
+    ],
+    text03: [
+      " Horse racing is one of the oldest of all sports, and its basic concept has undergone virtually no change over the centuries. It developed from a primitive contest of speed or stamina between two horses into a spectacle involving large fields of runners, sophisticated electronic monitoring equipment, and immense sums of money, but its essential feature has always been the same: the horse that finishes first is the winner. In the modern era, horse racing developed from a diversion of the leisure class into a huge public-entertainment business.",
+
+      "This is a common betting pool in which those who bet horses finishing in the first three places share the total amount bet minus a percentage for the management. The pari-mutuel was perfected with the introduction in the 20th century of the totalizator, a machine that mechanically records bets and can provide an almost instant reflection of betting in all pools. It displays the approximate odds to win on each horse and the total amount of wagering on each horse in each of various betting pools. The customary pools are win, place, and show, and there are such specialty wagers as the daily double (winners of the first two races), perfecta (win and place winners in order in one race), quiniela (as in the perfecta but not in order), and trifecta (win, place, and show winners in order in one race). Other specialty wagers, sometimes offering extremely high payouts, require the bettor to select multiple trifectas, the winners of several races, or the first four horses in one race.",
+    ],
+    image1: commonwealth1,
+    optionalText1: [""],
+    image2: commonwealth2,
+    text04: "",
+    box1: [
+      {
+        title: "Do you enjoy horse racing?m",
+        img: commonwealth3,
+      },
+      {
+        title: "Age group of people watch horse racing",
+        img: commonwealth4,
+      },
+      {
+        title: "Do you",
+        img: commonwealth5,
+      },
+      {
+        title: "What intrigues you about horse racing?",
+        img: commonwealth6,
+      },
+    ],
+    blackSection: [
+      {
+        percentage: "60%",
+        text: "say they are worried about the safety of their shares",
+      },
+      {
+        percentage: "20%",
+        text: "are concerned about investing in the wrong horse.",
+      },
+      {
+        percentage: "16%",
+        text: "want live updates and scores on each games",
+      },
+      {
+        percentage: "4%",
+        text: "want to make quick money.",
+      },
+    ],
+    box2: [
+      {
+        title: "What are your needs from a horse racing platform",
+        img: commonwealth7,
+      },
+      {
+        title: "What is the avarage amount you spend on horse racing?",
+        img: commonwealth8,
+      },
+      {
+        title: "What factors prevents you from investing in horse racing?",
+        img: commonwealth9,
+      },
+      {
+        title: "Where do you currently get horse racing information?",
+        img: commonwealth10,
+      },
+    ],
+    // factors: inventory10,
+    findings: [
+      "Picking a horse to invest in has always been a tricky decision for people, there are literally horses in the game and everyone seems to have a different opinion on what factors are the most important to analyze when choosing a horse. While plain old luck is the biggest factor in whether you make or lose money.",
+      "Most people invest in the race favorite to win, he pays off 33% of the time or the race favorite to place (comes in 1st or 2nd), the favorite pays off 53% of the time.",
+      "Commonwealth allows anyone to buy shares in world-class racehorses and experience the thrill of ownership, if you horse wins you win as an owner you’ll receive your share of your horse’s earnings.",
+    ],
+
+    userPersona: {
+      text: "",
+      name: "Fredrick Charles, 45",
+      profile: commonwealthProfile,
+      description: [
+        "Fredrick is a canadian, he is  married and has 3 children. He is an architect, he is a philanthropist he runs a non profitable organisation called All Lives Matters which focuses on improving people's health and giving them the chance to lift themselves out of hunger and extreme poverty. He enjoys sports especially horse racing as it has been a family tradition for generations, Its a social activity he does with his entire family every month.",
+      ],
+      box: [
+        {
+          title: "Ideal Features",
+          options: [
+            "Ongoing digital content ",
+            "Race day  and events",
+            "Stable tours ",
+          ],
+        },
+        {
+          title: "Pain Points",
+          options: [
+            "Skeptical about the security of his shares",
+            "She is  of the safety of her investment",
+            "Skeptical on how history affects stock performances",
+          ],
+        },
+        {
+          title: "Takeaways",
+          options: [
+            "Fredrick wants quick access to his shares",
+            "He wants to get live/daily updates on each race his horse participates in Schedules and statistics",
+          ],
+        },
+      ],
+    },
+    userFlowImg: carrotFlow,
+    inofArchitech: architechture,
+    styleGuide: {
+      typeface: {
+        image: commonwealthTypeface,
+        texts: [
+          " Lato is a sanserif typeface familythe family was greatly extended to cover 3000+ glyphs per style. The Lato family now supports 100+ Latin-based languages, 50+ Cyrillic-based languages as well as Greek and IPA phonetics. ",
+
+          "The metrics and kerning of the family have been revised and four additional weights were created.The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness.",
+
+          "Lato consists of nine weights (plus corresponding italics), including a beautiful Hairline style. The Hairline should, of course, be used only in very large sizes. ",
+        ],
+        downloadLink: "#",
+      },
+      color: {
+        images: [eze13, eze13b],
+        texts: ["Commonwealth primary color is Mongoose"],
+      },
+    },
+    wireGuide: commonwealthQuide,
+    userInterface: {
+      text: [""],
+      box: [
+        {
+          images: [
+            commonwealth11,
+            commonwealth12,
+            commonwealth13,
+            commonwealth14,
+            commonwealth15,
+            commonwealth16,
+          ],
+          text: [
+            "The home screen shows the list of world-class horses you can buy shares in, starting at just $50 per share. It also shows the pedigree, the perks and the details of each horse. My Stable News gives the users daily/weekly updates on races.",
+          ],
+        },
+      ],
+    },
+    usabilityTesting: [
+      "Usability testing was conducted after the interactive prototype was completed. To test if the product was usable with users, it was easier to see how a participant uses the product in the real world. It also gave the UX team an opportunity to ask the participants real-time follow-up questions and get more feedback to improve the product.",
+      "After testing the feedback from the users are as followed; ",
+      "•The app was very easy to use",
+      "• The signup process was seamless ",
+      "• I could’nt refresh my stable news",
+      "• I could’nt see the details of the horse I was going to buy it shares.",
+      "With these feedbacks the app met most of the users real needs and goals. The painpoints stated has been taken to consideration and the designs improved with a better user experience for everyone to use.",
+    ],
+  },
+  {
+    name: "kompare",
+    image: Kompare,
+    title: "Kompare web & mobile ",
+    subTitle: "UX Design",
+    cardUrl: "/case-study/kompare",
+    cardFullUrl: "",
+    goto: "Kompare",
   },
   {
     name: "taeillo",
@@ -1240,190 +1427,6 @@ export const homeCardDatas = [
       "After the prototype was complete, usability testing was carried out by printing the Hi-res images of the prototypes on cardboards and distributed to potential users by the Carrot team.",
       "The idea and user flow were exceptionally received by the users. Most praised its concept and UI while others clamoured about the interest rates, payback models should be re-considered",
     ],
-  },
-  {
-    name: "common-wealth",
-    image: commonwealth,
-    imageCase: commonwealthCaseStudy,
-    title: "common wealth",
-    subTitle: "Sports Gaming . UX Design",
-    cardUrl: "/case-study/common-wealth",
-    cardFullUrl: "",
-    goto: "Common wealth",
-
-    text01: [
-      "Commonwealth allows anyone to buy shares in world-class racehorses and experience the thrill of ownership, starting at just $50 per share.",
-    ],
-    text02: [
-      "Horse racing has been a sport for people love for centuries ",
-      "Several platforms have sprung forth to bring stock trading opportunities in their respective markets.",
-      "In Nigeria, Chaka is one of such platforms.Chaka is a platform that allows you to invest in stocks and earn returns, it gives access to top-performing dollar portfolios curated by certified wealth management experts with no prior investment experience required.",
-
-      "This platform gives Nigerians access to more than 10,000 stocks and ETFs trading on local and foreign capital markets. It has leveled entry barriers for borderless investments in Nigeria by providing customers with compliant access to the capital market.",
-
-      "This privately-held investment platform was founded in 2019 and gives investors suitable investments for as low as 1,000.",
-
-      "It is reputable for giving individuals access to equities in over 4,000 companies globally.",
-    ],
-    text03: [
-      " Horse racing is one of the oldest of all sports, and its basic concept has undergone virtually no change over the centuries. It developed from a primitive contest of speed or stamina between two horses into a spectacle involving large fields of runners, sophisticated electronic monitoring equipment, and immense sums of money, but its essential feature has always been the same: the horse that finishes first is the winner. In the modern era, horse racing developed from a diversion of the leisure class into a huge public-entertainment business.",
-
-      "This is a common betting pool in which those who bet horses finishing in the first three places share the total amount bet minus a percentage for the management. The pari-mutuel was perfected with the introduction in the 20th century of the totalizator, a machine that mechanically records bets and can provide an almost instant reflection of betting in all pools. It displays the approximate odds to win on each horse and the total amount of wagering on each horse in each of various betting pools. The customary pools are win, place, and show, and there are such specialty wagers as the daily double (winners of the first two races), perfecta (win and place winners in order in one race), quiniela (as in the perfecta but not in order), and trifecta (win, place, and show winners in order in one race). Other specialty wagers, sometimes offering extremely high payouts, require the bettor to select multiple trifectas, the winners of several races, or the first four horses in one race.",
-    ],
-    image1: commonwealth1,
-    optionalText1: [""],
-    image2: commonwealth2,
-    text04: "",
-    box1: [
-      {
-        title: "Do you enjoy horse racing?m",
-        img: commonwealth3,
-      },
-      {
-        title: "Age group of people watch horse racing",
-        img: commonwealth4,
-      },
-      {
-        title: "Do you",
-        img: commonwealth5,
-      },
-      {
-        title: "What intrigues you about horse racing?",
-        img: commonwealth6,
-      },
-    ],
-    blackSection: [
-      {
-        percentage: "60%",
-        text: "say they are worried about the safety of their shares",
-      },
-      {
-        percentage: "20%",
-        text: "are concerned about investing in the wrong horse.",
-      },
-      {
-        percentage: "16%",
-        text: "want live updates and scores on each games",
-      },
-      {
-        percentage: "4%",
-        text: "want to make quick money.",
-      },
-    ],
-    box2: [
-      {
-        title: "What are your needs from a horse racing platform",
-        img: commonwealth7,
-      },
-      {
-        title: "What is the avarage amount you spend on horse racing?",
-        img: commonwealth8,
-      },
-      {
-        title: "What factors prevents you from investing in horse racing?",
-        img: commonwealth9,
-      },
-      {
-        title: "Where do you currently get horse racing information?",
-        img: commonwealth10,
-      },
-    ],
-    // factors: inventory10,
-    findings: [
-      "Picking a horse to invest in has always been a tricky decision for people, there are literally horses in the game and everyone seems to have a different opinion on what factors are the most important to analyze when choosing a horse. While plain old luck is the biggest factor in whether you make or lose money.",
-      "Most people invest in the race favorite to win, he pays off 33% of the time or the race favorite to place (comes in 1st or 2nd), the favorite pays off 53% of the time.",
-      "Commonwealth allows anyone to buy shares in world-class racehorses and experience the thrill of ownership, if you horse wins you win as an owner you’ll receive your share of your horse’s earnings.",
-    ],
-
-    userPersona: {
-      text: "",
-      name: "Fredrick Charles, 45",
-      profile: commonwealthProfile,
-      description: [
-        "Fredrick is a canadian, he is  married and has 3 children. He is an architect, he is a philanthropist he runs a non profitable organisation called All Lives Matters which focuses on improving people's health and giving them the chance to lift themselves out of hunger and extreme poverty. He enjoys sports especially horse racing as it has been a family tradition for generations, Its a social activity he does with his entire family every month.",
-      ],
-      box: [
-        {
-          title: "Ideal Features",
-          options: [
-            "Ongoing digital content ",
-            "Race day  and events",
-            "Stable tours ",
-          ],
-        },
-        {
-          title: "Pain Points",
-          options: [
-            "Skeptical about the security of his shares",
-            "She is  of the safety of her investment",
-            "Skeptical on how history affects stock performances",
-          ],
-        },
-        {
-          title: "Takeaways",
-          options: [
-            "Fredrick wants quick access to his shares",
-            "He wants to get live/daily updates on each race his horse participates in Schedules and statistics",
-          ],
-        },
-      ],
-    },
-    userFlowImg: carrotFlow,
-    inofArchitech: architechture,
-    styleGuide: {
-      typeface: {
-        image: commonwealthTypeface,
-        texts: [
-          " Lato is a sanserif typeface familythe family was greatly extended to cover 3000+ glyphs per style. The Lato family now supports 100+ Latin-based languages, 50+ Cyrillic-based languages as well as Greek and IPA phonetics. ",
-
-          "The metrics and kerning of the family have been revised and four additional weights were created.The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness.",
-
-          "Lato consists of nine weights (plus corresponding italics), including a beautiful Hairline style. The Hairline should, of course, be used only in very large sizes. ",
-        ],
-        downloadLink: "#",
-      },
-      color: {
-        images: [eze13, eze13b],
-        texts: ["Commonwealth primary color is Mongoose"],
-      },
-    },
-    wireGuide: commonwealthQuide,
-    userInterface: {
-      text: [""],
-      box: [
-        {
-          images: [
-            commonwealth11,
-            commonwealth12,
-            commonwealth13,
-            commonwealth14,
-            commonwealth15,
-            commonwealth16,
-          ],
-          text: [
-            "The home screen shows the list of world-class horses you can buy shares in, starting at just $50 per share. It also shows the pedigree, the perks and the details of each horse. My Stable News gives the users daily/weekly updates on races.",
-          ],
-        },
-      ],
-    },
-    usabilityTesting: [
-      "Usability testing was conducted after the interactive prototype was completed. To test if the product was usable with users, it was easier to see how a participant uses the product in the real world. It also gave the UX team an opportunity to ask the participants real-time follow-up questions and get more feedback to improve the product.",
-      "After testing the feedback from the users are as followed; ",
-      "•The app was very easy to use",
-      "• The signup process was seamless ",
-      "• I could’nt refresh my stable news",
-      "• I could’nt see the details of the horse I was going to buy it shares.",
-      "With these feedbacks the app met most of the users real needs and goals. The painpoints stated has been taken to consideration and the designs improved with a better user experience for everyone to use.",
-    ],
-  },
-  {
-    name: "kompare",
-    image: Kompare,
-    title: "Kompare web & mobile ",
-    subTitle: "UX Design",
-    cardUrl: "/case-study/kompare",
-    cardFullUrl: "",
-    goto: "Kompare",
   },
 ];
 
