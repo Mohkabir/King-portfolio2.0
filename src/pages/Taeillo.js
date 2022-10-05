@@ -95,9 +95,9 @@ const Taeillo = () => {
           </p>
         </div>
       </div>
-      <div className="sign">
+      {/* <div className="sign">
         <img src={taeillo1} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };

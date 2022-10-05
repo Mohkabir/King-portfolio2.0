@@ -25,6 +25,8 @@ import commonwealth13 from "../assets/images/case-study/commonwealth/commonwealt
 import commonwealth14 from "../assets/images/case-study/commonwealth/commonwealth14.png";
 import commonwealth15 from "../assets/images/case-study/commonwealth/commonwealth15.png";
 import commonwealth16 from "../assets/images/case-study/commonwealth/commonwealth16.png";
+import commonwealthColor1 from "../assets/images/case-study/commonwealth/commonwealthColor1.png";
+import commonwealthColor2 from "../assets/images/case-study/commonwealth/commonwealthColor2.png";
 import commonwealthProfile from "../assets/images/case-study/commonwealth/commonwealthProfile.png";
 import commonwealthTypeface from "../assets/images/case-study/commonwealth/commonwealthTypeface.png";
 import commonwealthQuide from "../assets/images/case-study/commonwealth/commonwealthQuide.png";
@@ -67,6 +69,12 @@ import eze24 from "../assets/images/case-study/eze/eze24.png";
 import eze25 from "../assets/images/case-study/eze/eze25.png";
 import eze26 from "../assets/images/case-study/eze/eze26.png";
 import ezearchitechture from "../assets/images/case-study/eze/ezearchitechture.png";
+
+import eze111 from "../assets/images/case-study/eze/Archive/01.png";
+import eze222 from "../assets/images/case-study/eze/Archive/02.png";
+import eze333 from "../assets/images/case-study/eze/Archive/03.png";
+import eze444 from "../assets/images/case-study/eze/Archive/04.png";
+
 
 import ezeFactors from "../assets/images/case-study/eze/ezeFactors.png";
 import ezeFlow from "../assets/images/case-study/eze/ezeFlow.png";
@@ -113,6 +121,11 @@ import chack11 from "../assets/images/case-study/chacks/chack11.png";
 import chack12 from "../assets/images/case-study/chacks/chack12.png";
 import chack13 from "../assets/images/case-study/chacks/chack13.png";
 import chack14 from "../assets/images/case-study/chacks/chack14.png";
+import chack010 from "../assets/images/case-study/chacks/chack010.png";
+import chack09 from "../assets/images/case-study/chacks/chack09.png";
+import chackaColor1 from "../assets/images/case-study/chacks/chackaColor1.png";
+import chackaColor2 from "../assets/images/case-study/chacks/chackaColor2.png";
+
 import chackProfile from "../assets/images/case-study/chacks/chackProfile.png";
 import chackFlow from "../assets/images/case-study/chacks/chackFlow.png";
 import checkWireQuide from "../assets/images/case-study/chacks/checkWireQuide.png";
@@ -129,6 +142,8 @@ import inventory9 from "../assets/images/case-study/inventory/inventory9.png";
 import inventory10 from "../assets/images/case-study/inventory/inventory10.png";
 import inventoryProfile from "../assets/images/case-study/inventory/inventoryProfile.png";
 import inventoryTypeface from "../assets/images/case-study/inventory/inventoryTypeface.png";
+import inventoryColor1 from "../assets/images/case-study/inventory/inventoryColor1.png";
+import inventoryColor2 from "../assets/images/case-study/inventory/inventoryColor2.png";
 
 import hotel1 from "../assets/images/case-study/hotel1.png";
 import hotel2 from "../assets/images/case-study/hotel2.png";
@@ -155,6 +170,7 @@ import hotel22 from "../assets/images/case-study/hotel22.png";
 import hotelProfile from "../assets/images/case-study/hotelProfile.png";
 import hotelFlow from "../assets/images/case-study/hotelFlow.png";
 import hotelColour1 from "../assets/images/case-study/hotelColour1.png";
+import hotelColour2 from "../assets/images/case-study/hotelColour2.png";
 import hotelWireguide from "../assets/images/case-study/hotelWireguide.png";
 
 import spasora1 from "../assets/images/case-study/spasora1.png";
@@ -364,7 +380,7 @@ export const homeCardDatas = [
     ],
     usabilityTestingBox: {
       box: [],
-      box2: [eze23, eze24, eze25, eze26],
+      box2: [eze111, eze222, eze333, eze444],
       text: [""],
     },
   },
@@ -374,7 +390,7 @@ export const homeCardDatas = [
     title: "Hotels.ng Web & Mobile V7",
     subTitle: "UX Design",
     cardUrl: "/case-study/hotel-ng",
-    cardFullUrl: "",
+    cardFullUrl: "https://hotels.ng/",
     goto: "Hotels.ng",
     text01: [
       "Hotels.ng is an online travel agency specialising in hotel bookings within Nigeria. By helping customers book hotel rooms online, providing comprehensive help and support to clients and making the hotel booking process smooth and easy.",
@@ -505,7 +521,7 @@ export const homeCardDatas = [
       },
       color: {
         images: [],
-        singleImage:[hotelColour1, eze13b],
+        singleImage: [hotelColour1, hotelColour2],
         texts: [
           "Hotels.Ng primary color is the blue a which inspire ideas of loyalty, confidence, security, and reliable authority.",
           "We also have a set of secondary colours to compliment our primary colour. Each of these colors has specific purposes on our sites and play active roles in our general design behavior.",
@@ -514,7 +530,9 @@ export const homeCardDatas = [
     },
     wireGuide: hotelWireguide,
     userInterface: {
-      text: [""],
+      text: [
+        "Hotels.ng aims at making the user experience simple and convenient for the users to search and book hotels, while designing the Hi-Fi prototype I took in consideration the user goals and the user pain points in creating a seamless booking process.",
+      ],
       box: [
         {
           images: [hotel17, hotel18, hotel19, hotel20, hotel21, hotel22],
@@ -732,7 +750,7 @@ export const homeCardDatas = [
     title: "Common Wealth",
     subTitle: "Sports Gaming . UX Design",
     cardUrl: "/case-study/common-wealth",
-    cardFullUrl: "",
+    cardFullUrl: "/case-study/common-wealth",
     goto: "Common wealth",
 
     text01: [
@@ -858,32 +876,34 @@ export const homeCardDatas = [
       typeface: {
         image: commonwealthTypeface,
         texts: [
-          " Lato is a sanserif typeface familythe family was greatly extended to cover 3000+ glyphs per style. The Lato family now supports 100+ Latin-based languages, 50+ Cyrillic-based languages as well as Greek and IPA phonetics. ",
-
-          "The metrics and kerning of the family have been revised and four additional weights were created.The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness.",
-
-          "Lato consists of nine weights (plus corresponding italics), including a beautiful Hairline style. The Hairline should, of course, be used only in very large sizes. ",
+          "GT Walsheim is inspired by the poster lettering of Otto Baumberger (1889–1961). He was a Swiss painter, stage designer, lithographer, and poster artist who created over 200 posters during his career. This website introduces the refreshed GT Walsheim typeface family and highlights Baumberger’s beautiful poster designs.",
+          "GT Walsheim’s origins date back to 2009. Its designer, Noël Leu, wanted to learn more about typography and type design while studying visual communication at the University of the Arts Bern in Switzerland. He was immediately drawn to how contemporary a lot of his work still feels. He was especially taken by Baumberger’s very charming geometric lettering.",
         ],
         downloadLink: "#",
       },
       color: {
-        images: [eze13, eze13b],
-        texts: ["Commonwealth primary color is Mongoose"],
+        images: [commonwealthColor1, commonwealthColor2],
+        texts: [
+          "Commonwealth primary color is Mongoose Our colors are as important to us as the logo itself. They’re part of the brand’s personality. There is are two established primary colors: Mongoose and Black Pearl. The secondary color palette is used primarily for the website to identify different roles. Secondary colors are used sparingly, if at all, in marketing materials.",
+        ],
       },
     },
     wireGuide: commonwealthQuide,
     userInterface: {
       text: [""],
+      box1: [
+        {
+          images: [commonwealth11, commonwealth12],
+        },
+      ],
+      box2: [
+        {
+          images: [commonwealth13],
+        },
+      ],
       box: [
         {
-          images: [
-            commonwealth11,
-            commonwealth12,
-            commonwealth13,
-            commonwealth14,
-            commonwealth15,
-            commonwealth16,
-          ],
+          images: [commonwealth15, commonwealth16],
           text: [
             "The home screen shows the list of world-class horses you can buy shares in, starting at just $50 per share. It also shows the pedigree, the perks and the details of each horse. My Stable News gives the users daily/weekly updates on races.",
           ],
@@ -1062,12 +1082,7 @@ export const homeCardDatas = [
           ],
         },
         {
-          images: [
-            spasora12,
-            spasora13,
-            spasora14,
-            spasora15,
-          ],
+          images: [spasora12, spasora13, spasora14, spasora15],
         },
       ],
     },
@@ -1163,11 +1178,11 @@ export const homeCardDatas = [
       },
       {
         title: "Average Amount Invested",
-        img: carrot9,
+        img: chack09,
       },
       {
         title: "Average  holding period",
-        img: carrot10,
+        img: chack010,
       },
     ],
     // factors: carrotFactors,
@@ -1229,7 +1244,7 @@ export const homeCardDatas = [
         downloadLink: "#",
       },
       color: {
-        images: [eze13, eze13b],
+        images: [chackaColor1, chackaColor2],
         texts: [
           "aaaaaaa Carrot’s primary color is the Carrot Black - a very bold color with an optimistic tone that is easy to recognize, highly visible and universally available.",
           "We also have a set of secondary colours to compliment our primary colour. Each of these colors has specific purposes on our sites and play active roles in our general design behavior.",
@@ -1397,14 +1412,14 @@ export const homeCardDatas = [
         downloadLink: "#",
       },
       color: {
-        images: [eze13, eze13b],
+        images: [inventoryColor1, inventoryColor2],
         texts: [
           " Inventroy primary color is the Green -  It's also a calming color that makes people feel safe and comfortable, associated with growth, safety, and success.",
           "There are also asccent colors that work well with our primary color green which were used in the design......",
         ],
       },
     },
-    wireGuide: checkWireQuide,
+    // wireGuide: checkWireQuide,
     userInterface: {
       text: [""],
       box: [

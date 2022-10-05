@@ -99,42 +99,6 @@ const PageLayout = ({ children, home }) => {
           </a>
         </div>
       </footer>
-
-      {/* <footer className="wrapp">
-        <div>
-          <p>
-            <a
-              href="https://www.instagram.com/accounts/login/?next=/kingsleyukeje_/"
-              target="_blank"
-            >
-              Instagram
-            </a>
-          </p>
-          <p>
-            <a href="https://www.linkedin.com/in/kingsleyukeje" target="_blank">
-              Linkedin
-            </a>
-          </p>
-          <p>
-            <a href="https://twitter.com/kingsleyukeje_" target="_blank">
-              Twitter
-            </a>
-          </p>
-        </div>
-        <div>
-          <p>
-            <a className="tel" href="tel:+234 703 1356 201">
-              +234 703 1356 201
-            </a>
-          </p>
-          <p>
-            <a href="mailto:kingsleyukejex@gmail.com">
-              kingsleyukejex@gmail.com
-            </a>
-          </p>
-        </div>
-        <img src={logo} onClick={scrollTop} alt="logo" />
-      </footer> */}
     </div>
   );
 };

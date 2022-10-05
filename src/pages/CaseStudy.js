@@ -260,7 +260,10 @@ const CaseStudy = () => {
             </div>
             <div className="img_flex_column">
               {cardData?.styleGuide?.color?.singleImage?.map((img, idx) => (
-                <img src={img} alt="" key={idx} />
+                <>
+                  <p>{idx === 0 ? "Primary Colour" : "Secondary Colours"}</p>
+                  <img src={img} alt="" key={idx} />
+                </>
               ))}
             </div>
 
@@ -283,7 +286,7 @@ const CaseStudy = () => {
           </div>
         </div>
         <div className="fullwidth">
-          <img src={cardData?.wireGuide} alt="case wireGuide" />
+          {cardData?.wireGuide && <img src={cardData?.wireGuide} alt="" />}
         </div>
       </div>
       <div className="case case9 wrapp">
@@ -293,14 +296,31 @@ const CaseStudy = () => {
           </div>
           <div>
             <h4>User Interface</h4>
+            {cardData?.userInterface?.box1?.map((data, idx) => (
+              <div className="interface_wrap">
+                <div key={idx} className="interface_img_wrapper">
+                  {data?.images?.map((image, idx) => (
+                    <img key={idx} src={image} alt="" />
+                  ))}
+                </div>
+              </div>
+            ))}
+            {cardData?.userInterface?.box2?.map((data, idx) => (
+              <div className="interface_wrap">
+                <div key={idx}>
+                  {data?.images?.map((image, idx) => (
+                    <img key={idx} src={image} alt="" />
+                  ))}
+                </div>
+              </div>
+            ))}
             {cardData?.userInterface?.box?.map((data, idx) => (
               <div className="interface_wrap">
                 <div key={idx} className="interface_img_wrapper">
-                  {data?.images?.map((img, idx) => (
-                    <img src={img} alt="" />
+                  {data?.images?.map((image, idx) => (
+                    <img key={idx} src={image} alt="" />
                   ))}
                 </div>
-
                 <div>
                   <p>{data.text}</p>
                 </div>

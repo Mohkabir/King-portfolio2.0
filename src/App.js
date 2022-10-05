@@ -8,6 +8,7 @@ import CaseStudy from "./pages/CaseStudy";
 import Work from "./pages/Work";
 import Kompare from "./pages/Kompare";
 import Taeillo from "./pages/Taeillo";
+import Foundation from "./pages/Foundation";
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
           <Route
             path="/Writting"
             element={
-              <PageLayout >
+              <PageLayout>
                 <Writting />
               </PageLayout>
             }
@@ -68,6 +69,12 @@ function App() {
               <PageLayout>
                 <Taeillo />
               </PageLayout>
+            }
+          />
+          <Route
+            path="/foundation"
+            element={
+              <Foundation />
             }
           />
         </Routes>
