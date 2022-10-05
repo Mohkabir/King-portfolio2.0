@@ -66,6 +66,7 @@ import eze23 from "../assets/images/case-study/eze/eze23.png";
 import eze24 from "../assets/images/case-study/eze/eze24.png";
 import eze25 from "../assets/images/case-study/eze/eze25.png";
 import eze26 from "../assets/images/case-study/eze/eze26.png";
+import ezearchitechture from "../assets/images/case-study/eze/ezearchitechture.png";
 
 import ezeFactors from "../assets/images/case-study/eze/ezeFactors.png";
 import ezeFlow from "../assets/images/case-study/eze/ezeFlow.png";
@@ -323,7 +324,7 @@ export const homeCardDatas = [
       ],
     },
     userFlowImg: ezeFlow,
-    inofArchitech: architechture,
+    inofArchitech: ezearchitechture,
     styleGuide: {
       typeface: {
         image: ezeTypeface,
@@ -503,7 +504,8 @@ export const homeCardDatas = [
         downloadLink: "#",
       },
       color: {
-        images: [hotelColour1, eze13b],
+        images: [],
+        singleImage:[hotelColour1, eze13b],
         texts: [
           "Hotels.Ng primary color is the blue a which inspire ideas of loyalty, confidence, security, and reliable authority.",
           "We also have a set of secondary colours to compliment our primary colour. Each of these colors has specific purposes on our sites and play active roles in our general design behavior.",
@@ -727,7 +729,7 @@ export const homeCardDatas = [
     name: "common-wealth",
     image: commonwealth,
     imageCase: commonwealthCaseStudy,
-    title: "Commonwealth",
+    title: "Common Wealth",
     subTitle: "Sports Gaming . UX Design",
     cardUrl: "/case-study/common-wealth",
     cardFullUrl: "",
@@ -737,8 +739,8 @@ export const homeCardDatas = [
       "Commonwealth allows anyone to buy shares in world-class racehorses and experience the thrill of ownership, starting at just $50 per share.",
     ],
     text02: [
-      "Horse racing has been a sport for people love for centuries ",
-      "Several platforms have sprung forth to bring stock trading opportunities in their respective markets.",
+      "Horse racing has been a sport for people love for centuries Several platforms have sprung forth to bring stock trading opportunities in their respective markets.",
+
       "In Nigeria, Chaka is one of such platforms.Chaka is a platform that allows you to invest in stocks and earn returns, it gives access to top-performing dollar portfolios curated by certified wealth management experts with no prior investment experience required.",
 
       "This platform gives Nigerians access to more than 10,000 stocks and ETFs trading on local and foreign capital markets. It has leveled entry barriers for borderless investments in Nigeria by providing customers with compliant access to the capital market.",
@@ -754,7 +756,7 @@ export const homeCardDatas = [
     ],
     image1: commonwealth1,
     optionalText1: [""],
-    image2: commonwealth2,
+    image2: "",
     text04: "",
     box1: [
       {
@@ -1065,10 +1067,6 @@ export const homeCardDatas = [
             spasora13,
             spasora14,
             spasora15,
-            spasora16,
-            spasora17,
-            spasora18,
-            spasora19,
           ],
         },
       ],
