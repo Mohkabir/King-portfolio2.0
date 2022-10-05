@@ -12,7 +12,6 @@ import wzeHome from "../assets/images/wzeHome.png";
 import kompareHome from "../assets/images/kompareHome.png";
 import carrotHome from "../assets/images/carrotHome.png";
 
-
 const Section2 = ({ offsetY, check, beforeStickyRef, containerRef }) => {
   const isInViewport1 = useIsInViewport(check);
   const scrollRef = useRef();
@@ -20,10 +19,8 @@ const Section2 = ({ offsetY, check, beforeStickyRef, containerRef }) => {
   useEffect(() => {
     if (isInViewport1 === true) {
       let xAxisToScroll = offsetY - containerRef.current.offsetTop - 350;
-      console.log(xAxisToScroll, "xAxisToScroll");
       scrollRef.current.scrollLeft = xAxisToScroll;
     }
-    console.log(isInViewport1, "isInViewport1", offsetY, "offsetY");
   }, [offsetY]);
 
   const cardData = [
