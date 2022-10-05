@@ -70,6 +70,12 @@ import eze25 from "../assets/images/case-study/eze/eze25.png";
 import eze26 from "../assets/images/case-study/eze/eze26.png";
 import ezearchitechture from "../assets/images/case-study/eze/ezearchitechture.png";
 
+import eze111 from "../assets/images/case-study/eze/Archive/01.png";
+import eze222 from "../assets/images/case-study/eze/Archive/02.png";
+import eze333 from "../assets/images/case-study/eze/Archive/03.png";
+import eze444 from "../assets/images/case-study/eze/Archive/04.png";
+
+
 import ezeFactors from "../assets/images/case-study/eze/ezeFactors.png";
 import ezeFlow from "../assets/images/case-study/eze/ezeFlow.png";
 
@@ -374,7 +380,7 @@ export const homeCardDatas = [
     ],
     usabilityTestingBox: {
       box: [],
-      box2: [eze23, eze24, eze25, eze26],
+      box2: [eze111, eze222, eze333, eze444],
       text: [""],
     },
   },
