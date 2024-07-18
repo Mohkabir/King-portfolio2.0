@@ -16,11 +16,6 @@ const SectionInfo = ({ offsetY, check2, beforeStickyRef2, containerRef2 }) => {
 
   const datas = [
     {
-      title: "Scalio",
-      text: "Senior Product Designer",
-      url: "https://scal.io/",
-    },
-    {
       title: "Eze",
       text: "Head Product and Design",
       url: "https://www.ezewholesale.com/",
@@ -29,6 +24,11 @@ const SectionInfo = ({ offsetY, check2, beforeStickyRef2, containerRef2 }) => {
       title: "Eze",
       text: "Senior Product Designer",
       url: "https://www.ezewholesale.com/",
+    },
+    {
+      title: "Scalio",
+      text: "Senior Product Designer",
+      url: "https://scal.io/",
     },
     {
       title: "CarrotCredit",

@@ -37,10 +37,6 @@ const Info = () => {
       </InfoSection>
       <InfoSection number="02" subText="I’ve worked at">
         <div>
-          <a href="https://scal.io/" target="_blank">
-            <span>Senior Product Designer</span>
-            <h2>Scalio</h2>
-          </a>
           <a href="https://www.ezewholesale.com/" target="_blank">
             <span>Head Product and Design</span>
             <h2>Eze</h2>
@@ -48,6 +44,10 @@ const Info = () => {
           <a href="https://www.ezewholesale.com/" target="_blank">
             <span>Senior Product Designer</span>
             <h2>Eze</h2>
+          </a>
+          <a href="https://scal.io/" target="_blank">
+            <span>Senior Product Designer</span>
+            <h2>Scalio</h2>
           </a>
           <a href="https://www.carrotcredit.com/" target="_blank">
             <span>Product Designer</span>
