@@ -19,10 +19,7 @@ const Info = () => {
 
       <InfoSection number="01" subText="Words">
         <div>
-          <h3>
-            I’m a Product Designer turned Product Specialist based in Lagos,
-            Nigeria.
-          </h3>
+          <h3>I’m a Product Designer based in Lagos, Nigeria.</h3>
           <p>
             I am passionate about helping companies enhance their design
             experiences, refine their ideas and launch impactful solutions. In
@@ -44,7 +41,20 @@ const Info = () => {
             <span>Senior Product Designer</span>
             <h2>Scalio</h2>
           </a>
-          <a href="https://enyata.com/" target="_blank">
+          <a href="https://www.ezewholesale.com/" target="_blank">
+            <span>Head Product and Design</span>
+            <h2>Eze</h2>
+          </a>
+          <a href="https://www.ezewholesale.com/" target="_blank">
+            <span>Senior Product Designer</span>
+            <h2>Eze</h2>
+          </a>
+          <a href="https://www.carrotcredit.com/" target="_blank">
+            <span>Product Designer</span>
+            <h2>CarrotCredit</h2>
+          </a>
+
+          {/* <a href="https://enyata.com/" target="_blank">
             <span>Lead, Design</span>
             <h2>Enyata</h2>
           </a>
@@ -59,7 +69,7 @@ const Info = () => {
           <a>
             <span>Visual Designer</span>
             <h2>Drake Media</h2>
-          </a>
+          </a> */}
         </div>
       </InfoSection>
       <InfoSection number="03" subText="I’ve volunteered at">

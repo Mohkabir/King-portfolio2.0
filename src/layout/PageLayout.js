@@ -90,9 +90,9 @@ const PageLayout = ({ children, home }) => {
           </a>
         </div>
         <div>
-          <a className="tel" href="tel:+234 703 1356 201">
+          {/* <a className="tel" href="tel:+234 703 1356 201">
             +234 703 1356 201
-          </a>
+          </a> */}
           <a href="mailto:kingsleyukejex@gmail.com">kingsleyukejex@gmail.com</a>
           <a onClick={downloadCV} style={{ cursor: "pointer" }}>
             Download Resume

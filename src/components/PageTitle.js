@@ -27,9 +27,13 @@ const PageTitle = ({
               {issCaseStudy && (
                 <span>
                   W:{" "}
-                  <a target="_blank" href={cardData.cardFullUrl}>
-                    Go to {cardData?.goto}
-                  </a>
+                  {cardData.cardFullUrl ? (
+                    <a target="_blank" href={cardData.cardFullUrl}>
+                      Go to {cardData?.goto}
+                    </a>
+                  ) : (
+                    <>{cardData?.goto}</>
+                  )}
                 </span>
               )}
             </p>
@@ -60,10 +64,10 @@ const PageTitle = ({
               </span>
             </p>
 
-            <p>
+            {/* <p>
               <span>P:</span>{" "}
               <a href="tel:+234 703 1356 201">+234 703 1356 201</a>
-            </p>
+            </p> */}
             <p>
               <span>E: </span>{" "}
               <a href="mailto:kingsleyukejex@gmail.com">

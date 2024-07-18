@@ -7,12 +7,12 @@ const Welcome = () => {
   const datas = [
     {
       title: "Work",
-      text: "I am a Digital Product Designer currently based in Lagos, Nigeria. I started out in graphic design, with some experience in front end development.",
+      text: "I am a Digital Product Designer currently based in Lagos, Nigeria. I started out in user interaction design, with some experience in front-end development.",
       url: "/work",
     },
     {
       title: "Info",
-      text: "I have been designing UX for 6+ years now, helping companies enhance their design experiences, refine their ideas and launch impactful solutions.",
+      text: "I have been designing UX for 3+ years now, helping companies enhance their design experiences, refine their ideas and launch impactful solutions.",
       url: "/info",
     },
     {

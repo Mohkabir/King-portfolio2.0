@@ -75,7 +75,6 @@ import eze222 from "../assets/images/case-study/eze/Archive/02.png";
 import eze333 from "../assets/images/case-study/eze/Archive/03.png";
 import eze444 from "../assets/images/case-study/eze/Archive/04.png";
 
-
 import ezeFactors from "../assets/images/case-study/eze/ezeFactors.png";
 import ezeFlow from "../assets/images/case-study/eze/ezeFlow.png";
 
@@ -202,7 +201,7 @@ import Kompare from "../assets/images/case-study/Kompare.png";
 
 import React, { useState, useEffect, useMemo } from "react";
 
-import File from "../assets/files/kingsley ukeje cv july 2022.pdf";
+import File from "../assets/files/Kingsley-Ukeje-CV.pdf";
 
 const pdf = File;
 
@@ -380,7 +379,7 @@ export const homeCardDatas = [
     ],
     usabilityTestingBox: {
       box: [],
-      box2: [eze111, eze222, eze333, eze444],
+      // box2: [eze111, eze222, eze333, eze444],
       text: [""],
     },
   },
@@ -750,11 +749,11 @@ export const homeCardDatas = [
     title: "Common Wealth",
     subTitle: "Sports Gaming . UX Design",
     cardUrl: "/case-study/common-wealth",
-    cardFullUrl: "/case-study/common-wealth",
+    cardFullUrl: "https://www.joincommonwealth.com/",
     goto: "Common wealth",
 
     text01: [
-      "Commonwealth allows anyone to buy shares in world-class racehorses and experience the thrill of ownership, starting at just $50 per share.",
+      "Commonwealth is an innovative digital platform designed to democratize the ownership experience of world-class racehorses. By allowing individuals to purchase fractional shares starting at just $50, Commonwealth opens the traditionally exclusive world of horse racing to a broader audience. \n \n The platform offers a comprehensive ownership experience through its user-friendly app, providing real-time updates, access to exclusive events, and a vibrant community of like-minded enthusiasts. This model not only makes horse racing more accessible but also enhances engagement by allowing shareholders to participate in the journey of their racehorses. Users can follow their horses' training progress, and performance in races, and even attend events in person, creating a deeper, more personal connection to the sport. Commonwealth aims to transform horse racing into an inclusive, engaging, and community-driven experience.",
     ],
     text02: [
       "Horse racing has been a sport for people love for centuries Several platforms have sprung forth to bring stock trading opportunities in their respective markets.",
@@ -926,7 +925,7 @@ export const homeCardDatas = [
     title: "Kompare web & mobile ",
     subTitle: "UX Design",
     cardUrl: "/case-study/kompare",
-    cardFullUrl: "",
+    cardFullUrl: "https://www.kompare.me/",
     goto: "Kompare",
   },
   {
@@ -935,7 +934,7 @@ export const homeCardDatas = [
     title: "Taeillo v2",
     subTitle: "Product",
     cardUrl: "/case-study/taeillo",
-    cardFullUrl: "",
+    cardFullUrl: "https://taeillo.com/",
     goto: "Plan",
   },
   {
@@ -945,7 +944,7 @@ export const homeCardDatas = [
     subTitle: "Product & UX Design",
     cardUrl: "/case-study/spasora",
     cardFullUrl: "",
-    goto: "Spasora",
+    goto: "Product shutdown after inability to raise funding",
     text01: [
       "Spasora is the destination to turn your space into a business. It is a platform where all space owners can get their spaces i.e workspaces and hubs listed for rent.",
       "This makes Spasora also a platform for finding suitable and nearby workspaces, video production locations, event spaces, etc. Users can be sure to find quality locations that will provide you with the essential amenities and comfort you need to enjoy your activities smoothly.",
@@ -1262,7 +1261,9 @@ export const homeCardDatas = [
           ],
         },
         {
-          images: [chack9, chack10, chack11, chack12, chack13, chack14],
+          images: [chack9, chack10],
+
+          // images: [chack9, chack10, chack11, chack12, chack13, chack14],
           text: [
             "The first screen is the home screen for the product, it contains all the most important details of a loan and all is designed to be seen at a glace so as not to confuse users over figures and dates. The card screen is used to add card for repayments which is mandatory to collect loans",
           ],
@@ -1274,173 +1275,173 @@ export const homeCardDatas = [
       "The platform encrypts and protects your traffic this ensures your transaction and personal details are private. ",
     ],
   },
-  {
-    name: "inventory-system",
-    image: work6,
-    title: "Inventory Management System",
-    subTitle: "Product & UX Design",
-    cardUrl: "/case-study/inventory-system",
-    cardFullUrl: "",
-    goto: "Inventory system",
+  // {
+  //   name: "inventory-system",
+  //   image: work6,
+  //   title: "Inventory Management System",
+  //   subTitle: "Product & UX Design",
+  //   cardUrl: "/case-study/inventory-system",
+  //   cardFullUrl: "",
+  //   goto: "Inventory system",
 
-    text01: [
-      "Inventory management can be seen as the supervision of non capitalized assets or inventory and stock items.",
-    ],
-    text02: [
-      "Inventory management systems are your means of organizing all the elements that go into inventory management. It’s the process by which you track goods from one end to the other along your supply chain. Ensuring throughout that you know what you have, where it is, and how to manage it.",
-    ],
-    text03: [
-      " From my studies, as a component of supply chain management, inventory management supervises the flow of goods from manufacturers to warehouses and from these facilities to point of sale.",
-      "A key function of inventory management is to keep a detailed record of each new or returned product as it enters or leaves a warehouse or point of sale.",
-      "Therefore organizations from small to large businesses can make use of inventory management to track their flow of goods. There are numerous inventory management techniques, and using the right one can lead to providing the correct goods at the correct amount, place and time.",
-      "Another thing there is that inventory control is a separate area of inventory management that is concerned with minimizing the total cost of inventory, while maximizing the ability to provide customers with products in a timely manner. In some countries, the two terms are used synonymously.",
-      "Inventory management enables businesses to balance the amount of inventory they have coming in and going out. The better a business controls its inventory, the more money it can save in business operations.",
-      "A business that has too much stock has overstock. Overstocked businesses have money tied up in inventory, limiting cash flow and potentially creating a budget deficit. ",
-    ],
-    image1: inventory1,
-    optionalText1: [
-      "Inventory management uses a variety of data to keep track of the goods as they move through the process, including lot numbers, serial numbers, cost of goods,quantity of goods and the dates when they move through the process. ",
-    ],
-    image2: carrot2,
-    text04:
-      "I went on to carry out a survey with a couple of questions, trying to emphatize with the inventory management community and learn more about their experiences with management system platforms, here are my findings:",
-    box1: [
-      {
-        title: "Types of goods managed with inventory system",
-        img: inventory2,
-      },
-      {
-        title: "Physical goods and digital goods",
-        img: inventory3,
-      },
-      {
-        title: "Market values",
-        img: inventory4,
-      },
-      {
-        title: "Do you inspect your inventory or assign an inventory manager? ",
-        img: inventory5,
-      },
-    ],
-    blackSection: [
-      {
-        percentage: "42%",
-        text: "are worried about lossing track of the number of inventory he has in stock",
-      },
-      {
-        percentage: "25%",
-        text: "are more concerned about control over user access and permission",
-      },
-      {
-        percentage: "27%",
-        text: "are worried about inconsistent tracking using spreedsheet can be time consuming and valuable to errors.",
-      },
-      {
-        percentage: "9%",
-        text: "want a reorder reports & low stock alert",
-      },
-    ],
-    box2: [
-      {
-        title: "Quanitity of goods available in inventory",
-        img: inventory6,
-      },
-      {
-        title: "Cost for production manufacturing industries",
-        img: inventory7,
-      },
-      {
-        title: "Inventory carrying cost",
-        img: inventory8,
-      },
-      {
-        title:
-          "What platforms do you use for your inventory management system?",
-        img: inventory9,
-      },
-    ],
-    factors: inventory10,
-    findings: [
-      "Most people conducted inventory through a combination of a spreadsheet with formulas for costing, expected loss, and unit conversions built in 30% use pen and paper, 21% use Excel, and 19% use a combination.",
-      "19% of the respondents spend over 5 hours a month on inventory management each month. The majority spent between 5 hours each month, which still adds up to a painful amount of time when you consider inventory is typically done after hours.",
-    ],
+  //   text01: [
+  //     "Inventory management can be seen as the supervision of non capitalized assets or inventory and stock items.",
+  //   ],
+  //   text02: [
+  //     "Inventory management systems are your means of organizing all the elements that go into inventory management. It’s the process by which you track goods from one end to the other along your supply chain. Ensuring throughout that you know what you have, where it is, and how to manage it.",
+  //   ],
+  //   text03: [
+  //     " From my studies, as a component of supply chain management, inventory management supervises the flow of goods from manufacturers to warehouses and from these facilities to point of sale.",
+  //     "A key function of inventory management is to keep a detailed record of each new or returned product as it enters or leaves a warehouse or point of sale.",
+  //     "Therefore organizations from small to large businesses can make use of inventory management to track their flow of goods. There are numerous inventory management techniques, and using the right one can lead to providing the correct goods at the correct amount, place and time.",
+  //     "Another thing there is that inventory control is a separate area of inventory management that is concerned with minimizing the total cost of inventory, while maximizing the ability to provide customers with products in a timely manner. In some countries, the two terms are used synonymously.",
+  //     "Inventory management enables businesses to balance the amount of inventory they have coming in and going out. The better a business controls its inventory, the more money it can save in business operations.",
+  //     "A business that has too much stock has overstock. Overstocked businesses have money tied up in inventory, limiting cash flow and potentially creating a budget deficit. ",
+  //   ],
+  //   image1: inventory1,
+  //   optionalText1: [
+  //     "Inventory management uses a variety of data to keep track of the goods as they move through the process, including lot numbers, serial numbers, cost of goods,quantity of goods and the dates when they move through the process. ",
+  //   ],
+  //   image2: carrot2,
+  //   text04:
+  //     "I went on to carry out a survey with a couple of questions, trying to emphatize with the inventory management community and learn more about their experiences with management system platforms, here are my findings:",
+  //   box1: [
+  //     {
+  //       title: "Types of goods managed with inventory system",
+  //       img: inventory2,
+  //     },
+  //     {
+  //       title: "Physical goods and digital goods",
+  //       img: inventory3,
+  //     },
+  //     {
+  //       title: "Market values",
+  //       img: inventory4,
+  //     },
+  //     {
+  //       title: "Do you inspect your inventory or assign an inventory manager? ",
+  //       img: inventory5,
+  //     },
+  //   ],
+  //   blackSection: [
+  //     {
+  //       percentage: "42%",
+  //       text: "are worried about lossing track of the number of inventory he has in stock",
+  //     },
+  //     {
+  //       percentage: "25%",
+  //       text: "are more concerned about control over user access and permission",
+  //     },
+  //     {
+  //       percentage: "27%",
+  //       text: "are worried about inconsistent tracking using spreedsheet can be time consuming and valuable to errors.",
+  //     },
+  //     {
+  //       percentage: "9%",
+  //       text: "want a reorder reports & low stock alert",
+  //     },
+  //   ],
+  //   box2: [
+  //     {
+  //       title: "Quanitity of goods available in inventory",
+  //       img: inventory6,
+  //     },
+  //     {
+  //       title: "Cost for production manufacturing industries",
+  //       img: inventory7,
+  //     },
+  //     {
+  //       title: "Inventory carrying cost",
+  //       img: inventory8,
+  //     },
+  //     {
+  //       title:
+  //         "What platforms do you use for your inventory management system?",
+  //       img: inventory9,
+  //     },
+  //   ],
+  //   factors: inventory10,
+  //   findings: [
+  //     "Most people conducted inventory through a combination of a spreadsheet with formulas for costing, expected loss, and unit conversions built in 30% use pen and paper, 21% use Excel, and 19% use a combination.",
+  //     "19% of the respondents spend over 5 hours a month on inventory management each month. The majority spent between 5 hours each month, which still adds up to a painful amount of time when you consider inventory is typically done after hours.",
+  //   ],
 
-    userPersona: {
-      text: "",
-      name: "Greg Benson, 27",
-      profile: inventoryProfile,
-      description: [
-        "Greg is a Ghanian, he lives and works in Lagos, Nigeria. He is single and owns a dog and loves to travel and meet new people and cultures. He also has a dance studio for children as he wanted to be a dancer when he was a child. Greg owns a drink distribution company in lagos and has a large number of staff, he plans to expand to more african countries to supply top quality wines, beers and spirit. His vision is to be the top Drink Distributor in the world.  ",
-      ],
-      box: [
-        {
-          title: "Ideal Features",
-          options: [
-            "Reporting & Analytics",
-            "Knowledge Management",
-            "Self service portal",
-          ],
-        },
-        {
-          title: "Pain Points",
-          options: [
-            " Loses track of the number of Stock",
-            "Not being able to control who has edit access.",
-          ],
-        },
-        {
-          title: "Takeaways",
-          options: [
-            " Greg needs a reliable inventory solution",
-            "He would like to view your transaction history with each supplier.",
-            "He would like to have control over user access and permission Offline solution",
-          ],
-        },
-      ],
-    },
-    userFlowImg: carrotFlow,
-    inofArchitech: architechture,
-    styleGuide: {
-      typeface: {
-        image: inventoryTypeface,
-        texts: [
-          "Work Sans is a sans-serif based loosely on early Grotesques, include a variable font version, matching italics for all 9 weights, as well as extended language support.",
-          "Work Sans is optimised for great legibility on screens at sizes between 14px and 48px. The extreme weights are designed more for display use.",
-          " The face has a slightly playful feel, especially at heavier weights.",
-          "Overall, features are simplified and optimised for screen resolutions – for example, diacritic marks are larger than how they would be in print.",
-        ],
-        downloadLink: "#",
-      },
-      color: {
-        images: [inventoryColor1, inventoryColor2],
-        texts: [
-          " Inventroy primary color is the Green -  It's also a calming color that makes people feel safe and comfortable, associated with growth, safety, and success.",
-          "There are also asccent colors that work well with our primary color green which were used in the design......",
-        ],
-      },
-    },
-    // wireGuide: checkWireQuide,
-    userInterface: {
-      text: [""],
-      box: [
-        {
-          text: [
-            "The mobile application was designed with simplicity and minimalism in mind, the three splash screens highlights the three most sought after features of the product. These onboarding screens priortises what the app does over how to use the app. This method is advocated for the app owners that want their users to understand how the app screens.",
-          ],
-        },
-        {
-          images: [chack14, chack14, chack14, chack14, chack14, chack14],
-          text: [
-            "The first screen is the home screen for the product, it contains all the most important details of a loan and all is designed to be seen at a glace so as not to confuse users over figures and dates. The card screen is used to add card for repayments which is mandatory to collect loans",
-          ],
-        },
-      ],
-    },
-    usabilityTesting: [
-      "After the prototype was complete, usability testing was carried out by printing the Hi-res images of the prototypes on cardboards and distributed to potential users by the Carrot team.",
-      "The idea and user flow were exceptionally received by the users. Most praised its concept and UI while others clamoured about the interest rates, payback models should be re-considered",
-    ],
-  },
+  //   userPersona: {
+  //     text: "",
+  //     name: "Greg Benson, 27",
+  //     profile: inventoryProfile,
+  //     description: [
+  //       "Greg is a Ghanian, he lives and works in Lagos, Nigeria. He is single and owns a dog and loves to travel and meet new people and cultures. He also has a dance studio for children as he wanted to be a dancer when he was a child. Greg owns a drink distribution company in lagos and has a large number of staff, he plans to expand to more african countries to supply top quality wines, beers and spirit. His vision is to be the top Drink Distributor in the world.  ",
+  //     ],
+  //     box: [
+  //       {
+  //         title: "Ideal Features",
+  //         options: [
+  //           "Reporting & Analytics",
+  //           "Knowledge Management",
+  //           "Self service portal",
+  //         ],
+  //       },
+  //       {
+  //         title: "Pain Points",
+  //         options: [
+  //           " Loses track of the number of Stock",
+  //           "Not being able to control who has edit access.",
+  //         ],
+  //       },
+  //       {
+  //         title: "Takeaways",
+  //         options: [
+  //           " Greg needs a reliable inventory solution",
+  //           "He would like to view your transaction history with each supplier.",
+  //           "He would like to have control over user access and permission Offline solution",
+  //         ],
+  //       },
+  //     ],
+  //   },
+  //   userFlowImg: carrotFlow,
+  //   inofArchitech: architechture,
+  //   styleGuide: {
+  //     typeface: {
+  //       image: inventoryTypeface,
+  //       texts: [
+  //         "Work Sans is a sans-serif based loosely on early Grotesques, include a variable font version, matching italics for all 9 weights, as well as extended language support.",
+  //         "Work Sans is optimised for great legibility on screens at sizes between 14px and 48px. The extreme weights are designed more for display use.",
+  //         " The face has a slightly playful feel, especially at heavier weights.",
+  //         "Overall, features are simplified and optimised for screen resolutions – for example, diacritic marks are larger than how they would be in print.",
+  //       ],
+  //       downloadLink: "#",
+  //     },
+  //     color: {
+  //       images: [inventoryColor1, inventoryColor2],
+  //       texts: [
+  //         " Inventroy primary color is the Green -  It's also a calming color that makes people feel safe and comfortable, associated with growth, safety, and success.",
+  //         "There are also asccent colors that work well with our primary color green which were used in the design......",
+  //       ],
+  //     },
+  //   },
+  //   // wireGuide: checkWireQuide,
+  //   userInterface: {
+  //     text: [""],
+  //     box: [
+  //       {
+  //         text: [
+  //           "The mobile application was designed with simplicity and minimalism in mind, the three splash screens highlights the three most sought after features of the product. These onboarding screens priortises what the app does over how to use the app. This method is advocated for the app owners that want their users to understand how the app screens.",
+  //         ],
+  //       },
+  //       {
+  //         images: [chack14, chack14, chack14, chack14, chack14, chack14],
+  //         text: [
+  //           "The first screen is the home screen for the product, it contains all the most important details of a loan and all is designed to be seen at a glace so as not to confuse users over figures and dates. The card screen is used to add card for repayments which is mandatory to collect loans",
+  //         ],
+  //       },
+  //     ],
+  //   },
+  //   usabilityTesting: [
+  //     "After the prototype was complete, usability testing was carried out by printing the Hi-res images of the prototypes on cardboards and distributed to potential users by the Carrot team.",
+  //     "The idea and user flow were exceptionally received by the users. Most praised its concept and UI while others clamoured about the interest rates, payback models should be re-considered",
+  //   ],
+  // },
 ];
 
 export const writtingCardDatas = [

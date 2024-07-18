@@ -21,26 +21,37 @@ const SectionInfo = ({ offsetY, check2, beforeStickyRef2, containerRef2 }) => {
       url: "https://scal.io/",
     },
     {
-      title: "Enyata",
-      text: "Lead, Design",
-      url: "https://enyata.com/",
+      title: "Eze",
+      text: "Head Product and Design",
+      url: "https://www.ezewholesale.com/",
     },
     {
-      title: "Atlas Money",
-      text: "Lead UX Designer",
+      title: "Eze",
+      text: "Senior Product Designer",
+      url: "https://www.ezewholesale.com/",
     },
     {
-      title: "Hotels.ng",
-      text: "UX Designer",
-      url: "https://hotels.ng/",
+      title: "CarrotCredit",
+      text: "Product Designer",
+      url: "https://www.carrotcredit.com/",
     },
-    {
-      title: "Drake Media",
-      text: "Visual Designer",
-    },
-    {
-      next: true,
-    },
+    // {
+    //   title: "Enyata",
+    //   text: "Lead, Design",
+    //   url: "https://enyata.com/",
+    // },
+    // {
+    //   title: "Atlas Money",
+    //   text: "Lead UX Designer",
+    // },
+
+    // {
+    //   title: "Drake Media",
+    //   text: "Visual Designer",
+    // },
+    // {
+    //   next: true,
+    // },
   ];
 
   return (
@@ -48,10 +59,7 @@ const SectionInfo = ({ offsetY, check2, beforeStickyRef2, containerRef2 }) => {
       <div className="box_wrapper">
         <div className={`box1`}>
           <h1>Info.</h1>
-          <h3>
-            I’m a Product Designer turned Product Specialist based in Lagos,
-            Nigeria.
-          </h3>
+          <h3>I’m a Product Designer based in Lagos, Nigeria.</h3>
           <p>
             I am passionate about helping companies enhance their design
             experiences, refine their ideas and launch impactful solutions. In
